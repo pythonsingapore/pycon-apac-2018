@@ -6,7 +6,7 @@ const ContentCard = glamorous.div({
   backgroundColor: 'white',
   border: '1px solid #d9d9d9',
   margin: '1em 0px',
-  padding: '1em',
+  padding: '2em',
 })
 
 export default ContentCard
