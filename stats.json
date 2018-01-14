@@ -1,16 +1,28 @@
 {
   "assetsByChunkName": {
+    "component---src-pages-venue-js": [
+      "component---src-pages-venue-js-53f25dfbe7643d4bc5fc.js",
+      "component---src-pages-venue-js-53f25dfbe7643d4bc5fc.js.map"
+    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-4de036b7fc4e26c86a08.js",
-      "component---src-pages-index-js-4de036b7fc4e26c86a08.js.map"
+      "component---src-pages-index-js-39bbb8d9a77aa103cf91.js",
+      "component---src-pages-index-js-39bbb8d9a77aa103cf91.js.map"
+    ],
+    "component---src-pages-code-of-conduct-js": [
+      "component---src-pages-code-of-conduct-js-aa703e08cadbfaeafc62.js",
+      "component---src-pages-code-of-conduct-js-aa703e08cadbfaeafc62.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-88540e9660ad38cc2603.js",
-      "component---src-layouts-index-js-88540e9660ad38cc2603.js.map"
+      "component---src-layouts-index-js-1df5df04288459ea3e07.js",
+      "component---src-layouts-index-js-1df5df04288459ea3e07.js.map"
+    ],
+    "path---venue": [
+      "path---venue-a0e39f21c11f6a62c5ab.js",
+      "path---venue-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---page-2": [
       "path---page-2-a0e39f21c11f6a62c5ab.js",
@@ -25,21 +37,25 @@
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-f1ef510847f79fa0a799.js",
-      "commons-f1ef510847f79fa0a799.js.map"
+      "commons-8b186acffa48646bd616.js",
+      "commons-8b186acffa48646bd616.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-page-2-js": [
-      "component---src-pages-page-2-js-814c3250cda4a015aef7.js",
-      "component---src-pages-page-2-js-814c3250cda4a015aef7.js.map"
+      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js",
+      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
+    ],
+    "path---code-of-conduct": [
+      "path---code-of-conduct-a0e39f21c11f6a62c5ab.js",
+      "path---code-of-conduct-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-883449bf2660af65d722.js",
+      "app-94ab718debe7875bbdd6.js",
       "build-js-styles.css",
-      "app-883449bf2660af65d722.js.map",
+      "app-94ab718debe7875bbdd6.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
