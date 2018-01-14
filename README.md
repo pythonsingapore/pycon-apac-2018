@@ -1,13 +1,15 @@
-# gatsby-starter-default
-The default Gatsby starter
+# PyCon APAC 2018 Website
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+This site has been built with [GatsbyJS](https://www.gatsbyjs.org/)
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+## Local development
 
-## Deploy
+* Clone this repo
+* yarn install
+* yarn develop
+* Open site at localhost:8000
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+## Deployment
+
+* You need write access to this repo
+* yarn deploy
