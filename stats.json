@@ -1,16 +1,16 @@
 {
   "assetsByChunkName": {
     "component---src-pages-venue-js": [
-      "component---src-pages-venue-js-53f25dfbe7643d4bc5fc.js",
-      "component---src-pages-venue-js-53f25dfbe7643d4bc5fc.js.map"
+      "component---src-pages-venue-js-75b21e5ad148dd455c18.js",
+      "component---src-pages-venue-js-75b21e5ad148dd455c18.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-39bbb8d9a77aa103cf91.js",
       "component---src-pages-index-js-39bbb8d9a77aa103cf91.js.map"
     ],
     "component---src-pages-code-of-conduct-js": [
-      "component---src-pages-code-of-conduct-js-aa703e08cadbfaeafc62.js",
-      "component---src-pages-code-of-conduct-js-aa703e08cadbfaeafc62.js.map"
+      "component---src-pages-code-of-conduct-js-390373c28f9dcd952524.js",
+      "component---src-pages-code-of-conduct-js-390373c28f9dcd952524.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -53,9 +53,9 @@
       "path---code-of-conduct-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-94ab718debe7875bbdd6.js",
+      "app-80cf87f433cbf0429f36.js",
       "build-js-styles.css",
-      "app-94ab718debe7875bbdd6.js.map",
+      "app-80cf87f433cbf0429f36.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
