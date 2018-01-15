@@ -41,7 +41,7 @@ class Header extends React.Component {
       <NavBg>
         <div className="container">
           <Navbar color="faded" dark expand="md">
-            <NavbarBrand href="/">PyCon APAC 2018</NavbarBrand>
+            <NavbarBrand href="https://pythonsingapore.github.io/pycon-apac-2018/">PyCon APAC 2018</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
