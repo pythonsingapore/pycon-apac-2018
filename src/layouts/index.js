@@ -5,18 +5,13 @@ import Helmet from 'react-helmet'
 
 import Header from './Header.js'
 import Footer from './Footer.js'
+import bootstrapMinCss from './bootstrap.min.css'
 import indexCss from './index.css'
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet>
       <title>PyCon APAC 2018</title>
-      <link
-        rel="stylesheet"
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
-        integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
-        crossorigin="anonymous"
-      />
     </Helmet>
     <Header />
     <div className="container">{children()}</div>
