@@ -1,30 +1,30 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import glamorous from 'glamorous'
+import styled from 'styled-components'
 
 import bg1Jpg from '../images/bg1.jpg'
 
-const FooterP = glamorous.p({
-  color: '#AFAFAF',
-})
+const FooterP = styled.p`
+  color: #AFAFAF;
+`
 
-const FooterSpan = glamorous.span({
-  color: '#AFAFAF',
-  fontSize: '10pt',
-})
+const FooterSpan = styled.span`
+  color: #AFAFAF;
+  fontSize: 10pt;
+`
 
-const FooterA = glamorous.a({
-  color: '#AFAFAF',
-  fontSize: '10pt',
-  ':hover': {
-    color: 'white',
-  },
-})
+const FooterA = styled.a`
+  color: #AFAFAF;
+  fontSize: 10pt;
+  &:hover {
+    color: white;
+  }
+`
 
-const FooterHR = glamorous.p({
-  width: '100%',
-  borderTop: '1px solid #AFAFAF',
-})
+const FooterHR = styled.p`
+  width: 100%;
+  borderTop: 1px solid #AFAFAF;
+`
 
 const Footer = () => (
   <div

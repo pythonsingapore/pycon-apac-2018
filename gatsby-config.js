@@ -5,5 +5,5 @@ module.exports = {
     title: `Gatsby Default Starter`,
   },
   pathPrefix: `/pycon-apac-2018`,
-  plugins: [`gatsby-plugin-react-helmet`],
+  plugins: [`gatsby-plugin-react-helmet`, `gatsby-plugin-styled-components`],
 }
