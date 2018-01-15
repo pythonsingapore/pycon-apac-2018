@@ -15,6 +15,7 @@ import {
   DropdownItem } from 'reactstrap';
 
 import bg1Jpg from '../images/bg1.jpg'
+import pyconApacLogoSvg from '../images/pycon-apac-logo.svg'
 
 const NavBg = styled.nav`
   background-image: url(${bg1Jpg});
@@ -41,7 +42,9 @@ class Header extends React.Component {
       <NavBg>
         <div className="container">
           <Navbar color="faded" dark expand="md">
-            <Link to="/" className="nav-link" style={{color: 'white'}}>PyCon APAC 2018</Link>
+            <Link to="/" className="nav-link" style={{color: 'white'}}>
+              <img src={pyconApacLogoSvg} alt="PyCon APAC 2018" style={{width: '200px'}}/>
+            </Link>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
@@ -56,9 +59,6 @@ class Header extends React.Component {
                     Event
                   </DropdownToggle>
                   <DropdownMenu >
-                    <DropdownItem>
-                      <Link to="#">Schedule</Link>
-                    </DropdownItem>
                     <DropdownItem>
                       <Link to="/code-of-conduct/">Code of Conduct</Link>
                     </DropdownItem>

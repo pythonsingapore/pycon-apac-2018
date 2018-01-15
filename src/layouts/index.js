@@ -14,7 +14,7 @@ const TemplateWrapper = ({ children }) => (
       <title>PyCon APAC 2018</title>
     </Helmet>
     <Header />
-    <div className="container">{children()}</div>
+    {children()}
     <Footer />
   </div>
 )

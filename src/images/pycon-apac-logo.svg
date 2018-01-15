@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 444 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(0.784832,0,0,0.784832,-418.089,-170.804)">
+        <g transform="matrix(0.587479,0,0,0.587479,529.426,213.873)">
+            <path id="path1948" d="M60.51,6.398C55.927,6.419 51.549,6.81 47.698,7.492C36.351,9.496 34.291,13.692 34.291,21.429L34.291,31.648L61.104,31.648L61.104,35.054L34.291,35.054L24.229,35.054C16.436,35.054 9.613,39.738 7.479,48.648C5.017,58.861 4.908,65.234 7.479,75.898C9.385,83.836 13.936,89.492 21.729,89.492L30.948,89.492L30.948,77.242C30.948,68.392 38.605,60.585 47.698,60.585L74.479,60.585C81.934,60.585 87.885,54.447 87.885,46.96L87.885,21.429C87.885,14.163 81.755,8.704 74.479,7.492C69.873,6.725 65.094,6.377 60.51,6.398ZM46.01,14.617C48.78,14.617 51.041,16.915 51.041,19.742C51.041,22.558 48.78,24.835 46.01,24.835C43.231,24.835 40.979,22.558 40.979,19.742C40.979,16.915 43.231,14.617 46.01,14.617Z" style="fill:url(#_Linear1);fill-rule:nonzero;"/>
+            <path id="path1950" d="M91.229,35.054L91.229,46.96C91.229,56.191 83.403,63.96 74.479,63.96L47.698,63.96C40.362,63.96 34.291,70.239 34.291,77.585L34.291,103.117C34.291,110.383 40.61,114.657 47.698,116.742C56.185,119.237 64.324,119.688 74.479,116.742C81.229,114.787 87.885,110.854 87.885,103.117L87.885,92.898L61.104,92.898L61.104,89.492L101.291,89.492C109.084,89.492 111.988,84.056 114.698,75.898C117.497,67.499 117.378,59.422 114.698,48.648C112.772,40.891 109.094,35.054 101.291,35.054L91.229,35.054ZM76.166,99.71C78.946,99.71 81.198,101.988 81.198,104.804C81.198,107.631 78.946,109.929 76.166,109.929C73.397,109.929 71.135,107.631 71.135,104.804C71.135,101.988 73.397,99.71 76.166,99.71Z" style="fill:url(#_Linear2);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(0.449032,0,0,0.449032,365.13,-195.631)">
+            <text x="558.895px" y="1034.46px" style="font-family:'OpenSans-SemiBold', 'Open Sans', sans-serif;font-weight:600;font-size:113.503px;fill:white;">P<tspan x="633.265px 702.704px 776.908px 870.788px 964.223px 998.248px 1077.83px 1146.55px 1223.85px 1300.33px 1334.36px 1403.68px 1473.01px 1542.34px " y="1034.46px 1034.46px 1034.46px 1034.46px 1034.46px 1034.46px 1034.46px 1034.46px 1034.46px 1034.46px 1034.46px 1034.46px 1034.46px 1034.46px ">YCON APAC 2018</tspan></text>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(61.3261,53.2723,-53.2723,61.3261,5.59137,6.39705)"><stop offset="0" style="stop-color:rgb(90,159,212);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(48,105,152);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-21.8995,-31.2832,31.2832,-21.8995,75.5221,103.945)"><stop offset="0" style="stop-color:rgb(255,212,59);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(255,232,115);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>
