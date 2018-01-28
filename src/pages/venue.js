@@ -236,8 +236,12 @@ const VenuePage = () => (
 
       <h3>Homey</h3>
       <p>
-        <a href="AirBnB listings">AirBnB listings for Singapore</a>
+      <ul>
+        <li><a href="AirBnB listings">AirBnB listings for Singapore</a></li>
+        Before booking yourself a place in AirBnB, please read through the legality around it <a href="https://www.airbnb.com.sg/help/article/858/singapore">here</a>.
+      </ul>
       </p>
+      
     </ContentCard>
   </div>
 )
