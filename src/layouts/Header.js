@@ -68,7 +68,7 @@ class Header extends React.Component {
                     Event
                   </DropdownToggle>
                   <DropdownMenu>
-                    <DropdownItem>
+                    <DropdownItem tag="div">
                       <a
                         href="https://www.papercall.io/pycon-apac-2018"
                         target="_blank"
@@ -76,7 +76,7 @@ class Header extends React.Component {
                         Submit Your Proposal!
                       </a>
                     </DropdownItem>
-                    <DropdownItem>
+                    <DropdownItem tag="div">
                       <Link to="/code-of-conduct/">Code of Conduct</Link>
                     </DropdownItem>
                   </DropdownMenu>
@@ -86,16 +86,16 @@ class Header extends React.Component {
                     Archive
                   </DropdownToggle>
                   <DropdownMenu>
-                    <DropdownItem>
+                    <DropdownItem tag="div">
                       <a href="./archive/2016/index.html">2016</a>
                     </DropdownItem>
-                    <DropdownItem>
+                    <DropdownItem tag="div">
                       <a href="./archive/2015/index.html">2015</a>
                     </DropdownItem>
-                    <DropdownItem>
+                    <DropdownItem tag="div">
                       <a href="./archive/2014/index.html">2014</a>
                     </DropdownItem>
-                    <DropdownItem>
+                    <DropdownItem tag="div">
                       <a href="./archive/2013/index.html">2013</a>
                     </DropdownItem>
                   </DropdownMenu>
