@@ -1,7 +1,7 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import Link from 'gatsby-link'
+import PropTypes from 'prop-types'
+import React from 'react'
 
 import Header from './Header.js'
 import Footer from './Footer.js'
