@@ -1,3 +1,4 @@
+import Helmet from 'react-helmet'
 import React from 'react'
 
 import ContentCard from '../components/ContentCard.js'
@@ -5,17 +6,20 @@ import merlionPng from '../images/merlion.png'
 
 const VenuePage = () => (
   <div className="container">
+    <Helmet>
+      <title>Venue | PyCon APAC 2018</title>
+    </Helmet>
     <ContentCard>
       <h1>Venue</h1>
       <p>
         Singapore is located at one of the crossroads of the world. If there is
         one word that best captures Singapore, it is “unique”. Singapore's
         strategic location, excellent facilities, fascinating cultural contrasts
-        and tourist attractions contribute to its success as a leading destination
-        for both business and pleasure. A dynamic city rich in contrast and
-        colour, you'll find a harmonious blend of culture, cuisine, arts and
-        architecture here. Brimming with unbridled energy, this little dynamo in
-        Southeast Asia embodies the finest of both East and West.
+        and tourist attractions contribute to its success as a leading
+        destination for both business and pleasure. A dynamic city rich in
+        contrast and colour, you'll find a harmonious blend of culture, cuisine,
+        arts and architecture here. Brimming with unbridled energy, this little
+        dynamo in Southeast Asia embodies the finest of both East and West.
       </p>
       <img alt="The Merlion and famous singaporean food" src={merlionPng} />
       <h2>National University of Singapore</h2>
@@ -33,10 +37,10 @@ const VenuePage = () => (
         The School, which is a fully fledged faculty within the National
         University of Singapore, has about 2,000 students, a quarter of them
         pursuing graduate studies. Since its early days as the only university
-        department in Singapore that produced computing talent for the workforce,
-        NUS School of Computing has produced a trail of distinguished alumni,
-        including the chief executives and technology architects of multinationals
-        and government agencies.
+        department in Singapore that produced computing talent for the
+        workforce, NUS School of Computing has produced a trail of distinguished
+        alumni, including the chief executives and technology architects of
+        multinationals and government agencies.
       </p>
       <h2>Getting to Singapore</h2>
       <ul>
@@ -69,17 +73,17 @@ const VenuePage = () => (
         Take bus services 95 or 151 towards the direction of Kent Ridge campus<br />
         Alight at the bus stop outside Central Library (Bus stop 16181)<br />
         Take the internal shuttle bus A1 or B or D2 from the same bus stop<br />
-        Alight at the third bus stop after the one at Central Library, located at
-        Carpark 13<br />
+        Alight at the third bus stop after the one at Central Library, located
+        at Carpark 13<br />
         <br />
         <b>Option 2:</b>
         <br />
-        Alternatively, take bus service nos. 10, 33, 95, 151, 189, 200 to the Kent
-        Ridge Bus Interchange.<br />
-        Walk along the covered linkway from the interchange and cross the road to
-        the bus stop outside LT13<br />
-        Take internal shuttle bus service A1 or B or D2 and alight at the 2nd bus
-        stop located at Carpark 13
+        Alternatively, take bus service nos. 10, 33, 95, 151, 189, 200 to the
+        Kent Ridge Bus Interchange.<br />
+        Walk along the covered linkway from the interchange and cross the road
+        to the bus stop outside LT13<br />
+        Take internal shuttle bus service A1 or B or D2 and alight at the 2nd
+        bus stop located at Carpark 13
       </p>
       <h3>If you are taking the MRT...</h3>
       <p>
@@ -104,17 +108,17 @@ const VenuePage = () => (
       <p>
         <b>From Kent Ridge MRT Station (CC24):</b>
         <br />
-        Take Exit A from the station and walk to the bus stop directly in front of
-        the exit<br />
+        Take Exit A from the station and walk to the bus stop directly in front
+        of the exit<br />
         Take internal shuttle bus service A1 from bus stop 18331 (Kent Ridge
         Station)<br />
         Alight at the ninth bus stop located at Carpark 13
       </p>
       <h3>Car / Taxi</h3>
       <p>
-        We strongly recommend to all conference attendees to take public transport
-        as there are limited parking slots on campus. If you are taking a taxi,
-        the following address should be given to the driver:
+        We strongly recommend to all conference attendees to take public
+        transport as there are limited parking slots on campus. If you are
+        taking a taxi, the following address should be given to the driver:
       </p>
       <p>
         National University of Singapore<br />
@@ -125,10 +129,10 @@ const VenuePage = () => (
 
       <h2>Accommodation</h2>
       <p>
-        Singapore offers a wide variety of accommodation types to suit all budgets
-        and preferences. They range from backpacker, budget and youth hostels to
-        boutique and five-star hotels. To find the perfect accommodation for your
-        stay in Singapore, use{' '}
+        Singapore offers a wide variety of accommodation types to suit all
+        budgets and preferences. They range from backpacker, budget and youth
+        hostels to boutique and five-star hotels. To find the perfect
+        accommodation for your stay in Singapore, use{' '}
         <a href="http://accomodation.yoursingapore.com/">
           Your Singapore Accommodation Search
         </a>{' '}
