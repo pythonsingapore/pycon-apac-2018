@@ -64,7 +64,9 @@ const VenuePage = () => (
         <li><a href="https://www.m1.com.sg/personal/roamingandinternationalcalls/visitingsingapore">M1 (not available in Changi Airport)</a></li>
       </ul>
 
-      You can buy a sim card when you reach Singapore or <a href="https://www.changirecommends.com/deals.aspx?cid=26&t=depart#!9_1_0_0">online</a> and collect it when you reach the airport. Outside the airport, you can get the sim card in any 7-eleven Outlet or Post Office.
+      You can buy a sim card when you reach Singapore or <a href="https://www.changirecommends.com/deals.aspx?cid=26&t=depart#!9_1_0_0">online</a> and collect it when you reach the airport. Outside the airport, you can get the sim card in any 7-eleven Outlet or Post Office. Stores in Little India and Sim Lim Square are known to sell sim cards at a cheaper rate.
+
+      For more extensive information, you can read more <a href="http://prepaid-data-sim-card.wikia.com/wiki/Singapore">here</a>.
       </p>
       
       <h2>Getting Around</h2>
