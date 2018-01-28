@@ -87,16 +87,16 @@ class Header extends React.Component {
                   </DropdownToggle>
                   <DropdownMenu>
                     <DropdownItem tag="div">
-                      <a href="./archive/2016/index.html">2016</a>
+                      <a href="/archive/2016/index.html">2016</a>
                     </DropdownItem>
                     <DropdownItem tag="div">
-                      <a href="./archive/2015/index.html">2015</a>
+                      <a href="/archive/2015/index.html">2015</a>
                     </DropdownItem>
                     <DropdownItem tag="div">
-                      <a href="./archive/2014/index.html">2014</a>
+                      <a href="/archive/2014/index.html">2014</a>
                     </DropdownItem>
                     <DropdownItem tag="div">
-                      <a href="./archive/2013/index.html">2013</a>
+                      <a href="/archive/2013/index.html">2013</a>
                     </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
