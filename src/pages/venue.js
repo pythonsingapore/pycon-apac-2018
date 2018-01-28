@@ -54,6 +54,18 @@ const VenuePage = () => (
           is a one stop guide to public transportation in Singapore
         </li>
       </ul>
+
+      <h2>Getting a Local Sim Card</h2>
+      <p>
+      These are the main telcos in Singapore:
+      <ul>
+        <li><a href="https://www.singtel.com/personal/i/phones-plans/mobile/prepaid/hitouristsimcards">Singtel (available in Changi Airport)</a></li>
+        <li><a href="http://www.starhub.com/personal/mobile/travel-roam/visiting-singapore.html">Starthub (available in Changi Airport)</a></li>
+        <li><a href="https://www.m1.com.sg/personal/roamingandinternationalcalls/visitingsingapore">M1 (not available in Changi Airport)</a></li>
+      </ul>
+
+      You can buy a sim card when you reach Singapore or <a href="https://www.changirecommends.com/deals.aspx?cid=26&t=depart#!9_1_0_0">online</a> and collect it when you reach the airport. Outside the airport, you can get the sim card in any 7-eleven Outlet or Post Office.
+      </p>
       <h2>Getting to National University of Singapore</h2>
       <p>
         You may wish to view travel directions on NUS,{' '}
