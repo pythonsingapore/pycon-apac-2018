@@ -69,6 +69,14 @@ class Header extends React.Component {
                   </DropdownToggle>
                   <DropdownMenu>
                     <DropdownItem>
+                      <a
+                        href="https://www.papercall.io/pycon-apac-2018"
+                        target="_blank"
+                      >
+                        Submit Your Proposal!
+                      </a>
+                    </DropdownItem>
+                    <DropdownItem>
                       <Link to="/code-of-conduct/">Code of Conduct</Link>
                     </DropdownItem>
                   </DropdownMenu>
