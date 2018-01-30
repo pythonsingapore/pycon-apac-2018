@@ -28,7 +28,7 @@ const IndexPage = () => (
           </Button>
         </a>
         <p className="text-muted mt-3">
-          Quick! The deadline for proposals is April 1st.
+          Quick! The deadline for proposals is May 1st.
         </p>
       </ContentCard>
     </div>
