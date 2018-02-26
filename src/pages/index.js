@@ -3,8 +3,11 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import { Button } from 'reactstrap'
 
-import headerJpg from '../images/header.jpg'
 import ContentCard from '../components/ContentCard'
+import KeynoteSpeakerCard from '../components/KeynoteSpeakerCard'
+
+import headerJpg from '../images/header.jpg'
+import KeynoteIvesJpg from '../images/keynoteYves.jpg'
 
 const IndexPage = () => (
   <div>
@@ -31,6 +34,48 @@ const IndexPage = () => (
           Quick! The deadline for proposals is May 1st.
         </p>
       </ContentCard>
+      <ContentCard className="text-center">
+        <h1>Meet Our Keynote Speakers!</h1>
+      </ContentCard>
+      <KeynoteSpeakerCard
+        speakerImage={KeynoteIvesJpg}
+        speakerName="Dr. Yves J. Hilpisch"
+      >
+        <div>
+          <p>
+            Dr. Yves J. Hilpisch is founder and managing partner of{' '}
+            <a href="http://tpq.io">The Python Quants</a>, a group focusing on
+            the use of open source technologies for financial data science,
+            artificial intelligence, algorithmic trading and computational
+            finance. He is the author of the books
+          </p>
+          <ul>
+            <li>
+              Python for Finance (O'Reilly, 2014), * Derivatives Analytics with
+              Python (Wiley, 2015)
+            </li>
+            <li>Derivatives Analytics with Python (Wiley, 2015)</li>
+            <li>Listed Volatility and Variance Derivatives (Wiley, 2017)</li>
+          </ul>
+          <p>
+            Yves lectures on computational finance at the{' '}
+            <a href="http://cqf.com">CQF Program</a>, on algorithmic trading at
+            the <a href="http://www.quantinsti.com">EPAT Program</a>
+            and on data science at{' '}
+            <a href="http://htwsaar.de">
+              htw saar University of Applied Sciences
+            </a>. He is also the director of the first online training program
+            leading to a{' '}
+            <a href="http://certificate.tpq.io">
+              University Certificate in Python for Algorithmic Trading
+            </a>. Yves has written the financial analytics library{' '}
+            <a href="http://dx-analytics.com">DX Analytics</a> and organizes
+            meetups, conferences and bootcamps about Python for quantitative
+            finance in London and New York. He has given keynote speeches at
+            technology conferences in the United States, Europe and Asia.
+          </p>
+        </div>
+      </KeynoteSpeakerCard>
     </div>
   </div>
 )
