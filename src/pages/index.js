@@ -9,6 +9,7 @@ import KeynoteSpeakerCard from '../components/KeynoteSpeakerCard'
 import headerJpg from '../images/header.jpg'
 import KeynoteAlanJpg from '../images/keynoteAlan.jpg'
 import KeynoteIvesJpg from '../images/keynoteYves.jpg'
+import KeynoteKatharineJpg from '../images/keynoteKatharine.jpg'
 
 const IndexPage = () => (
   <div>
@@ -40,19 +41,42 @@ const IndexPage = () => (
       </ContentCard>
 
       <KeynoteSpeakerCard
+        speakerImage={KeynoteKatharineJpg}
+        speakerName="Katharine Jarmul"
+      >
+        <div>
+          <p>
+            Katharine Jarmul is a pythonista and founder of
+            <a href="http://kjamistan.com">Kjamistan</a>, a data science and
+            machine learning consulting company in Berlin, Germany. She has been
+            using Python since 2008 to solve and create problems. She helped
+            form the first PyLadies chapter in Los Angeles in 2010, and
+            co-authored an O'Reilly book along with several video courses on
+            Python and data. She enjoys following the latest developments in
+            machine learning, security, natural language processing and workflow
+            automation infrastructure and is generally chatty and crabby on
+            Twitter, where you can keep up with her latest shenanigans (<a href="https://twitter.com/kjam">
+              @kjam
+            </a>).
+          </p>
+        </div>
+      </KeynoteSpeakerCard>
+
+      <KeynoteSpeakerCard
         speakerImage={KeynoteAlanJpg}
         speakerName="Alan Descoins"
       >
         <div>
           <p>
-            Alan is the CTO of <a href="https://tryolabs.com/">Tryolabs</a>. He
-            holds a Computer Engineering degree and has +7 years of experience
-            doing consultancy for companies in Silicon Valley, mostly focused on
-            developing robust backends, scalable infrastructures and Machine
-            Learning based algorithms, using the Python stack. Currently, he
-            acts as the main consultant for every project Tryolabs does, and is
-            an active member of the R&D team. Alan is a Python expert with deep
-            understanding of Machine Learning related technologies.
+            Alan Descoins is the CTO of{' '}
+            <a href="https://tryolabs.com/">Tryolabs</a>. He holds a Computer
+            Engineering degree and has +7 years of experience doing consultancy
+            for companies in Silicon Valley, mostly focused on developing robust
+            backends, scalable infrastructures and Machine Learning based
+            algorithms, using the Python stack. Currently, he acts as the main
+            consultant for every project Tryolabs does, and is an active member
+            of the R&D team. Alan is a Python expert with deep understanding of
+            Machine Learning related technologies.
           </p>
         </div>
       </KeynoteSpeakerCard>
