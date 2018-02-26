@@ -10,6 +10,7 @@ import headerJpg from '../images/header.jpg'
 import KeynoteAlanJpg from '../images/keynoteAlan.jpg'
 import KeynoteIvesJpg from '../images/keynoteYves.jpg'
 import KeynoteKatharineJpg from '../images/keynoteKatharine.jpg'
+import KeynoteRadimJpg from '../images/keynoteRadim.jpg'
 
 const IndexPage = () => (
   <div>
@@ -58,6 +59,26 @@ const IndexPage = () => (
             Twitter, where you can keep up with her latest shenanigans (<a href="https://twitter.com/kjam">
               @kjam
             </a>).
+          </p>
+        </div>
+      </KeynoteSpeakerCard>
+
+      <KeynoteSpeakerCard
+        speakerImage={KeynoteRadimJpg}
+        speakerName="Radim Řehůřek"
+      >
+        <div>
+          <p>
+            Radim Řehůřek is the founder and director of{' '}
+            <a href="https://rare-technologies.com">RARE Technologies</a>, a
+            leading R&D company focused on machine learning and natural language
+            processing. Radim has been building practical solutions for
+            businesses for over a decade. He is the creator of{' '}
+            <a href="https://radimrehurek.com/gensim/">Gensim</a>, an open
+            source Python library for topic modeling and information retrieval.
+            Radim received a Ph.D. in Computer Science from Masaryk University
+            in Brno, Czech Republic. His work has been recognized at SIGIR,
+            ECIR, NIPS, PyCon.
           </p>
         </div>
       </KeynoteSpeakerCard>
