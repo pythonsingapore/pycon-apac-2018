@@ -7,6 +7,7 @@ import ContentCard from '../components/ContentCard'
 import KeynoteSpeakerCard from '../components/KeynoteSpeakerCard'
 
 import headerJpg from '../images/header.jpg'
+import KeynoteAlanJpg from '../images/keynoteAlan.jpg'
 import KeynoteIvesJpg from '../images/keynoteYves.jpg'
 
 const IndexPage = () => (
@@ -37,6 +38,25 @@ const IndexPage = () => (
       <ContentCard className="text-center">
         <h1>Meet Our Keynote Speakers!</h1>
       </ContentCard>
+
+      <KeynoteSpeakerCard
+        speakerImage={KeynoteAlanJpg}
+        speakerName="Alan Descoins"
+      >
+        <div>
+          <p>
+            Alan is the CTO of <a href="https://tryolabs.com/">Tryolabs</a>. He
+            holds a Computer Engineering degree and has +7 years of experience
+            doing consultancy for companies in Silicon Valley, mostly focused on
+            developing robust backends, scalable infrastructures and Machine
+            Learning based algorithms, using the Python stack. Currently, he
+            acts as the main consultant for every project Tryolabs does, and is
+            an active member of the R&D team. Alan is a Python expert with deep
+            understanding of Machine Learning related technologies.
+          </p>
+        </div>
+      </KeynoteSpeakerCard>
+
       <KeynoteSpeakerCard
         speakerImage={KeynoteIvesJpg}
         speakerName="Dr. Yves J. Hilpisch"
