@@ -16,10 +16,13 @@ class KeynoteSpeakerCard extends Component {
     return (
       <ContentCard>
         <Row>
-          <Col xs="12" sm="4">
-            <img src={speakerImage} style={{ width: '100%' }} />
+          <Col xs="12" sm="4" className="text-center mt-3">
+            <img
+              src={speakerImage}
+              style={{ maxWidth: '200px', width: '100%' }}
+            />
           </Col>
-          <Col>
+          <Col className="mt-3">
             <h1>{speakerName}</h1>
             {children}
           </Col>
