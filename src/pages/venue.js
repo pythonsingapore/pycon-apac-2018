@@ -2,6 +2,7 @@ import Helmet from 'react-helmet'
 import React from 'react'
 
 import ContentCard from '../components/ContentCard.js'
+import merlionPng from '../images/merlion.png'
 
 const VenuePage = () => (
   <div className="container">
