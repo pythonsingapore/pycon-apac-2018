@@ -47,7 +47,7 @@ const IndexPage = () => (
       >
         <div>
           <p>
-            Katharine Jarmul is a pythonista and founder of
+            Katharine Jarmul is a pythonista and founder of&nbsp;
             <a href="http://kjamistan.com">Kjamistan</a>, a data science and
             machine learning consulting company in Berlin, Germany. She has been
             using Python since 2008 to solve and create problems. She helped

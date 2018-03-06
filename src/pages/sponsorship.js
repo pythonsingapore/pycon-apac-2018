@@ -5,7 +5,7 @@ import { Button } from 'reactstrap'
 import ContentCard from '../components/ContentCard.js'
 import merlionPng from '../images/merlion.png'
 
-const VenuePage = () => (
+const SponsorshipPage = () => (
   <div className="container">
     <Helmet>
       <title>Sponsorship | PyCon APAC 2018</title>
@@ -116,4 +116,4 @@ const VenuePage = () => (
   </div>
 )
 
-export default VenuePage
+export default SponsorshipPage
