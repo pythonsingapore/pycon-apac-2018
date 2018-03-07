@@ -23,6 +23,7 @@ This site has been built with [GatsbyJS](https://www.gatsbyjs.org/)
   * All other filenames become the slug of the page
     * You can link to each page via `import Link from 'gatsby-link'`
     * Use it like so: `<Link to="/about">About</Link>`
+* The news module was implemented following this tutorial: `https://www.gatsbyjs.org/blog/2017-07-19-creating-a-blog-with-gatsby/`
 
 ## How To Create An Archive
 
