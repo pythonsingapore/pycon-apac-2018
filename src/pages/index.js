@@ -18,6 +18,23 @@ const IndexPage = () => (
     <img src={headerJpg} style={{ width: '100%' }} />
     <div className="container">
       <ContentCard className="text-center">
+        <h1>Early Bird Ticket Sales Open Now!</h1>
+        <p>
+          If you would like to attend the conference, you may now do so on our
+          event page at eventnook.com:
+        </p>
+        <a href="https://www.eventnook.com/event/pyconapac2018" target="_blank">
+          <Button color="primary" size="lg">
+            Get Your Ticket Now!
+          </Button>
+        </a>
+        <p className="text-muted mt-3">
+          Early Bird rates are available until April 15 or as long as stocks
+          last
+        </p>
+      </ContentCard>
+
+      <ContentCard className="text-center">
         <h1>Call For Proposals</h1>
         <p>
           The time has come! PyCon APAC needs you! We are now reaching out to
