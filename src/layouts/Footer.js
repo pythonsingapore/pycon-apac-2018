@@ -5,25 +5,32 @@ import styled from 'styled-components'
 import bg1Jpg from '../images/bg1.jpg'
 
 const FooterP = styled.p`
-  color: #AFAFAF;
+  color: #afafaf;
 `
 
 const FooterSpan = styled.span`
-  color: #AFAFAF;
-  fontSize: 10pt;
+  color: #afafaf;
+  fontsize: 10pt;
 `
 
 const FooterA = styled.a`
-  color: #AFAFAF;
-  fontSize: 10pt;
+  color: #afafaf;
+  fontsize: 10pt;
   &:hover {
     color: white;
+  }
+  & > a {
+    color: #afafaf;
+    fontsize: 10pt;
+    &:hover {
+      color: white;
+    }
   }
 `
 
 const FooterHR = styled.p`
   width: 100%;
-  borderTop: 1px solid #AFAFAF;
+  bordertop: 1px solid #afafaf;
 `
 
 const Footer = () => (
@@ -69,6 +76,24 @@ const Footer = () => (
           <FooterHR className="d-sm-none" />
           <p>
             <b>Latest News</b>
+          </p>
+          <p>
+            <FooterA>
+              <Link to="/news/edu-summit/">
+                Education Summit and Young Coders&rsquo; Workshops at PyCon APAC
+                2018
+              </Link>
+            </FooterA>
+            <br />
+            <br />
+            <FooterA>
+              <Link to="/news/tickets/">Early Bird Ticket Sales Open Now!</Link>
+            </FooterA>
+            <br />
+            <br />
+            <FooterA>
+              <Link to="/news/hello-world/">Hello World!</Link>
+            </FooterA>
           </p>
         </div>
         <div className="col-sm-3">
