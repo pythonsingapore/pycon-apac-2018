@@ -82,6 +82,9 @@ class Header extends React.Component {
                       </a>
                     </DropdownItem>
                     <DropdownItem tag="div">
+                      <Link to="/workshops/">Workshops at PyCon APAC 2018</Link>
+                    </DropdownItem>
+                    <DropdownItem tag="div">
                       <Link to="/edu-summit/">Education Summit</Link>
                     </DropdownItem>
                     <DropdownItem tag="div">
