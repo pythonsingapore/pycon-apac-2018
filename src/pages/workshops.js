@@ -156,9 +156,9 @@ const WorkshopsPage = () => (
           Building Alexa Skills with Python and Flask - Learn to develop your
           very own Alexa Skills onto Alexa-enabled devices using Python.
         </li>
-        <li>Introduction to JupyterLab</li>
         <li>Introduction to iPython Notebook</li>
         <li>Introduction to Fabric</li>
+        <li>Introduction to NLTK</li>
       </ul>
     </ContentCard>
 
@@ -169,6 +169,11 @@ const WorkshopsPage = () => (
           <b>Your first Django website with cookiecutter-django</b>
           <br />
           <i>by Liuyang Wan</i>
+        </li>
+        <li>
+          <b>Introduction to JupyterLab</b>
+          <br />
+          <i>by Paul Lorett Amazona</i>
         </li>
       </ULListStyleNone>
     </ContentCard>
