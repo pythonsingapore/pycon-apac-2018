@@ -152,10 +152,6 @@ const WorkshopsPage = () => (
           Data visualization with Dash - Create easy to use dashboard using Dash
           to visualize data.
         </li>
-        <li>
-          Building Alexa Skills with Python and Flask - Learn to develop your
-          very own Alexa Skills onto Alexa-enabled devices using Python.
-        </li>
         <li>Introduction to iPython Notebook</li>
         <li>Introduction to Fabric</li>
         <li>Introduction to NLTK</li>
@@ -174,6 +170,11 @@ const WorkshopsPage = () => (
           <b>Introduction to JupyterLab</b>
           <br />
           <i>by Paul Lorett Amazona</i>
+        </li>
+        <li>
+          <b>Building Alexa Skills with Python and Flask</b>
+          <br />
+          <i>by Max Ong</i>
         </li>
       </ULListStyleNone>
     </ContentCard>
