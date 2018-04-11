@@ -47,6 +47,9 @@ const EduSummitPage = () => (
           SG Education Summit
         </li>
         <li>
+          <b>Mr Lee Chit Boon</b>,<br /> Senior lecturer at Nanyang Polytechnic School of IT
+        </li>
+        <li>
           <b>Mr Lee Tsung-Hsien</b>,<br /> Staff Software Engineer at Toyota
           Research Institute, co-author of Elements of Programming Interviews in
           C++/Java/Python
