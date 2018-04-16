@@ -35,6 +35,9 @@ const EduSummitPage = () => (
           (Student Life) at National University of Singapore School of Computing
         </li>
         <li>
+          <b>Mr Calvin Heng</b>,<br /> Computing teacher, Zhonghua Secondary School
+        </li>
+        <li>
           <b>Prof Chris Boesch</b>,<br /> Deputy Director, Institute for
           Application of Learning Science and Educational Technology (ALSET)
         </li>
@@ -69,6 +72,9 @@ const EduSummitPage = () => (
         <li>
           <b>Mr Tamim Shahriar</b>,<br /> Engineering Manager, Grab, author of
           best selling programming books in Bangladesh
+        </li>
+        <li>
+          <b>Mr V Surya</b>,<br /> Computing teacher, Jurong West Secondary School
         </li>
         <li>
           <b>You can be here :)</b>
