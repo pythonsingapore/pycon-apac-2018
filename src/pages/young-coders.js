@@ -49,12 +49,13 @@ const YoungCodersPage = () => (
     <ContentCard>
       <h1>Attending</h1>
       <p>
-        If you are interested in participating, please register at&nbsp;
+        <del>If you are interested in participating, please register at&nbsp;
         <a href="https://tinyurl.com/pyconapac18youngcoders">
           tinyurl.com/pyconapac18youngcoders
-        </a>. Registration is open untill Friday 18 May 2018 or when slots run
+        </a>. Registration is open until Friday 18 May 2018 or when slots run
         out. Participation is free (thanks to our sponsors) and parents are
-        encouraged to attend with their children.
+        encouraged to attend with their children.</del>
+        Due to overwhelming response, registration is closed. Thank you for your support!
       </p>
       <p>
         If you have a question, please contact{' '}
