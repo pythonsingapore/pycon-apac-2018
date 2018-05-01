@@ -44,7 +44,7 @@ const EduSummitPage = () => (
             <td>08:50AM</td>                
             <td>
                <p><b>Opening</b><br />
-                 <i>Dr Liew Beng Keat, Assistant Director at Republic Polytechnic, BDFL PyCon APAC</p>
+                 <i>Dr Liew Beng Keat</i>, Assistant Director at Republic Polytechnic, BDFL PyCon APAC</p>
             </td>
           </tr>
           <tr>
