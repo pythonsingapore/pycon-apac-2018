@@ -26,38 +26,38 @@ const EduSummitPage = () => (
     </ContentCard>
     <ContentCard>
       <h1>Schedule (to-date) @LT15, NUS School of Computing</h1>
-      <table class="calendar table table-bordered">
+      <table>
         <thead>
           <tr>
-            <th class="time">Time</th>
+            <th>Time</th>
             <th>Session</th>     
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td class="time">08:00AM</td>                
-            <td class="slot">
+            <td>08:00AM</td>                
+            <td>
                <p>Registration & Breakfast</p>
             </td>
           </tr>
           <tr>
-            <td class="time">08:50AM</td>                
-            <td class="slot">
+            <td>08:50AM</td>                
+            <td>
                <p><b>Opening</b><br />
                  <i>Dr Liew Beng Keat, Assistant Director at Republic Polytechnic, BDFL PyCon APAC</p>
             </td>
           </tr>
           <tr>
-            <td class="time">09:00AM</td>                
-            <td class="slot">
+            <td>09:00AM</td>                
+            <td>
                <p><b>Learning programming and problem solving through solving algorithm problems</b><br />
 	               <i>Mr Lee Tsung-Hsien</i>, Staff Software Engineer at Toyota Research Institute, co-author 
 	               of Elements of Programming Interviews in C++/Java/Python</p>
             </td>
           </tr>
           <tr>
-            <td class="time">09:30AM</td>                
-            <td class="slot">
+            <td>09:30AM</td>                
+            <td>
                <p><b>from coding import magic as our<br />
                  print(our("magical journey"))</b><br />
                  <i>Mr Dean Ang Ngee Keng</i>, Senior Computing Teacher at School of Science and 
@@ -65,92 +65,92 @@ const EduSummitPage = () => (
             </td>
           </tr>
           <tr>
-            <td class="time">10:00AM</td>                
-            <td class="slot">
+            <td>10:00AM</td>                
+            <td>
                <p><b>Computing @ Zhonghua Secondary</b><br />
                  <i>Mr Calvin Heng</i>, Computing teacher at Zhonghua Secondary School</p>
             </td>
           </tr> 
           <tr>
-            <td class="time">10:30AM</td>                
-            <td class="slot">
+            <td>10:30AM</td>                
+            <td>
                <p><b>From Coders to Raiders, using Repl.it - A Story-based Approach to Teaching Python</b><br />
                  <i>Mr V Surya</i>, Computing teacher at Jurong West Secondary School</p>
             </td>
           </tr>  
           <tr>
-            <td class="time">11:00AM</td>                
-            <td class="slot">
+            <td>11:00AM</td>                
+            <td>
                <p><b>Teaching Python to Working Adults</b><br />
                  <i>Prof Ben Leong</i>, Associate Professor at National University of Singapore, Director at MOE Experimental Systems & Technology Lab</p>
             </td>
           </tr>
           <tr>
-            <td class="time">11:30AM</td>                
-            <td class="slot">
+            <td>11:30AM</td>                
+            <td>
                <p><b>Digital World Evolved - Machine Learning Powered</b><br />
                  <i>Dr Oka Kurniawan</i>, Senior Lecturer at Singapore University of Technology and Design</p>
             </td>
           </tr>	
           <tr>
-            <td class="time">12:00PM</td>                
-            <td class="slot">
+            <td>12:00PM</td>                
+            <td>
                <p><b>Group Photo & Lunch & Networking</b><br />
                  with <i>Prof Leong Hon Wai</i>, Associate Professor at National University of Singapore School of Computing</p>
             </td>
           </tr>		
           <tr>
-            <td class="time">01:00PM</td>                
-            <td class="slot">
+            <td>01:00PM</td>                
+            <td>
                <p><b>Lightning Talks</b><br /></p>
             </td>
           </tr>	
           <tr>
-            <td class="time">01:30PM</td>                
-            <td class="slot">
+            <td>01:30PM</td>                
+            <td>
                <p><b>Growth in a Coding Classroom: A Mindset Perspective</b><br />
                  <i>Ms Juliana Ung</i>, Founder and educator at LCCL Coding Academy</p>
             </td>
           </tr>
           <tr>
-            <td class="time">02:00PM</td>                
-            <td class="slot">
+            <td>02:00PM</td>                
+            <td>
                <p><b>Python @ Nanyang Polytechnic</b><br />
                  <i>Mr Lee Chit Boon</i>, Senior lecturer at Nanyang Polytechnic School of IT</p>
             </td>
           </tr>
           <tr>
-            <td class="time">02:30PM</td>                
-            <td class="slot">
+            <td>02:30PM</td>                
+            <td>
                <p><b>Python for Experiential Learning in STEAM</b><br />
                  <i>Mr Praveen Patil</i>, Physics Lecturer at GSS Belgaum, maintainer of SPOSH 
 	               Code2Learn repository</p>
             </td>
           </tr>
           <tr>
-            <td class="time">03:00PM</td>                
-            <td class="slot">
+            <td>03:00PM</td>                
+            <td>
                <p><b>Python vs C - Experience in implementing data structures and algorithms</b><br />
                  <i>Mr Tamim Shahriar</i>, Engineering Manager, Grab, author of bestselling children 
 	               programming books in Bangladesh</p>
             </td>
           </tr>
           <tr>
-            <td class="time">03:30PM</td>                
-            <td class="slot">
+            <td>03:30PM</td>                
+            <td>
                <p><b>CoderDojo @ SG</b><br />
                  <i>Mr Alvin Ho & Mr Foong Tai Fong</i>, CoderDojo @ Nee Soon East Community Club</p>
             </td>
           </tr>
           <tr>
-            <td class="time">04:00PM</td>                
-            <td class="slot">
+            <td>04:00PM</td>                
+            <td>
                <p><b>Panel Discussion & AUA (Ask Us Anything)</b><br /></p>
             </td>
           </tr>
           <tr>
-            <td class="time">05:00PM</td>                
-            <td class="slot">
+            <td>05:00PM</td>                
+            <td>
                <p><b>Lucky Draw & Closing</b><br /></p>
             </td>
           </tr>
