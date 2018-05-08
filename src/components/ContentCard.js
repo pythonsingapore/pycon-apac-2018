@@ -6,6 +6,9 @@ const ContentCard = styled.div`
   border: 1px solid #d9d9d9;
   margin: 1em 0px;
   padding: 2em;
+  @media (max-width: 979px) {
+    padding: 0.5em;
+  }
 `
 
 export default ContentCard
