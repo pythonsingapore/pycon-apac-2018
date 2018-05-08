@@ -18,7 +18,7 @@ const IndexPage = () => (
     <img src={headerJpg} style={{ width: '100%' }} />
     <div className="container">
       <ContentCard className="text-center">
-        <h1>Early Bird Ticket Sales Open Now!</h1>
+        <h1>Ticket Sales Are Open!</h1>
         <p>
           If you would like to attend the conference, you may now do so on our
           event page at eventnook.com:
@@ -29,29 +29,24 @@ const IndexPage = () => (
           </Button>
         </a>
         <p className="text-muted mt-3">
-          Early Bird rates are available until April 15 or as long as stocks
-          last
+          Note: Tickets are available until May 28 or as long as stocks last. We
+          have no door rate on the event day, so please get your ticket in
+          advance.
         </p>
       </ContentCard>
 
       <ContentCard className="text-center">
-        <h1>Call For Proposals</h1>
+        <h1>Call For Proposals Closed</h1>
         <p>
-          The time has come! PyCon APAC needs you! We are now reaching out to
-          the community, asking for submissions for proposals for talks,
-          lightning talks and workshops.
+          We would like to thank more than 120 awesome Python community members
+          from all over the world to take the time and submit a proposal! This
+          conference would not be possible without your invaluable contribution.
         </p>
         <p>
-          If you would like to help to make this conference a success, please
-          click the button below and send us your proposal.
-        </p>
-        <a href="https://www.papercall.io/pycon-apac-2018" target="_blank">
-          <Button color="primary" size="lg">
-            Submit Your Talk Proposal!
-          </Button>
-        </a>
-        <p className="text-muted mt-3">
-          Quick! The deadline for proposals is May 1st.
+          As our venue only has limited space, we were not able to accept all
+          proposals. If your proposal has not been selected, we hope you will
+          submit a new proposal next year and of course we hope to meet you at
+          the conference as an attendee never the less :)
         </p>
       </ContentCard>
       <ContentCard className="text-center">
@@ -76,26 +71,6 @@ const IndexPage = () => (
             Twitter, where you can keep up with her latest shenanigans (<a href="https://twitter.com/kjam">
               @kjam
             </a>).
-          </p>
-        </div>
-      </KeynoteSpeakerCard>
-
-      <KeynoteSpeakerCard
-        speakerImage={KeynoteRadimJpg}
-        speakerName="Radim Řehůřek"
-      >
-        <div>
-          <p>
-            Radim Řehůřek is the founder and director of{' '}
-            <a href="https://rare-technologies.com">RARE Technologies</a>, a
-            leading R&D company focused on machine learning and natural language
-            processing. Radim has been building practical solutions for
-            businesses for over a decade. He is the creator of{' '}
-            <a href="https://radimrehurek.com/gensim/">Gensim</a>, an open
-            source Python library for topic modeling and information retrieval.
-            Radim received a Ph.D. in Computer Science from Masaryk University
-            in Brno, Czech Republic. His work has been recognized at SIGIR,
-            ECIR, NIPS, PyCon.
           </p>
         </div>
       </KeynoteSpeakerCard>
