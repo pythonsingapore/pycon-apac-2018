@@ -28,26 +28,26 @@ const EduSummitPage = () => (
       <h1>Schedule (to-date) @LT15, NUS School of Computing</h1>
       <table>
         <thead>
-          <tr class="row">
+          <tr>
             <th>Time</th>
             <th>Session</th>     
           </tr>
         </thead>
         <tbody>
-          <tr class="row">
+          <tr>
             <td>08:00AM</td>                
             <td>
                <p>Registration & Breakfast</p>
             </td>
           </tr>
-          <tr class="row">
+          <tr>
             <td>08:50AM</td>                
             <td>
                <p><b>Opening</b><br />
                  <i>Dr Liew Beng Keat</i>, Deputy Director at Republic Polytechnic, BDFL PyCon APAC</p>
             </td>
           </tr>
-          <tr class="row">
+          <tr>
             <td>09:00AM</td>                
             <td>
                <p><b>Learning programming and problem solving through solving algorithm problems</b><br />
@@ -55,7 +55,7 @@ const EduSummitPage = () => (
 	               of Elements of Programming Interviews in C++/Java/Python</p>
             </td>
           </tr>
-          <tr class="row">
+          <tr>
             <td>09:30AM</td>                
             <td>
                <p><b>from python import magic<br />
@@ -64,42 +64,42 @@ const EduSummitPage = () => (
 	               Technology, Singapore</p>
             </td>
           </tr>
-          <tr class="row">
+          <tr>
             <td>10:00AM</td>                
             <td>
                <p><b>Computing @ Zhonghua Secondary</b><br />
                  <i>Mr Calvin Heng</i>, Computing teacher at Zhonghua Secondary School</p>
             </td>
           </tr> 
-          <tr class="row">
+          <tr>
             <td>10:30AM</td>                
             <td>
                <p><b>From Coders to Raiders, using Repl.it - A Story-based Approach to Teaching Python</b><br />
                  <i>Mr V Surya</i>, Computing teacher at Jurong West Secondary School</p>
             </td>
           </tr>  
-          <tr class="row">
+          <tr>
             <td>11:00AM</td>                
             <td>
                <p><b>Teaching Python to Working Adults</b><br />
                  <i>Prof Ben Leong</i>, Associate Professor at National University of Singapore, Director at MOE Experimental Systems & Technology Lab</p>
             </td>
           </tr>
-          <tr class="row">
+          <tr>
             <td>11:30AM</td>                
             <td>
                <p><b>Digital World Evolved - Machine Learning Powered</b><br />
                  <i>Dr Norman Lee</i>, Senior Lecturer at Singapore University of Technology and Design</p>
             </td>
           </tr>	
-          <tr class="row">
+          <tr>
             <td>12:00PM</td>                
             <td>
                <p><b>Group Photo & Lunch & Networking</b><br />
                  with <i>Prof Leong Hon Wai</i>, Associate Professor at National University of Singapore School of Computing</p>
             </td>
           </tr>		
-          <tr class="row">
+          <tr>
             <td>01:00PM</td>                
             <td>
                <p><b>Lightning Talks</b><br />
@@ -110,21 +110,21 @@ const EduSummitPage = () => (
             </p>
             </td>
           </tr>	
-          <tr class="row">
+          <tr>
             <td>01:30PM</td>                
             <td>
                <p><b>Growth in a Coding Classroom: A Mindset Perspective</b><br />
                  <i>Ms Juliana Ung</i>, Founder and educator at LCCL Coding Academy</p>
             </td>
           </tr>
-          <tr class="row">
+          <tr>
             <td>02:00PM</td>                
             <td>
                <p><b><del>Python @ Nanyang Polytechnic</b><br />
                  <i>Mr Lee Chit Boon</i>, Senior lecturer at Nanyang Polytechnic School of IT</del></p>
             </td>
           </tr>
-          <tr class="row">
+          <tr>
             <td>02:30PM</td>                
             <td>
                <p><b>Python for Experiential Learning in STEAM</b><br />
@@ -132,7 +132,7 @@ const EduSummitPage = () => (
 	               Code2Learn repository</p>
             </td>
           </tr>
-          <tr class="row">
+          <tr>
             <td>03:00PM</td>                
             <td>
                <p><b>Python vs C - Experience in implementin class="row"g data structures and algorithms</b><br />
@@ -140,20 +140,20 @@ const EduSummitPage = () => (
 	               programming books in Bangladesh</p>
             </td>
           </tr>
-          <tr class="row">
+          <tr>
             <td>03:30PM</td>                
             <td>
                <p><b>CoderDojo @ SG</b><br />
                  <i>Mr Alvin Ho</i>, CoderDojo @ Nee Soon East Community Club</p>
             </td>
           </tr>
-          <tr class="row">
+          <tr>
             <td>04:00PM</td>                
             <td>
                <p><b>Panel Discussion & AUA (Ask Us Anything)</b><br /></p>
             </td>
           </tr>
-          <tr class="row">
+          <tr>
             <td>05:00PM</td>                
             <td>
                <p><b>Lucky Draw & Closing</b><br /></p>
