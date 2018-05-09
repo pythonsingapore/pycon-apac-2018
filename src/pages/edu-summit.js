@@ -44,7 +44,7 @@ const EduSummitPage = () => (
             <td>08:50AM</td>                
             <td>
                <p><b>Opening</b><br />
-                 <i>Dr Liew Beng Keat</i>, Assistant Director at Republic Polytechnic, BDFL PyCon APAC</p>
+                 <i>Dr Liew Beng Keat</i>, Deputy Director at Republic Polytechnic, BDFL PyCon APAC</p>
             </td>
           </tr>
           <tr>
@@ -58,8 +58,8 @@ const EduSummitPage = () => (
           <tr>
             <td>09:30AM</td>                
             <td>
-               <p><b>from coding import magic as our<br />
-                 print(our("magical journey"))</b><br />
+               <p><b>from python import magic<br />
+                 The magic of teaching Python using Python</b><br />
                  <i>Mr Dean Ang Ngee Keng</i>, Senior Computing Teacher at School of Science and 
 	               Technology, Singapore</p>
             </td>
@@ -89,7 +89,7 @@ const EduSummitPage = () => (
             <td>11:30AM</td>                
             <td>
                <p><b>Digital World Evolved - Machine Learning Powered</b><br />
-                 <i>Dr Oka Kurniawan</i>, Senior Lecturer at Singapore University of Technology and Design</p>
+                 <i>Dr Norman Lee</i>, Senior Lecturer at Singapore University of Technology and Design</p>
             </td>
           </tr>	
           <tr>
@@ -102,7 +102,12 @@ const EduSummitPage = () => (
           <tr>
             <td>01:00PM</td>                
             <td>
-               <p><b>Lightning Talks</b><br /></p>
+               <p><b>Lightning Talks</b><br />
+		 <b>2D Challenge - Pedagogy for Multidisciplinary Computing Assignment</b><br />
+                 <i>Dr Oka Kurniawan</i>, Senior Lecturer at Singapore University of Technology and Design
+                 <br /><br />
+	         (Slots available)
+            </p>
             </td>
           </tr>	
           <tr>
@@ -115,8 +120,8 @@ const EduSummitPage = () => (
           <tr>
             <td>02:00PM</td>                
             <td>
-               <p><b>Python @ Nanyang Polytechnic</b><br />
-                 <i>Mr Lee Chit Boon</i>, Senior lecturer at Nanyang Polytechnic School of IT</p>
+               <p><b><del>Python @ Nanyang Polytechnic</b><br />
+                 <i>Mr Lee Chit Boon</i>, Senior lecturer at Nanyang Polytechnic School of IT</del></p>
             </td>
           </tr>
           <tr>
@@ -130,7 +135,7 @@ const EduSummitPage = () => (
           <tr>
             <td>03:00PM</td>                
             <td>
-               <p><b>Python vs C - Experience in implementing data structures and algorithms</b><br />
+               <p><b>Python vs C - Experience in implementin class="row"g data structures and algorithms</b><br />
                  <i>Mr Tamim Shahriar</i>, Engineering Manager, Grab, author of bestselling children 
 	               programming books in Bangladesh</p>
             </td>
@@ -139,7 +144,7 @@ const EduSummitPage = () => (
             <td>03:30PM</td>                
             <td>
                <p><b>CoderDojo @ SG</b><br />
-                 <i>Mr Alvin Ho & Mr Foong Tai Fong</i>, CoderDojo @ Nee Soon East Community Club</p>
+                 <i>Mr Alvin Ho</i>, CoderDojo @ Nee Soon East Community Club</p>
             </td>
           </tr>
           <tr>
