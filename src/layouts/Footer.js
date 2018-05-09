@@ -35,6 +35,7 @@ const FooterHR = styled.p`
 
 const Footer = () => (
   <div
+    className="mt-5"
     style={{
       backgroundImage: `url(${bg1Jpg})`,
       color: '#dfdfdf',

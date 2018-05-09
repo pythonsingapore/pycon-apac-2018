@@ -5,6 +5,7 @@ import React from 'react'
 
 import Header from './Header.js'
 import Footer from './Footer.js'
+import Sponsors from './Sponsors.js'
 import bootstrapMinCss from './bootstrap.min.css'
 import indexCss from './index.css'
 
@@ -15,6 +16,7 @@ const TemplateWrapper = ({ children }) => (
     </Helmet>
     <Header />
     {children()}
+    <Sponsors />
     <Footer />
   </div>
 )
