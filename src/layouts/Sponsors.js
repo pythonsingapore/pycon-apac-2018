@@ -12,6 +12,7 @@ import SponsorThoughtworksPng from '../images/sponsor-thoughtworks.png'
 import SponsorTheartlingPng from '../images/sponsor-theartling.png'
 import SponsorBitlabstudioPng from '../images/sponsor-bitlabstudio.png'
 import SponsorJubliaJpg from '../images/sponsor-jublia.jpg'
+import SponsorHDEPng from '../images/sponsor-hde.png'
 
 const Sponsors = () => (
   <div className="container">
@@ -19,7 +20,7 @@ const Sponsors = () => (
       <h1 className="mt-5">Platinum Sponsors</h1>
       <hr />
       <Row>
-        <Col className="text-center">
+        <Col sm="6">
           <Sponsor
             name="Traveloka"
             url="https://www.traveloka.com/"
@@ -27,11 +28,21 @@ const Sponsors = () => (
             tier="Platinum"
           />
         </Col>
-        <Col>
+        <Col sm="6">
           <Sponsor
             name="Gandi.net"
             url="https://www.gandi.net/"
             image={SponsorGandiPng}
+            tier="Platinum"
+          />
+        </Col>
+      </Row>
+      <Row className="mt-5 justify-content-center">
+        <Col sm="4">
+          <Sponsor
+            name="HDE Inc."
+            url="https://hde.co.jp/"
+            image={SponsorHDEPng}
             tier="Platinum"
           />
         </Col>
