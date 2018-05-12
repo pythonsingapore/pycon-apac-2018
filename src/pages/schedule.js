@@ -1,6 +1,7 @@
 import Helmet from 'react-helmet'
 import React from 'react'
 import styled from 'styled-components'
+import Link from 'gatsby-link'
 
 import {
   Table,
@@ -26,6 +27,68 @@ const StyledCard = styled(Card)`
 `
 
 const commonSchedule = {
+  day1: {
+    label: 'Day 1',
+    opening: [
+      {
+        time: '8:00am - 8:55am',
+        speaker: '',
+        title: 'Registration',
+        type: 'break',
+      },
+      {
+        time: '9:00am - 10:00am',
+        speaker:
+          'Jordan Dea Mattson, Site Director, Singapore Engineering Centre at Indeed.com',
+        title: 'Opening Keynote',
+      },
+      {
+        time: '10:00am - 10:40am',
+        speaker: '',
+        title: 'Breakfast',
+        type: 'break',
+      },
+      {
+        time: '10:00am - 12:00pm',
+        speaker: '',
+        title: 'Workshops',
+        type: 'break',
+        url: '/workshops/',
+        urlText: 'Read more about workshops here...',
+      },
+      {
+        time: '12:00pm - 1:00pm',
+        speaker: '',
+        title: 'Lunch',
+        type: 'break',
+      },
+      {
+        time: '1:00pm - 2:23pm',
+        speaker: '',
+        title: 'Workshops (continued)',
+        type: 'break',
+      },
+      {
+        time: '2:30pm - 3:40pm',
+        speaker: '',
+        title: 'Tea Break',
+        type: 'break',
+      },
+      {
+        time: '3:40pm - 4:30pm',
+        speaker: '',
+        title: 'Workshops (continued) ',
+        type: 'break',
+      },
+      {
+        time: '4:30pm - 6:00pm',
+        speaker: '',
+        title: 'Coding Competition',
+        subtitle: 'More info coming soon...',
+        type: 'break',
+      },
+    ],
+  },
   day2: {
     label: 'Day 2',
     opening: [
@@ -382,6 +445,16 @@ class ConferenceSchedulePage extends React.Component {
                 </Col>
                 <Col xs="12" sm="9">
                   <b>{element.title}</b>
+                  {element.url && (
+                    <p>
+                      <Link to={element.url}>{element.urlText}</Link>
+                    </p>
+                  )}
+                  {element.subtitle && (
+                    <p>
+                      <i>{element.subtitle}</i>
+                    </p>
+                  )}
                 </Col>
               </Row>
             </td>
@@ -455,6 +528,7 @@ class ConferenceSchedulePage extends React.Component {
 
         <ContentCard>
           <h1>Conference Schedule</h1>
+          <Button href="#day1">Day 1</Button>{' '}
           <Button href="#day2">Day 2</Button>{' '}
           <Button href="#day3">Day 3</Button>
           {Object.keys(commonSchedule).map(day => {
@@ -471,15 +545,17 @@ class ConferenceSchedulePage extends React.Component {
 
                 <br />
 
-                {this.renderTab(day)}
+                {day !== 'day1' && this.renderTab(day)}
 
                 <br />
 
-                <Table striped>
-                  <tbody>
-                    {this.renderSchedule(commonSchedule[day].closing)}
-                  </tbody>
-                </Table>
+                {day !== 'day1' && (
+                  <Table striped>
+                    <tbody>
+                      {this.renderSchedule(commonSchedule[day].closing)}
+                    </tbody>
+                  </Table>
+                )}
               </div>
             )
           })}
