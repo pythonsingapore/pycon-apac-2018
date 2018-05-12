@@ -3,6 +3,19 @@ import { Col, Row, Table } from 'reactstrap'
 import Link from 'gatsby-link'
 
 class Schedule extends Component {
+  renderSubTalks(talks) {
+    if (!talks) {
+      return null
+    }
+    return talks.map(element => (
+      <p key={element.title}>
+        <b>{element.title}</b>
+        <br />
+        <i>by {element.speaker}</i>, {element.job}
+      </p>
+    ))
+  }
+
   renderSchedule(talks) {
     return talks.map(element => {
       if (element.type === 'break') {
@@ -42,7 +55,10 @@ class Schedule extends Component {
               <Col xs="12" sm="9">
                 <b>{element.title}</b>
                 <br />
-                <i>by {element.speaker}</i>
+                {!!element.speaker && <i>by {element.speaker}</i>}
+                {!!element.job && <span>, {element.job}</span>}
+                {this.renderSubTalks(element.talks)}
+                {!!element.subtitle && <i>{element.subtitle}</i>}
               </Col>
             </Row>
           </td>

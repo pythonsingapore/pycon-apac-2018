@@ -5,6 +5,128 @@ import styled from 'styled-components'
 
 import ContentCard from '../components/ContentCard.js'
 import ULListStyleNone from '../components/ULListStyleNone.js'
+import Schedule from '../components/Schedule.js'
+
+const talks = [
+  {
+    time: '8:00am',
+    speaker: '',
+    title: 'Registration & Breakfast',
+    type: 'break',
+  },
+  {
+    time: '8:50am',
+    speaker: 'Dr Liew Beng Keat',
+    job: 'Deputy Director at Republic Polytechnic, BDFL PyCon APAC',
+    title: 'Opening',
+  },
+  {
+    time: '9:00am',
+    speaker: 'Mr Lee Tsung-Hsien',
+    job:
+      'Staff Software Engineer at Toyota Research Institute, co-author of Elements of Programming Interviews in C++/Java/Python',
+    title:
+      'Learning programming and problem solving through solving algorithm problems',
+  },
+  {
+    time: '9:30am',
+    speaker: 'Mr Dean Ang Ngee Keng',
+    job:
+      'Senior Computing Teacher at School of Science and Technology, Singapore',
+    title:
+      'from python import magic - The Magic of Teaching Python using Python',
+  },
+  {
+    time: '10:00am',
+    speaker: 'Mr Calvin Heng',
+    job: 'Computing teacher at Zhonghua Secondary School',
+    title: 'Computing @ Zhonghua Secondary',
+  },
+  {
+    time: '10:30am',
+    speaker: 'Mr V Surya',
+    job: 'Computing teacher at Jurong West Secondary School',
+    title:
+      'From Coders to Raiders, using Repl.it - A Story-based Approach to Teaching Python',
+  },
+  {
+    time: '11:00am',
+    speaker: 'Prof Ben Leong',
+    job:
+      'Associate Professor at National University of Singapore, Director at MOE Experimental Systems & Technology Lab',
+    title: 'Teaching Python to Working Adults',
+  },
+  {
+    time: '11:30am',
+    speaker: 'Dr Norman Lee',
+    job: 'Senior Lecturer at Singapore University of Technology and Design',
+    title: 'Digital World Evolved - Machine Learning Powered',
+  },
+  {
+    time: '12:00pm',
+    title: 'Group Photo & Lunch & Networking',
+    subtitle:
+      'with Prof Leong Hon Wai, Associate Professor at National University of Singapore School of Computing',
+  },
+  {
+    time: '1:00pm',
+    title: 'Lightning Talks',
+    subtitle: '(slots available)',
+    talks: [
+      {
+        title:
+          '2D Challenge – Pedagogy for Multidisciplinary Computing Assignment',
+        speaker: 'Dr Oka Kurniawan',
+        job: 'Senior Lecturer at Singapore University of Technology and Design',
+      },
+    ],
+  },
+  {
+    time: '1:30pm',
+    speaker: 'Ms Juliana Ung',
+    job: 'Founder and educator at LCCL Coding Academy',
+    title: 'Growth in a Coding Classroom: A Mindset Perspective',
+  },
+  {
+    time: '2:00pm',
+    speaker: '',
+    job: '',
+    title: '(slot available)',
+  },
+  {
+    time: '2:30pm',
+    speaker: 'Mr Praveen Patil',
+    job:
+      'Physics Lecturer at GSS Belgaum, maintainer of SPOSH Code2Learn repository',
+    title: 'Python for Experiential Learning in STEAM',
+  },
+  {
+    time: '3:00pm',
+    speaker: 'Mr Tamim Shahriar',
+    job:
+      'Engineering Manager, Grab, author of bestselling children programming books in Bangladesh',
+    title:
+      'Python vs C - Experience in implementing data structures and algorithms',
+  },
+  {
+    time: '3:30pm',
+    speaker: 'Mr Alvin Ho',
+    job: 'CoderDojo @ Nee Soon East Community Club',
+    title: 'CoderDojo @ SG',
+  },
+  {
+    time: '4:00pm',
+    speaker: '',
+    job: '',
+    title: 'Panel Discussion & AUA (Ask Us Anything)',
+  },
+  {
+    time: '5:00pm',
+    speaker: '',
+    job: '',
+    title: 'Lucky Draw & Closing',
+  },
+]
 
 const EduSummitPage = () => (
   <div className="container">
@@ -26,216 +148,7 @@ const EduSummitPage = () => (
     </ContentCard>
     <ContentCard>
       <h1>Schedule</h1>
-      <table>
-        <thead>
-          <tr>
-            <th>Time</th>
-            <th>Session</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>08:00AM</td>
-            <td>
-              <p>Registration & Breakfast</p>
-            </td>
-          </tr>
-          <tr>
-            <td>08:50AM</td>
-            <td>
-              <p>
-                <b>Opening</b>
-                <br />
-                <i>Dr Liew Beng Keat</i>, Deputy Director at Republic
-                Polytechnic, BDFL PyCon APAC
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>09:00AM</td>
-            <td>
-              <p>
-                <b>
-                  Learning programming and problem solving through solving
-                  algorithm problems
-                </b>
-                <br />
-                <i>Mr Lee Tsung-Hsien</i>, Staff Software Engineer at Toyota
-                Research Institute, co-author of Elements of Programming
-                Interviews in C++/Java/Python
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>09:30AM</td>
-            <td>
-              <p>
-                <b>
-                  from python import magic<br />
-                  The Magic of Teaching Python using Python
-                </b>
-                <br />
-                <i>Mr Dean Ang Ngee Keng</i>, Senior Computing Teacher at School
-                of Science and Technology, Singapore
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>10:00AM</td>
-            <td>
-              <p>
-                <b>Computing @ Zhonghua Secondary</b>
-                <br />
-                <i>Mr Calvin Heng</i>, Computing teacher at Zhonghua Secondary
-                School
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>10:30AM</td>
-            <td>
-              <p>
-                <b>
-                  From Coders to Raiders, using Repl.it - A Story-based Approach
-                  to Teaching Python
-                </b>
-                <br />
-                <i>Mr V Surya</i>, Computing teacher at Jurong West Secondary
-                School
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>11:00AM</td>
-            <td>
-              <p>
-                <b>Teaching Python to Working Adults</b>
-                <br />
-                <i>Prof Ben Leong</i>, Associate Professor at National
-                University of Singapore, Director at MOE Experimental Systems &
-                Technology Lab
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>11:30AM</td>
-            <td>
-              <p>
-                <b>Digital World Evolved - Machine Learning Powered</b>
-                <br />
-                <i>Dr Norman Lee</i>, Senior Lecturer at Singapore University of
-                Technology and Design
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>12:00PM</td>
-            <td>
-              <p>
-                <b>Group Photo & Lunch & Networking</b>
-                <br />
-                with <i>Prof Leong Hon Wai</i>, Associate Professor at National
-                University of Singapore School of Computing
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>01:00PM</td>
-            <td>
-              <p>
-                <b>Lightning Talks</b>
-                <br />
-                <b>
-                  2D Challenge – Pedagogy for Multidisciplinary Computing
-                  Assignment
-                </b>
-                <br />
-                <i>Dr Oka Kurniawan</i>, Senior Lecturer at Singapore University
-                of Technology and Design<br />
-                <br />
-                (Slots available)
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>01:30PM</td>
-            <td>
-              <p>
-                <b>Growth in a Coding Classroom: A Mindset Perspective</b>
-                <br />
-                <i>Ms Juliana Ung</i>, Founder and educator at LCCL Coding
-                Academy
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>02:00PM</td>
-            <td>
-              <p>
-                <del>
-                  <b>Python @ Nanyang Polytechnic</b>
-                  <br />
-                  <i>Mr Lee Chit Boon</i>, Senior lecturer at Nanyang
-                  Polytechnic School of IT
-                </del>
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>02:30PM</td>
-            <td>
-              <p>
-                <b>Python for Experiential Learning in STEAM</b>
-                <br />
-                <i>Mr Praveen Patil</i>, Physics Lecturer at GSS Belgaum,
-                maintainer of SPOSH Code2Learn repository
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>03:00PM</td>
-            <td>
-              <p>
-                <b>
-                  Python vs C - Experience in implementing data structures and
-                  algorithms
-                </b>
-                <br />
-                <i>Mr Tamim Shahriar</i>, Engineering Manager, Grab, author of
-                bestselling children programming books in Bangladesh
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>03:30PM</td>
-            <td>
-              <p>
-                <b>CoderDojo @ SG</b>
-                <br />
-                <i>Mr Alvin Ho</i>, CoderDojo @ Nee Soon East Community Club
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>04:00PM</td>
-            <td>
-              <p>
-                <b>Panel Discussion & AUA (Ask Us Anything)</b>
-                <br />
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>05:00PM</td>
-            <td>
-              <p>
-                <b>Lucky Draw & Closing</b>
-                <br />
-              </p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <Schedule talks={talks} />
     </ContentCard>
     <ContentCard>
       <h1>Attending</h1>
