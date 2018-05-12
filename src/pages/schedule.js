@@ -18,13 +18,9 @@ import {
   Col,
 } from 'reactstrap'
 import classnames from 'classnames'
-import ContentCard from '../components/ContentCard.js'
 
-const StyledCard = styled(Card)`
-  @media (max-width: 979px) {
-    padding: 0.5em;
-  }
-`
+import ContentCard from '../components/ContentCard.js'
+import Schedule from '../components/Schedule.js'
 
 const commonSchedule = {
   day1: {
@@ -433,54 +429,6 @@ class ConferenceSchedulePage extends React.Component {
     }
   }
 
-  renderSchedule(talks) {
-    return talks.map(element => {
-      if (element.type === 'break') {
-        return (
-          <tr key={element.title}>
-            <td>
-              <Row>
-                <Col xs="12" sm="3">
-                  {element.time}
-                </Col>
-                <Col xs="12" sm="9">
-                  <b>{element.title}</b>
-                  {element.url && (
-                    <p>
-                      <Link to={element.url}>{element.urlText}</Link>
-                    </p>
-                  )}
-                  {element.subtitle && (
-                    <p>
-                      <i>{element.subtitle}</i>
-                    </p>
-                  )}
-                </Col>
-              </Row>
-            </td>
-          </tr>
-        )
-      }
-
-      return (
-        <tr key={element.title}>
-          <td>
-            <Row>
-              <Col xs="12" sm="3">
-                <p>{element.time}</p>
-              </Col>
-              <Col xs="12" sm="9">
-                <b>{element.title}</b>
-                <br />
-                <i>by {element.speaker}</i>
-              </Col>
-            </Row>
-          </td>
-        </tr>
-      )
-    })
-  }
-
   renderTab(day) {
     return (
       <div>
@@ -509,9 +457,7 @@ class ConferenceSchedulePage extends React.Component {
         <TabContent activeTab={this.state.activeTab}>
           {Object.keys(tracks).map(key => (
             <TabPane tabId={key} key={key}>
-              <Table striped>
-                <tbody>{this.renderSchedule(tracks[key][day])}</tbody>
-              </Table>
+              <Schedule talks={tracks[key][day]} />
             </TabPane>
           ))}
         </TabContent>
@@ -537,11 +483,7 @@ class ConferenceSchedulePage extends React.Component {
                 <br />
                 <h4 id={day}>{commonSchedule[day].label}</h4>
                 <br />
-                <Table striped>
-                  <tbody>
-                    {this.renderSchedule(commonSchedule[day].opening)}
-                  </tbody>
-                </Table>
+                <Schedule talks={commonSchedule[day].opening} />
 
                 <br />
 
@@ -550,11 +492,7 @@ class ConferenceSchedulePage extends React.Component {
                 <br />
 
                 {day !== 'day1' && (
-                  <Table striped>
-                    <tbody>
-                      {this.renderSchedule(commonSchedule[day].closing)}
-                    </tbody>
-                  </Table>
+                  <Schedule talks={commonSchedule[day].closing} />
                 )}
               </div>
             )
