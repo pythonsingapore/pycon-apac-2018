@@ -2,7 +2,10 @@ import Helmet from 'react-helmet'
 import React from 'react'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
+<<<<<<< HEAD
 
+=======
+>>>>>>> Added link to workshop and education summit for Day 1 in the schedules page
 import {
   Table,
   TabContent,
@@ -553,6 +556,15 @@ class ConferenceSchedulePage extends React.Component {
           <Button href="#day1">Day 1</Button>{' '}
           <Button href="#day2">Day 2</Button>{' '}
           <Button href="#day3">Day 3</Button>
+          <br />
+          <br />
+          <div key="day1">
+            <h4 id="day1">Day 1</h4>
+            <Link to="/workshops/">Workshops at PyCon APAC 2018</Link>
+            <br />
+            <Link /><Link to="/edu-summit/">Education Summit</Link>
+            
+          </div>
           {Object.keys(commonSchedule).map(day => {
             return (
               <div key={day}>
