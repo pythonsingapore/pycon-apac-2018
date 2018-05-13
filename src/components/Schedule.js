@@ -59,6 +59,7 @@ class Schedule extends Component {
                 {!!element.job && <span>, {element.job}</span>}
                 {this.renderSubTalks(element.talks)}
                 {!!element.subtitle && <i>{element.subtitle}</i>}
+                {!!element.abstract && <p><br />{element.abstract}</p>}
               </Col>
             </Row>
           </td>
