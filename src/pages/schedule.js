@@ -48,9 +48,55 @@ const commonSchedule = {
         time: '10:00am - 12:00pm',
         speaker: '',
         title: 'Workshops',
-        type: 'break',
+        type: 'workshops',
         url: '/workshops/',
         urlText: 'Read more about workshops here...',
+        talks: [
+          {
+            title: 'IoT with Micropython and ESP8266',
+            speaker: 'Shang Liang',
+          },
+          {
+            title: 'Getting Started With Test Driven Development in Python',
+            speaker: 'Hilda Ng Li Fang',
+          },
+          {
+            title: 'Build Your Own Telegram (Cat) Bot',
+            speaker: 'Clarence Castillo',
+          },
+          {
+            title: 'Introduction to Pipenv',
+            speaker: 'Siow YiSheng',
+          },
+          {
+            title: 'Joongi Kim',
+            speaker: 'Making a modern Python package',
+          },
+          {
+            title: 'Zac Hatfield-Dodds',
+            speaker: 'Property-based testing and other insecticides',
+          },
+          {
+            title: 'Liling Tan',
+            speaker: 'Transform, Transfer and Predict',
+          },
+          {
+            title: 'Paul Lorett Amazona',
+            speaker: 'Introduction to JupyterLab',
+          },
+          {
+            title: 'Max Ong',
+            speaker: 'Building Alexa Skills with Python and Flask',
+          },
+          {
+            title: 'Liuyang Wan',
+            speaker: 'Your first Django website with cookiecutter-django',
+          },
+          {
+            title: 'FOSSASIA PSLab - Pocket Science Lab',
+            speaker: 'Mario Behling',
+          },
+        ],
       },
       {
         time: '12:00pm - 1:00pm',

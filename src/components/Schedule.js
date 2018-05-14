@@ -57,9 +57,21 @@ class Schedule extends Component {
                 <br />
                 {!!element.speaker && <i>by {element.speaker}</i>}
                 {!!element.job && <span>, {element.job}</span>}
+                {element.type === 'workshops' && (
+                  <p>
+                    <Link to="/workshops/">
+                      Learn more about workshops here...
+                    </Link>
+                  </p>
+                )}
                 {this.renderSubTalks(element.talks)}
                 {!!element.subtitle && <i>{element.subtitle}</i>}
-                {!!element.abstract && <p><br />{element.abstract}</p>}
+                {!!element.abstract && (
+                  <p>
+                    <br />
+                    {element.abstract}
+                  </p>
+                )}
               </Col>
             </Row>
           </td>

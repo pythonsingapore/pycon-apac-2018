@@ -1,5 +1,6 @@
 import Helmet from 'react-helmet'
 import React from 'react'
+import Link from 'gatsby-link'
 import { Button } from 'reactstrap'
 
 import ContentCard from '../components/ContentCard.js'
@@ -22,8 +23,8 @@ const WorkshopsPage = () => (
       <p>
         <b>
           <i>tl;dr:</i> We need workshop conductors for day one, please submit
-          your workshop idea{' '}
-          <a href="https://www.papercall.io/pycon-apac-2018">here</a> ;-)
+          your workshop idea via email to{' '}
+          <a href="mailto:conference@pycon.sg">conference@pycon.sg</a> ;-)
         </b>
       </p>
     </ContentCard>
@@ -65,8 +66,9 @@ const WorkshopsPage = () => (
         As you can imagine, curating 10-15 good mini-tutorials is no easy task.
         We need your help to make this happen! If you have good knowledge about
         any popular Python library and if you would like to host one of our
-        tables during day one, please submit your workshop idea at our papercall
-        site and make sure that you select "Workshop" as the talk type.
+        tables during day one, please send us an email to &nbsp;
+        <a href="mailto:conference@pycon.sg">conference@pycon.sg</a> and
+        describe how your workshop would be structured.
       </p>
       <p>
         <b>What makes a good workshop?</b> You need to design your workshop in
@@ -90,93 +92,14 @@ const WorkshopsPage = () => (
         for users that are already more advanced, but this would be the icing on
         the cake ;)
       </p>
-      <a
-        class="btn btn-primary"
-        href="https://www.papercall.io/pycon-apac-2018"
-      >
-        <Button color="primary" size="lg">
-          Submit Your Workshop Proposal Now
-        </Button>
-      </a>
-    </ContentCard>
-    <ContentCard>
-      <h2>Workshop Ideas</h2>
-      <p>
-        If you love this idea but you are not sure what topics would be
-        suitable, we have listed a few ideas that came up during our own
-        brainstorming sessions. If you think that you could handle any of these
-        topics and become a host, please submit your workshop proposal at
-        Papercall!!
-      </p>
-      <p>
-        Of course, this list is in no way exhaustive. The Python ecosystem is
-        huge, and any introduction to any moderately well known library would be
-        very welcome! Be creative and if you have any questions, please don't
-        hesitate to reach out to us via{' '}
-        <a href="mailto:conference@pycon.sg">conference@pycon.sg</a>
-      </p>
-      <ul>
-        <li>
-          Getting Up To Speed With Python (how to install Python and a good,
-          free IDE with some plugins)
-        </li>
-        <li>
-          Text Wrangling with Python (Reading text files, list of common text
-          modules. Using regular expressions, using flashtext to do dictionary
-          matching. Textmining using nltk: POS tagging and build you own phrase
-          extractor with regexparser. Coding-decoding issues. )
-        </li>
-        <li>
-          Dataframe manipulation with Pandas. Real examples of data wrangling
-          done by analysts.
-        </li>
-        <li>
-          Multiprocessing/Parallelize code. When to do it, how to do it, do we
-          even need map reduce?
-        </li>
-        <li>
-          The "Science" of Data. How we look at data and how each type of data
-          is used in data science. Write your own convenient scripts to identify
-          different types of data!
-        </li>
-        <li>
-          Beginner's guide to PyTest - Learn to create unit test, integration
-          test and other form of test cases using PyTest to write better python
-          applications.
-        </li>
-        <li>
-          Introduction to Sphinx - Learn to create your own project
-          documentation with Sphinx.
-        </li>
-        <li>
-          Data visualization with Dash - Create easy to use dashboard using Dash
-          to visualize data.
-        </li>
-        <li>Introduction to iPython Notebook</li>
-        <li>Introduction to Fabric</li>
-        <li>Introduction to NLTK</li>
-      </ul>
     </ContentCard>
 
     <ContentCard>
       <h2>Confirmed Workshops</h2>
-      <ULListStyleNone>
-        <li>
-          <b>Your first Django website with cookiecutter-django</b>
-          <br />
-          <i>by Liuyang Wan</i>
-        </li>
-        <li>
-          <b>Introduction to JupyterLab</b>
-          <br />
-          <i>by Paul Lorett Amazona</i>
-        </li>
-        <li>
-          <b>Building Alexa Skills with Python and Flask</b>
-          <br />
-          <i>by Max Ong</i>
-        </li>
-      </ULListStyleNone>
+      <p>
+        Confirmed workshops are now listed on our{' '}
+        <Link to="/schedule/">schedule page</Link>.
+      </p>
     </ContentCard>
   </div>
 )
