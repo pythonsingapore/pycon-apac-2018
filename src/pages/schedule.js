@@ -425,7 +425,7 @@ const tracks = {
       },
       {
         time: '1:00pm - 1:40pm',
-        speaker: 'Ram, Director/Co-founder at Zentropy Pvt Ltd',
+        speaker: 'Ramanathan Ramakrishnamoorthy, Director/Co-Founder at Zentropy Technologies',
         abstract:
           'Any production application requires good use of design patterns and this talk will be about popular design patterns/choices and their implementation. The talk will also cover basics of metaclasses and be using metaclasses in some design choices practically.',
         title: 'Practical Python Design Patterns',
