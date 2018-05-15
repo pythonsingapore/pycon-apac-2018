@@ -69,28 +69,28 @@ const commonSchedule = {
             speaker: 'Siow YiSheng',
           },
           {
-            title: 'Joongi Kim',
-            speaker: 'Making a modern Python package',
+            title: 'Making a modern Python package',
+            speaker: 'Joongi Kim',
           },
           {
-            title: 'Zac Hatfield-Dodds',
-            speaker: 'Property-based testing and other insecticides',
+            title: 'Property-based testing and other insecticides',
+            speaker: 'Zac Hatfield-Dodds',
           },
           {
-            title: 'Liling Tan',
-            speaker: 'Transform, Transfer and Predict',
+            title: 'Transform, Transfer and Predict',
+            speaker: 'Liling Tan',
           },
           {
-            title: 'Paul Lorett Amazona',
-            speaker: 'Introduction to JupyterLab',
+            title: 'Introduction to JupyterLab',
+            speaker: 'Paul Lorett Amazona',
           },
           {
-            title: 'Max Ong',
-            speaker: 'Building Alexa Skills with Python and Flask',
+            title: 'Building Alexa Skills with Python and Flask',
+            speaker: 'Max Ong',
           },
           {
-            title: 'Liuyang Wan',
-            speaker: 'Your first Django website with cookiecutter-django',
+            title: 'Your first Django website with cookiecutter-django',
+            speaker: 'Liuyang Wan',
           },
           {
             title: 'FOSSASIA PSLab - Pocket Science Lab',
@@ -425,7 +425,8 @@ const tracks = {
       },
       {
         time: '1:00pm - 1:40pm',
-        speaker: 'Ramanathan Ramakrishnamoorthy, Director/Co-Founder at Zentropy Technologies',
+        speaker:
+          'Ramanathan Ramakrishnamoorthy, Director/Co-Founder at Zentropy Technologies',
         abstract:
           'Any production application requires good use of design patterns and this talk will be about popular design patterns/choices and their implementation. The talk will also cover basics of metaclasses and be using metaclasses in some design choices practically.',
         title: 'Practical Python Design Patterns',
