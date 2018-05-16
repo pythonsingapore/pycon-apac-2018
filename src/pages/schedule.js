@@ -362,7 +362,7 @@ const tracks = {
           'Graham Dumbleton, Author of mod_wsgi, Developer Advocate for OpenShift at Red Hat',
         abstract:
           'Using multithreading in Python applications? Interested in complex use cases for decorators and context managers? This talk will describe how the Java programming language "synchronized" keyword, for handling synchronisation in multithread applications, can be implemented in Python.',
-        title: 'Deploying Applications using Kubernetes',
+        title: 'Implementing a decorator for thread synchronisation',
       },
       {
         time: '11:30am - 12:00pm',
