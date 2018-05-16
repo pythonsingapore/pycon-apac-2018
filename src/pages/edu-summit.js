@@ -79,6 +79,12 @@ const talks = [
         speaker: 'Dr Oka Kurniawan',
         job: 'Senior Lecturer at Singapore University of Technology and Design',
       },
+      {
+        title:
+          'Teaching AI Concepts with Python and Project Malmo',
+        speaker: 'Dr Melvin Zhang',
+        job: 'Computational Thinkerer at Computational Thinkerers',
+      },    
     ],
   },
   {
@@ -89,9 +95,9 @@ const talks = [
   },
   {
     time: '2:00pm',
-    speaker: '',
-    job: '',
-    title: '(slot available)',
+    speaker: 'Dr Chen Weiqiang',
+    job: 'Lecturer at Eunoia Junior College',
+    title: 'Experiences in developing students for coding, data science and artificial intelligence',
   },
   {
     time: '2:30pm',
