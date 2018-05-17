@@ -300,7 +300,7 @@ const tracks = {
     day2: [
       {
         time: '10:45am - 11:25am',
-        speaker: 'Chinab Chugh, Co-founder at Jublia',
+        speaker: 'Chinab Chugh, Co-Founder at Jublia',
         abstract:
           'The talk focuses on how a SaaS project can be flexible to the business needs of their clients. It will discuss on a custom structure we have built using Python 3.6 to extend our core technology for client customisations, with emphasis on building rapidly and quick code deployments.',
         title: 'A scalable blueprint for product customization with Python 3 ',
@@ -405,7 +405,7 @@ const tracks = {
     day2: [
       {
         time: '10:45am - 11:25am',
-        speaker: 'Abhishek Pandey',
+        speaker: 'Abhishek Pandey, Senior Developer at Tilde Trading',
         abstract:
           'When you read about Ethereum smart contract tutorials, most likely, Truffle framework is used as an example. What the speaker wants to showcase is how easy it can be to use Python instead to not just test, but even run your smart contracts, including advanced scenarios like creating blockchain or launching ICO!',
         title: 'Run your ICO using Python',
