@@ -24,7 +24,7 @@ import Schedule from '../components/Schedule.js'
 
 const commonSchedule = {
   day1: {
-    label: 'Day 1',
+    label: 'Thursday, 31 May',
     opening: [
       {
         time: '8:00am - 8:55am',
@@ -132,7 +132,7 @@ const commonSchedule = {
     ],
   },
   day2: {
-    label: 'Day 2',
+    label: 'Friday, 01 June',
     opening: [
       {
         time: '8:00am - 8:55am',
@@ -163,7 +163,7 @@ const commonSchedule = {
     ],
   },
   day3: {
-    label: 'Day 3',
+    label: 'Saturday, 02 June',
     opening: [
       {
         time: '9:00am - 10:00am',
@@ -587,9 +587,9 @@ class ConferenceSchedulePage extends React.Component {
 
         <ContentCard>
           <h1>Conference Schedule</h1>
-          <Button href="#day1">Day 1</Button>{' '}
-          <Button href="#day2">Day 2</Button>{' '}
-          <Button href="#day3">Day 3</Button>
+          <Button href="#day1">{commonSchedule.day1.label}</Button>{' '}
+          <Button href="#day2">{commonSchedule.day2.label}</Button>{' '}
+          <Button href="#day3">{commonSchedule.day3.label}</Button>
           {Object.keys(commonSchedule).map(day => {
             return (
               <div key={day}>
