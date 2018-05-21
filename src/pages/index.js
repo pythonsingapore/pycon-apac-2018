@@ -9,8 +9,8 @@ import KeynoteSpeakerCard from '../components/KeynoteSpeakerCard'
 import headerJpg from '../images/header.jpg'
 import KeynoteAlanJpg from '../images/keynoteAlan.jpg'
 import KeynoteIvesJpg from '../images/keynoteYves.jpg'
+import KeynoteJordanJpg from '../images/keynoteJordan.jpg'
 import KeynoteKatharineJpg from '../images/keynoteKatharine.jpg'
-import KeynoteRadimJpg from '../images/keynoteRadim.jpg'
 
 const IndexPage = () => (
   <div>
@@ -52,6 +52,40 @@ const IndexPage = () => (
       <ContentCard className="text-center">
         <h1>Meet Our Keynote Speakers!</h1>
       </ContentCard>
+
+      <KeynoteSpeakerCard
+        speakerImage={KeynoteJordanJpg}
+        speakerName="Jordan Dea-Mattson"
+      >
+        <div>
+          <p>
+            Jordan Dea-Mattson is a 35 year veteran of high tech. He wrote the
+            first code for which he was paid in 1981 and has been involved in
+            software development and engineering ever since. He has seen more
+            technologies, programming languages, and technology fads come and go
+            than he can keep track of, which has required him to embrace a
+            process of continual learning, personal development, and
+            reinvention.
+          </p>
+          <p>
+            Jordan has worked at Apple (he was present at and involved in the
+            events of the day Steve Jobs returned following the purchase of NeXT
+            by Apple), Adobe Systems, Yahoo, and a number of Silicon Valley
+            startups including Ooyala and Numenta. After over 30 years in
+            Silicon Valley, he has relocated to Singapore where he has been the
+            VP of Engineering at TradeGecko and Carousell. He is currently Site
+            Director, Singapore for Indeed.COM, the world’s largest job site.
+          </p>
+          <p>
+            His personal passion is building and growing the software
+            engineering and startup ecosystems in Singapore and throughout
+            Southeast Asia. He invests significant time and energy mentoring
+            students and young entrepreneurs in Singapore, as well as advising
+            startups. In his free time, he trains for and competes in
+            triathlons.
+          </p>
+        </div>
+      </KeynoteSpeakerCard>
 
       <KeynoteSpeakerCard
         speakerImage={KeynoteKatharineJpg}
