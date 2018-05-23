@@ -79,9 +79,9 @@ const SponsorsPage = () => (
           for over 700 different domain name extensions for its customers,
           placing Gandi among the top domain name registrars worldwide. The
           company supports open source initiatives instead of spending money on
-          advertisement. In addition Gandi's Corporate service is used by brands
-          and companies worldwide to secure their domain names and protect their
-          brand.
+          advertisement. In addition, Gandi's Corporate service is used by
+          brands and companies worldwide to secure their domain names and
+          protect their brand.
         </p>
       </SponsorCardContent>
 
@@ -259,9 +259,7 @@ const SponsorsPage = () => (
           platform.
         </p>
         <p>
-          <b>Who are we?</b>
-        </p>
-        <p>
+          Who are we?<br />
           Jublia is an established global leader in business matching technology
           and event data analytics.
         </p>
