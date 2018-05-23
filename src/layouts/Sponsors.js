@@ -23,7 +23,7 @@ const Sponsors = () => (
       <h1 className="mt-5">Platinum Sponsors</h1>
       <hr />
       <Row>
-        <Col sm="6">
+        <Col sm="4">
           <Sponsor
             name="Traveloka"
             url="https://www.traveloka.com/"
@@ -31,7 +31,7 @@ const Sponsors = () => (
             tier="Platinum"
           />
         </Col>
-        <Col sm="6">
+        <Col sm="4">
           <Sponsor
             name="Gandi.net"
             url="https://www.gandi.net/"
@@ -39,8 +39,6 @@ const Sponsors = () => (
             tier="Platinum"
           />
         </Col>
-      </Row>
-      <Row className="mt-5 justify-content-center">
         <Col sm="4">
           <Sponsor
             name="HDE Inc."
@@ -68,6 +66,7 @@ const Sponsors = () => (
             url="https://www.zendesk.com/"
             image={SponsorZendeskPng}
             tier="Gold"
+            portrait={true}
           />
         </Col>
         <Col sm="4">
@@ -98,6 +97,7 @@ const Sponsors = () => (
             url="https://www.solacetech.com.sg/"
             image={SponsorSolacetechPng}
             tier="Silver"
+            portrait={true}
           />
         </Col>
         <Col sm="4">
