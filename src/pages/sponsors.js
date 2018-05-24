@@ -314,12 +314,9 @@ const SponsorsPage = () => (
         tier="Silver"
       >
         <p className="mt-3">
-          Acronis sets the standard for hybrid cloud data protection through its
-          backup, disaster recovery, and secure file sync and share solutions.
-          Powered by the Acronis AnyData Engine and set apart by its image
-          technology, Acronis delivers easy, complete and affordable data
-          protection of all files, applications and operating systems across any
-          environment—virtual, physical, cloud and mobile.
+          Acronis is a Swiss-Singaporean company that sets the standard for
+          hybrid cloud data protection through its backup, disaster recovery,
+          and secure file sync and share solutions.
         </p>
         <p>
           Founded in 2003, Acronis protects the data of over 5 million consumers
