@@ -87,15 +87,17 @@ const Footer = () => (
             <br />
             <br />
             <FooterA>
-              <Link to="/news/edu-summit/">
-                Education Summit and Young Coders&rsquo; Workshops at PyCon APAC
-                2018
+              <Link to="/news/gold-sponsors">
+                Gold Sponsors for PyCon APAC 2018
               </Link>
             </FooterA>
             <br />
             <br />
             <FooterA>
-              <Link to="/news/tickets/">Early Bird Ticket Sales Open Now!</Link>
+              <Link to="/news/edu-summit/">
+                Education Summit and Young Coders&rsquo; Workshops at PyCon APAC
+                2018
+              </Link>
             </FooterA>
           </p>
         </div>
