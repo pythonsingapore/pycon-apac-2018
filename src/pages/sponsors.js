@@ -50,23 +50,36 @@ const SponsorsPage = () => (
     <ContentCard>
       <h2>Platinum Sponsors</h2>
 
-      {/*<SponsorCardContent
+      <SponsorCardContent
         name="Traveloka"
         url="https://www.traveloka.com/"
         image={SponsorTravelokaPng}
         tier="Platinum"
       >
         <p className="mt-3">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Traveloka is Southeast Asia’s leading online travel and mobility
+          company, rapidly expanding its commanding Indonesian presence into the
+          rest of SouthEast Asia and beyond. Traveloka is known by its customers
+          for enabling mobility, empowering travel, and creating moments that
+          bring loved ones together and propel them across the globe.
+        </p>
+        <p>
+          At its heart, Traveloka aims to be a world-class technology and data
+          organization with first-rate products and its widely-recognized
+          contributions and investments in technology and people. The technology
+          and data teams are responsible together for the design, development,
+          and operations of the integrated human-machine systems running the
+          core business, decisions systems, and various functions at Traveloka.
+        </p>
+        <p>
+          Founded in 2012 in jakarta by ex-Silicon Valley engineers, Traveloka
+          is now operating in 7 countries and has tech centres in Jakarta,
+          Singapore, and Bangalore and stays true to its roots of innovating and
+          experimenting with new endeavours that will create impacts in the
+          lives of our customers, and the markets and industries we touch.
         </p>
       </SponsorCardContent>
-*/}
+
       <SponsorCardContent
         name="Gandi.net"
         url="https://www.gandi.net/"
@@ -294,23 +307,30 @@ const SponsorsPage = () => (
         </p>
       </SponsorCardContent>
 
-      {/*<SponsorCardContent
+      <SponsorCardContent
         name="Acronis"
         url="https://www.acronis.com/"
         image={SponsorAcronisPng}
         tier="Silver"
       >
         <p className="mt-3">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Acronis sets the standard for hybrid cloud data protection through its
+          backup, disaster recovery, and secure file sync and share solutions.
+          Powered by the Acronis AnyData Engine and set apart by its image
+          technology, Acronis delivers easy, complete and affordable data
+          protection of all files, applications and operating systems across any
+          environment—virtual, physical, cloud and mobile.
+        </p>
+        <p>
+          Founded in 2003, Acronis protects the data of over 5 million consumers
+          and 500,000 businesses in over 145 countries. With more than 100
+          patents, Acronis products have been named best product of the year,
+          and cover a range of features, including migration, cloning and
+          replication. Today, Acronis solutions are available worldwide through
+          a global network of service providers, distributors and cloud
+          resellers.
         </p>
       </SponsorCardContent>
-      */}
     </ContentCard>{' '}
   </div>
 )
