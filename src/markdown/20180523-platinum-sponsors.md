@@ -1,6 +1,6 @@
 ---
 path: "/news/platinum-sponsors"
-date: "2018-05-24"
+date: "2018-05-23"
 title: "Platinum Sponsors for PyCon APAC 2018"
 ---
 
