@@ -61,10 +61,6 @@ const commonSchedule = {
             speaker: 'Hilda Ng Li Fang',
           },
           {
-            title: 'Build Your Own Telegram (Cat) Bot',
-            speaker: 'Clarence Castillo',
-          },
-          {
             title: 'Introduction to Pipenv',
             speaker: 'Siow YiSheng',
           },
@@ -95,6 +91,10 @@ const commonSchedule = {
           {
             title: 'FOSSASIA PSLab - Pocket Science Lab',
             speaker: 'Mario Behling',
+          },
+          {
+            title: 'Introduction to Pandas',
+            speaker: 'Poh PengYu',
           },
         ],
       },
@@ -287,7 +287,8 @@ const tracks = {
       },
       {
         time: '4:30pm - 5:15pm',
-        speaker: 'Novia Listiyani Wirhaspati, Associate Data Scientist at Traveloka Indonesia',
+        speaker:
+          'Novia Listiyani Wirhaspati, Associate Data Scientist at Traveloka Indonesia',
         abstract:
           "So, you have heard that moments where Deep Reinforcement Learning (DRL) has empowered machines to win games against human. But then, what's next? In this talk, we are going to discuss how we implement Proximal Policy Optimization (PPO) - a method in DRL - to solve real-world business problem.",
         title:
@@ -349,7 +350,8 @@ const tracks = {
       },
       {
         time: '4:30pm - 5:10pm',
-        speaker: 'Tang Ing Wei, Lead System Engineer at ROKKI Avionics Sdn. Bhd',
+        speaker:
+          'Tang Ing Wei, Lead System Engineer at ROKKI Avionics Sdn. Bhd',
         abstract:
           "We can tame the concurrency in Python even through the constraint of GIL by using the concept of Communicating Sequential Process (CSP). This is a sysadmin's sharing on how to tame the bewilderment among various OS's in daily tasks by utilizing Python's concurrency libraries and modules.",
         title: 'Taming System with Python: A Sysadmin perspective',
