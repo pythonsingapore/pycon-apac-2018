@@ -194,7 +194,8 @@ const tracks = {
       },
       {
         time: '11:30am - 12:00pm',
-        speaker: 'David Tan, Software Developer at Thoughtworks',
+        speaker:
+          'David Tan & Ramsey Khalaf, Software Developers at Thoughtworks',
         abstract:
           'ML practitioners can have a hard time deploying their models to production, even though continuous & fear-free deployments is a solved problem in software engineering. We will demonstrate how we can apply "continuous delivery" principles to reduce deployment time from weeks/months into <30-minutes',
         title:
@@ -301,7 +302,8 @@ const tracks = {
     day2: [
       {
         time: '10:45am - 11:25am',
-        speaker: 'Chinab Chugh, Co-Founder at Jublia',
+        speaker:
+          'Chinab Chugh, Co-Founder at Jublia & Ikhsan Rosyidin, SUTD Student Intern at Jublia',
         abstract:
           'The talk focuses on how a SaaS project can be flexible to the business needs of their clients. It will discuss on a custom structure we have built using Python 3.6 to extend our core technology for client customisations, with emphasis on building rapidly and quick code deployments.',
         title: 'A scalable blueprint for product customization with Python 3 ',
