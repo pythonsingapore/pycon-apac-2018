@@ -26,13 +26,13 @@ const YoungCodersPage = () => (
       </p>
       <ULListStyleNone>
         <li>
-          9 am to 12 noon: <b>Introduction to Python</b>
+          8.30 am to 11.30 am: <b>Introduction to Python</b>
         </li>
         <li>
-          9 am to 12 noon: <b>Programming micro:bits using MicroPython</b>
+          8.30 am to 11.30 am: <b>Programming micro:bits using MicroPython</b>
         </li>
         <li>
-          9 am to 12 noon: <b>Python web development with Flask</b>
+          8.30 am to 11.30 am: <b>Python web development with Flask</b>
         </li>
         <li>
           1 pm to 4 pm:{' '}
@@ -41,14 +41,12 @@ const YoungCodersPage = () => (
         <li>
           1 pm to 4 pm: <b>Solving Project Euler problems in Python</b>
         </li>
-        <li>
-          1 pm to 4 pm: <b>Your idea here :)</b>
-        </li>
       </ULListStyleNone>
     </ContentCard>
     <ContentCard>
       <h1>Attending</h1>
       <p>
+        Please note that AM workshops will be conducted at Dunman High School (10 Tanjong Rhu Road. Singapore 436895) 
         <del>If you are interested in participating, please register at&nbsp;
         <a href="https://tinyurl.com/pyconapac18youngcoders">
           tinyurl.com/pyconapac18youngcoders
