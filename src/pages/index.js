@@ -18,20 +18,16 @@ const IndexPage = () => (
     <img src={headerJpg} style={{ width: '100%' }} />
     <div className="container">
       <ContentCard className="text-center">
-        <h1>Ticket Sales Are Open!</h1>
+        <h1>Ticket Sales Are Closed!</h1>
         <p>
-          If you would like to attend the conference, you may now do so on our
-          event page at eventnook.com:
+          The Python community has once again shown that there is great demand!
+          We are proud to announce that PyCon APAC 2018 is a sold-out event and
+          with more than 350 pax this year will be the biggest PyCon we ever had
+          in Singapore.
         </p>
-        <a href="https://www.eventnook.com/event/pyconapac2018" target="_blank">
-          <Button color="primary" size="lg">
-            Get Your Ticket Now!
-          </Button>
-        </a>
-        <p className="text-muted mt-3">
-          Note: Tickets are available until May 28 or as long as stocks last. We
-          have no door rate on the event day, so please get your ticket in
-          advance.
+        <p>
+          If you did not manage to get a ticket, please note that all talks will
+          be uploaded on Youtube shortly after the conference!
         </p>
       </ContentCard>
 
