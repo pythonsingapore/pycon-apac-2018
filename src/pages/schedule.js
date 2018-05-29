@@ -261,8 +261,7 @@ const tracks = {
           'Sowmya Krishnan, Senior Consultant at Thoughtworks; Yew Wee, Consultant at Thoughtworks',
         abstract:
           'With the growing need to produce and consume data to/from a myriad number of applications, data pipelines have become an integral part of our systems. In this talk, we would like to share our experience of using Apache Airflow for our data ingestion use case.',
-        title:
-          'Data Ingestion in Python using Apache Airflow',
+        title: 'Data Ingestion in Python using Apache Airflow',
       },
       {
         time: '12:15pm - 1:10pm',
@@ -281,12 +280,9 @@ const tracks = {
       },
       {
         time: '2:00pm - 2:40pm',
-        speaker:
-          'TBD',
-        abstract:
-          'TBD',
-        title:
-          'Talk about Quantified Self',
+        speaker: 'TBD',
+        abstract: 'TBD',
+        title: 'Talk about Quantified Self',
       },
       {
         time: '2:45pm - 3:25pm',
@@ -294,10 +290,11 @@ const tracks = {
         abstract: '',
         title: 'Tea Break',
         type: 'break',
-      },      
+      },
       {
         time: '3:30pm - 4:45pm',
-        speaker: 'Novia Listiyani Wirhaspati, Associate Data Scientist at Traveloka Indonesia',
+        speaker:
+          'Novia Listiyani Wirhaspati, Associate Data Scientist at Traveloka Indonesia',
         abstract:
           "So, you have heard that moments where Deep Reinforcement Learning (DRL) has empowered machines to win games against human. But then, what's next? In this talk, we are going to discuss how we implement Proximal Policy Optimization (PPO) - a method in DRL - to solve real-world business problem.",
         title:
@@ -311,7 +308,7 @@ const tracks = {
       {
         time: '10:45am - 11:25am',
         speaker:
-          'Chinab Chugh, Co-Founder at Jublia & Ikhsan Rosyidin, SUTD Student Intern at Jublia',
+          'Chinab Chugh, Co-Founder at Jublia & Ikhsan Rosyidin, Software Engineer at Jublia',
         abstract:
           'The talk focuses on how a SaaS project can be flexible to the business needs of their clients. It will discuss on a custom structure we have built using Python 3.6 to extend our core technology for client customisations, with emphasis on building rapidly and quick code deployments.',
         title: 'A scalable blueprint for product customization with Python 3 ',
@@ -360,7 +357,8 @@ const tracks = {
       },
       {
         time: '4:15pm - 4:55pm',
-        speaker: 'Tang Ing Wei, Lead System Engineer at ROKKI Avionics Sdn. Bhd',
+        speaker:
+          'Tang Ing Wei, Lead System Engineer at ROKKI Avionics Sdn. Bhd',
         abstract:
           "We can tame the concurrency in Python even through the constraint of GIL by using the concept of Communicating Sequential Process (CSP). This is a sysadmin's sharing on how to tame the bewilderment among various OS's in daily tasks by utilizing Python's concurrency libraries and modules.",
         title: 'Taming System with Python: A Sysadmin perspective',
@@ -421,9 +419,10 @@ const tracks = {
       },
       {
         time: '4:15pm - 4:55pm',
-        speaker: 'Rishabh Shah, Associate Tech. Architect at Systango Technologies',
+        speaker:
+          'Rishabh Shah, Associate Tech. Architect at Systango Technologies',
         abstract:
-          'Ever wanted to play your favourite song on a guitar quickly even when you don\'t know how to play a guitar? Our Python based MIDI to guitar tabs Transcriber can help you do that. You just need to find your song in MIDI format (with .mid as file extension), and let our Python Transcriber do its magic!',
+          "Ever wanted to play your favourite song on a guitar quickly even when you don't know how to play a guitar? Our Python based MIDI to guitar tabs Transcriber can help you do that. You just need to find your song in MIDI format (with .mid as file extension), and let our Python Transcriber do its magic!",
         title: 'Learn Guitar Via Python Programming',
       },
     ],
@@ -483,8 +482,7 @@ const tracks = {
       {
         time: '4:10pm - 4:55pm',
         speaker: 'TBD',
-        abstract:
-          'TBD',
+        abstract: 'TBD',
         title: 'Python & the Job Market',
       },
     ],
