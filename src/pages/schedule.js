@@ -194,8 +194,7 @@ const tracks = {
       },
       {
         time: '11:30am - 12:00pm',
-        speaker:
-          'David Tan & Ramsey Khalaf, Software Developers at Thoughtworks',
+        speaker: 'Lory Nunez, Data Scientist/Data Engineer at J.P. Morgan',
         abstract:
           'Natural Language Processing (NLP) is a component of Artificial Intelligence. Knowledge of NLP can make unstructured text data add tremendous value to any application. We will go over basic NLP tasks, techniques and tools. We will end with an NLP app built from open source libraries.',
         title:
