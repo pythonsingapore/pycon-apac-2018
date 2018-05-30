@@ -18,6 +18,14 @@ const IndexPage = () => (
     <img src={headerJpg} style={{ width: '100%' }} />
     <div className="container">
       <ContentCard className="text-center">
+        <h1>Conference Schedule is Live!</h1>
+        <p>
+          The conference begins on Thursday, May 31 at 8am. Have a look at our{' '}
+          <Link to="/schedule/">conference schedule now!</Link>!
+        </p>
+      </ContentCard>
+
+      <ContentCard className="text-center">
         <h1>Ticket Sales Are Closed!</h1>
         <p>
           The Python community has once again shown that there is great demand!
@@ -31,20 +39,6 @@ const IndexPage = () => (
         </p>
       </ContentCard>
 
-      <ContentCard className="text-center">
-        <h1>Call For Proposals Closed</h1>
-        <p>
-          We would like to thank more than 120 awesome Python community members
-          from all over the world to take the time and submit a proposal! This
-          conference would not be possible without your invaluable contribution.
-        </p>
-        <p>
-          As our venue only has limited space, we were not able to accept all
-          proposals. If your proposal has not been selected, we hope you will
-          submit a new proposal next year and of course we hope to meet you at
-          the conference as an attendee never the less :)
-        </p>
-      </ContentCard>
       <ContentCard className="text-center">
         <h1>Meet Our Keynote Speakers!</h1>
       </ContentCard>

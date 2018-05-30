@@ -606,9 +606,15 @@ class ConferenceSchedulePage extends React.Component {
 
         <ContentCard>
           <h1>Conference Schedule</h1>
-          <Button href="#day1">{commonSchedule.day1.label}</Button>{' '}
-          <Button href="#day2">{commonSchedule.day2.label}</Button>{' '}
-          <Button href="#day3">{commonSchedule.day3.label}</Button>
+          <Button className="mt-1" href="#day1">
+            {commonSchedule.day1.label}
+          </Button>{' '}
+          <Button className="mt-1" href="#day2">
+            {commonSchedule.day2.label}
+          </Button>{' '}
+          <Button className="mt-1" href="#day3">
+            {commonSchedule.day3.label}
+          </Button>
           {Object.keys(commonSchedule).map(day => {
             return (
               <div key={day}>
