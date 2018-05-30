@@ -183,7 +183,7 @@ const commonSchedule = {
 
 const tracks = {
   dataScience: {
-    tabHeader: 'Track 1: Data Science',
+    tabHeader: 'Track 1: Data Science (Room SR1)',
     day2: [
       {
         time: '10:45am - 11:25am',
@@ -302,7 +302,7 @@ const tracks = {
     ],
   },
   webDevOps: {
-    tabHeader: 'Track 2: Web Development / DevOps',
+    tabHeader: 'Track 2: Web Development / DevOps (Room SR3)',
     day2: [
       {
         time: '10:45am - 11:25am',
@@ -427,7 +427,7 @@ const tracks = {
     ],
   },
   others: {
-    tabHeader: 'Track 3: Other',
+    tabHeader: 'Track 3: Other (Room SR2)',
     day2: [
       {
         time: '10:45am - 11:25am',
