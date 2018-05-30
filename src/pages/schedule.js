@@ -74,7 +74,7 @@ const commonSchedule = {
           },
           {
             title: 'Transform, Transfer and Predict',
-            speaker: 'Liling Tan',
+            speaker: 'Liling Tan, Jia Ying Jen & Basil Han King Kwang',
           },
           {
             title: 'Introduction to JupyterLab',
