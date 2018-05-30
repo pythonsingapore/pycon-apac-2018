@@ -193,7 +193,7 @@ const tracks = {
         title: 'Building Siri : AI Powered Chatbots',
       },
       {
-        time: '11:30am - 12:00pm',
+        time: '11:30am - 12:10pm',
         speaker: 'Lory Nunez, Data Scientist/Data Engineer at J.P. Morgan',
         abstract:
           'Natural Language Processing (NLP) is a component of Artificial Intelligence. Knowledge of NLP can make unstructured text data add tremendous value to any application. We will go over basic NLP tasks, techniques and tools. We will end with an NLP app built from open source libraries.',
@@ -201,7 +201,7 @@ const tracks = {
           'Teaching Computers ABCs: A Quick Intro to Natural Language Processing',
       },
       {
-        time: '12:15pm - 1:00pm',
+        time: '12:15pm - 1:10pm',
         speaker: '',
         title: 'Lunch',
         type: 'break',
@@ -214,14 +214,14 @@ const tracks = {
         title: 'GloVe - Python for Word Representation',
       },
       {
-        time: '2:00pm - 2:25pm',
+        time: '2:00pm - 2:40pm',
         speaker: 'Jeanne Choo, Engineer at AI Singapore',
         abstract:
           'Traditional training and testing workflows for machine learning models neglect important features, namely: reproducibility, interpretability, retraining and lifecycle management. This talk explores these ideas, shares latest developments, then implements an end-to-end example.',
         title: 'Better Care and Feeding of Machine Learning Models',
       },
       {
-        time: '2:25pm - 3:20pm',
+        time: '2:45pm - 3:25pm',
         speaker: '',
         title: 'Tea Break',
         type: 'break',
@@ -479,7 +479,7 @@ const tracks = {
         title: 'Test-Driven Development of a Static Code Analyzer in Python',
       },
       {
-        time: '4:10pm - 4:55pm',
+        time: '4:15pm - 4:55pm',
         speaker: 'TBD',
         abstract: 'TBD',
         title: 'Python & the Job Market',
