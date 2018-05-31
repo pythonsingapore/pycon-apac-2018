@@ -53,47 +53,49 @@ const commonSchedule = {
         urlText: 'Read more about workshops here...',
         talks: [
           {
-            title: 'IoT with Micropython and ESP8266',
+            title: 'IoT with Micropython and ESP8266  (Room S3)',
             speaker: 'Shang Liang',
           },
           {
-            title: 'Getting Started With Test Driven Development in Python',
+            title:
+              'Getting Started With Test Driven Development in Python  (Room SR2)',
             speaker: 'Hilda Ng Li Fang',
           },
           {
-            title: 'Introduction to Pipenv',
+            title: 'Introduction to Pipenv (Room S3)',
             speaker: 'Siow YiSheng',
           },
           {
-            title: 'Making a modern Python package',
+            title: 'Making a modern Python package  (Room SR2)',
             speaker: 'Joongi Kim',
           },
           {
-            title: 'Property-based testing and other insecticides',
+            title: 'Property-based testing and other insecticides  (Room SR2)',
             speaker: 'Zac Hatfield-Dodds',
           },
           {
-            title: 'Transform, Transfer and Predict',
+            title: 'Transform, Transfer and Predict  (Room SR3)',
             speaker: 'Liling Tan, Jia Ying Jen & Basil Han King Kwang',
           },
           {
-            title: 'Introduction to JupyterLab',
+            title: 'Introduction to JupyterLab (Room SR3)',
             speaker: 'Paul Lorett Amazona',
           },
           {
-            title: 'Building Alexa Skills with Python and Flask',
+            title: 'Building Alexa Skills with Python and Flask  (Room SR3)',
             speaker: 'Max Ong',
           },
           {
-            title: 'Your first Django website with cookiecutter-django',
+            title:
+              'Your first Django website with cookiecutter-django (Room SR2)',
             speaker: 'Liuyang Wan',
           },
           {
-            title: 'FOSSASIA PSLab - Pocket Science Lab',
+            title: 'FOSSASIA PSLab - Pocket Science Lab (Room SR3)',
             speaker: 'Mario Behling',
           },
           {
-            title: 'Introduction to Pandas',
+            title: 'Introduction to Pandas  (Room SR2)',
             speaker: 'Poh PengYu',
           },
         ],
