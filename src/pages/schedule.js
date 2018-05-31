@@ -413,18 +413,18 @@ const tracks = {
       },
       {
         time: '3:30pm - 4:10pm',
-        speaker: 'Abhishek Pandey, Senior Developer at Tilde Trading',
-        abstract:
-          'When you read about Ethereum smart contract tutorials, most likely, Truffle framework is used as an example. What the speaker wants to showcase is how easy it can be to use Python instead to not just test, but even run your smart contracts, including advanced scenarios like creating blockchain or launching ICO!',
-        title: 'Run your ICO using Python',
-      },
-      {
-        time: '4:15pm - 4:55pm',
         speaker:
           'Rishabh Shah, Associate Tech. Architect at Systango Technologies',
         abstract:
           "Ever wanted to play your favourite song on a guitar quickly even when you don't know how to play a guitar? Our Python based MIDI to guitar tabs Transcriber can help you do that. You just need to find your song in MIDI format (with .mid as file extension), and let our Python Transcriber do its magic!",
         title: 'Learn Guitar Via Python Programming',
+      },
+      {
+        time: '4:15pm - 4:55pm',
+        speaker: 'Abhishek Pandey, Senior Developer at Tilde Trading',
+        abstract:
+          'When you read about Ethereum smart contract tutorials, most likely, Truffle framework is used as an example. What the speaker wants to showcase is how easy it can be to use Python instead to not just test, but even run your smart contracts, including advanced scenarios like creating blockchain or launching ICO!',
+        title: 'Run your ICO using Python',
       },
     ],
   },
