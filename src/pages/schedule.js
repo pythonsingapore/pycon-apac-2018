@@ -281,9 +281,9 @@ const tracks = {
       },
       {
         time: '2:00pm - 2:40pm',
-        speaker: 'TBD',
-        abstract: 'TBD',
-        title: 'Talk about Quantified Self',
+        speaker: 'Mark Koester',
+        abstract: '',
+        title: 'Python For Self-Trackers: How To Become A Data-Driven You',
       },
       {
         time: '2:45pm - 3:25pm',
@@ -482,9 +482,10 @@ const tracks = {
       },
       {
         time: '4:15pm - 4:55pm',
-        speaker: 'TBD',
-        abstract: 'TBD',
-        title: 'Python & the Job Market',
+        speaker: 'Lee Wei Xuen',
+        abstract:
+          'For online jobs where data is largely unstructured and inconsistent, Python can be effectively utilized across various modelling and analysis workflows. This talk will go over the typical Python packages employed in a text-heavy environment and a walkthrough on some text information extraction methods.',
+        title: 'Python In The Job Market',
       },
     ],
     day3: [
