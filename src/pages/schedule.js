@@ -160,7 +160,7 @@ const commonSchedule = {
         time: '5:00pm - 5:30pm',
         speaker: 'Dr. Yves Hilpisch, CEO at The Python Quants',
         abstract: '',
-        title: 'ROOM LT19: Closing Keynote',
+        title: 'Closing Keynote',
       },
     ],
   },
@@ -185,7 +185,7 @@ const commonSchedule = {
 
 const tracks = {
   dataScience: {
-    tabHeader: 'Track 1: Data Science (Room LT19)',
+    tabHeader: 'Track 1: Data Science (Room SR1)',
     day2: [
       {
         time: '10:45am - 11:25am',
@@ -235,7 +235,7 @@ const tracks = {
         abstract:
           'Humans seek to know what the future holds. In order to predict the future, we have to study the past. Time series analysis can provide the right framework for prediction. This talk is focused on forecasting and anomaly detection.',
         title:
-          'ROOM LT19: Tracking the tracker: Time Series Analysis in Python From First Principles',
+          'Tracking the tracker: Time Series Analysis in Python From First Principles',
       },
       {
         time: '4:15pm - 4:45pm',
@@ -243,7 +243,7 @@ const tracks = {
         abstract:
           'ML practitioners can have a hard time deploying their models to production, even though continuous & fear-free deployments is a solved problem in software engineering. We will demonstrate how we can apply "continuous delivery" principles to reduce deployment time from weeks/months into <30-minutes',
         title:
-          'ROOM LT19: How to deploy machine learning models to production (frequently and safely)',
+          'How to deploy machine learning models to production (frequently and safely)',
       },
     ],
     day3: [
