@@ -295,7 +295,7 @@ const tracks = {
       {
         time: '3:30pm - 4:45pm',
         speaker:
-          'Novia Listiyani Wirhaspati, Associate Data Scientist at Traveloka Indonesia',
+          'Novia Listiyani Wirhaspati, Data Scientist at Traveloka Indonesia',
         abstract:
           "So, you have heard that moments where Deep Reinforcement Learning (DRL) has empowered machines to win games against human. But then, what's next? In this talk, we are going to discuss how we implement Proximal Policy Optimization (PPO) - a method in DRL - to solve real-world business problem.",
         title:
