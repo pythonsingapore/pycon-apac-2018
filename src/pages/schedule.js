@@ -86,8 +86,7 @@ const commonSchedule = {
             speaker: 'Max Ong',
           },
           {
-            title:
-              'Your first Django website with cookiecutter-django (Room SR2)',
+            title: 'Production-ready Django project with cookiecutter (Room SR2)',
             speaker: 'Liuyang Wan',
           },
           {
