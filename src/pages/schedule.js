@@ -53,47 +53,48 @@ const commonSchedule = {
         urlText: 'Read more about workshops here...',
         talks: [
           {
-            title: 'IoT with Micropython and ESP8266',
+            title: 'IoT with Micropython and ESP8266  (Room S3)',
             speaker: 'Shang Liang',
           },
           {
-            title: 'Getting Started With Test Driven Development in Python',
+            title:
+              'Getting Started With Test Driven Development in Python  (Room SR2)',
             speaker: 'Hilda Ng Li Fang',
           },
           {
-            title: 'Introduction to Pipenv',
+            title: 'Introduction to Pipenv (Room S3)',
             speaker: 'Siow YiSheng',
           },
           {
-            title: 'Making a modern Python package',
+            title: 'Making a modern Python package  (Room SR2)',
             speaker: 'Joongi Kim',
           },
           {
-            title: 'Property-based testing and other insecticides',
+            title: 'Property-based testing and other insecticides  (Room SR2)',
             speaker: 'Zac Hatfield-Dodds',
           },
           {
-            title: 'Transform, Transfer and Predict',
+            title: 'Transform, Transfer and Predict  (Room SR3)',
             speaker: 'Liling Tan, Jia Ying Jen & Basil Han King Kwang',
           },
           {
-            title: 'Introduction to JupyterLab',
+            title: 'Introduction to JupyterLab (Room SR3)',
             speaker: 'Paul Lorett Amazona',
           },
           {
-            title: 'Building Alexa Skills with Python and Flask',
+            title: 'Building Alexa Skills with Python and Flask  (Room SR3)',
             speaker: 'Max Ong',
           },
           {
-            title: 'Production-ready Django project with cookiecutter',
+            title: 'Production-ready Django project with cookiecutter (Room SR2)',
             speaker: 'Liuyang Wan',
           },
           {
-            title: 'FOSSASIA PSLab - Pocket Science Lab',
+            title: 'FOSSASIA PSLab - Pocket Science Lab (Room SR3)',
             speaker: 'Mario Behling',
           },
           {
-            title: 'Introduction to Pandas',
+            title: 'Introduction to Pandas  (Room SR2)',
             speaker: 'Poh PengYu',
           },
         ],
@@ -279,9 +280,9 @@ const tracks = {
       },
       {
         time: '2:00pm - 2:40pm',
-        speaker: 'TBD',
-        abstract: 'TBD',
-        title: 'Talk about Quantified Self',
+        speaker: 'Mark Koester',
+        abstract: '',
+        title: 'Python For Self-Trackers: How To Become A Data-Driven You',
       },
       {
         time: '2:45pm - 3:25pm',
@@ -293,7 +294,7 @@ const tracks = {
       {
         time: '3:30pm - 4:45pm',
         speaker:
-          'Novia Listiyani Wirhaspati, Associate Data Scientist at Traveloka Indonesia',
+          'Novia Listiyani Wirhaspati, Data Scientist at Traveloka Indonesia',
         abstract:
           "So, you have heard that moments where Deep Reinforcement Learning (DRL) has empowered machines to win games against human. But then, what's next? In this talk, we are going to discuss how we implement Proximal Policy Optimization (PPO) - a method in DRL - to solve real-world business problem.",
         title:
@@ -411,18 +412,18 @@ const tracks = {
       },
       {
         time: '3:30pm - 4:10pm',
-        speaker: 'Abhishek Pandey, Senior Developer at Tilde Trading',
-        abstract:
-          'When you read about Ethereum smart contract tutorials, most likely, Truffle framework is used as an example. What the speaker wants to showcase is how easy it can be to use Python instead to not just test, but even run your smart contracts, including advanced scenarios like creating blockchain or launching ICO!',
-        title: 'Run your ICO using Python',
-      },
-      {
-        time: '4:15pm - 4:55pm',
         speaker:
           'Rishabh Shah, Associate Tech. Architect at Systango Technologies',
         abstract:
           "Ever wanted to play your favourite song on a guitar quickly even when you don't know how to play a guitar? Our Python based MIDI to guitar tabs Transcriber can help you do that. You just need to find your song in MIDI format (with .mid as file extension), and let our Python Transcriber do its magic!",
         title: 'Learn Guitar Via Python Programming',
+      },
+      {
+        time: '4:15pm - 4:55pm',
+        speaker: 'Abhishek Pandey, Senior Developer at Tilde Trading',
+        abstract:
+          'When you read about Ethereum smart contract tutorials, most likely, Truffle framework is used as an example. What the speaker wants to showcase is how easy it can be to use Python instead to not just test, but even run your smart contracts, including advanced scenarios like creating blockchain or launching ICO!',
+        title: 'Run your ICO using Python',
       },
     ],
   },
@@ -480,9 +481,10 @@ const tracks = {
       },
       {
         time: '4:15pm - 4:55pm',
-        speaker: 'TBD',
-        abstract: 'TBD',
-        title: 'Python & the Job Market',
+        speaker: 'Lee Wei Xuen',
+        abstract:
+          'For online jobs where data is largely unstructured and inconsistent, Python can be effectively utilized across various modelling and analysis workflows. This talk will go over the typical Python packages employed in a text-heavy environment and a walkthrough on some text information extraction methods.',
+        title: 'Python In The Job Market',
       },
     ],
     day3: [

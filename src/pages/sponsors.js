@@ -217,7 +217,7 @@ const SponsorsPage = () => (
 
       <SponsorCardContent
         name="Solacetech"
-        url="https://www.solacetech.com.sg/"
+        url="http://www.solacetech.com.sg/"
         image={SponsorSolacetechPng}
         tier="Silver"
         portrait={true}
