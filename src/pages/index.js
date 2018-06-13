@@ -18,24 +18,13 @@ const IndexPage = () => (
     <img src={headerJpg} style={{ width: '100%' }} />
     <div className="container">
       <ContentCard className="text-center">
-        <h1>Conference Schedule is Live!</h1>
+        <h1>Slides for the Talks</h1>
         <p>
-          The conference begins on Thursday, May 31 at 8am. Have a look at our{' '}
-          <Link to="/schedule/">conference schedule now!</Link>!
-        </p>
-      </ContentCard>
-
-      <ContentCard className="text-center">
-        <h1>Ticket Sales Are Closed!</h1>
-        <p>
-          The Python community has once again shown that there is great demand!
-          We are proud to announce that PyCon APAC 2018 is a sold-out event and
-          with more than 350 pax this year will be the biggest PyCon we ever had
-          in Singapore.
+          We have collected almost all slides form our speakers now. Please
+          follow the link below:
         </p>
         <p>
-          If you did not manage to get a ticket, please note that all talks will
-          be uploaded on Youtube shortly after the conference!
+          <Link to="/news/slides">Slides for PyCon APAC 2018</Link>
         </p>
       </ContentCard>
 

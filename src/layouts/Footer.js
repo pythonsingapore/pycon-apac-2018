@@ -80,6 +80,11 @@ const Footer = () => (
           </p>
           <p>
             <FooterA>
+              <Link to="/news/slides">Slides for PyCon APAC 2018</Link>
+            </FooterA>
+            <br />
+            <br />
+            <FooterA>
               <Link to="/news/platinum-sponsors">
                 Platinum Sponsors for PyCon APAC 2018
               </Link>
@@ -89,13 +94,6 @@ const Footer = () => (
             <FooterA>
               <Link to="/news/gold-sponsors">
                 Gold Sponsors for PyCon APAC 2018
-              </Link>
-            </FooterA>
-            <br />
-            <br />
-            <FooterA>
-              <Link to="/news/silver-sponsors">
-                Silver Sponsors for PyCon APAC 2018
               </Link>
             </FooterA>
           </p>
