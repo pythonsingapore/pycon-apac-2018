@@ -566,35 +566,14 @@ class ConferenceSchedulePage extends React.Component {
   renderTab(day) {
     return (
       <div>
-        <Nav tabs>
-          {Object.keys(tracks).map(key => {
-            return (
-              <NavItem key={key}>
-                <NavLink
-                  key={key}
-                  className={classnames({
-                    active: this.state.activeTab === key,
-                  })}
-                  style={{
-                    color: this.state.activeTab === key ? '#2a56a2' : '#9eb2da',
-                  }}
-                  onClick={() => {
-                    this.toggle(key)
-                  }}
-                >
-                  <b>{tracks[key].tabHeader}</b>
-                </NavLink>
-              </NavItem>
-            )
-          })}
-        </Nav>
-        <TabContent activeTab={this.state.activeTab}>
-          {Object.keys(tracks).map(key => (
+        {Object.keys(tracks).map(key => (
+          <div key={key}>
+            <h3>{tracks[key].tabHeader}</h3>
             <TabPane tabId={key} key={key}>
               <Schedule talks={tracks[key][day]} />
             </TabPane>
-          ))}
-        </TabContent>
+          </div>
+        ))}
       </div>
     )
   }
@@ -621,7 +600,7 @@ class ConferenceSchedulePage extends React.Component {
             return (
               <div key={day}>
                 <br />
-                <h4 id={day}>{commonSchedule[day].label}</h4>
+                <h2 id={day}>{commonSchedule[day].label}</h2>
                 <br />
                 <Schedule talks={commonSchedule[day].opening} />
 
