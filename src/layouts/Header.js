@@ -68,30 +68,11 @@ class Header extends React.Component {
                     Venue
                   </Link>
                 </NavItem>
-                <UncontrolledDropdown nav>
-                  <DropdownToggle nav caret>
+                <NavItem>
+                  <Link to="/event/" className="nav-link">
                     Event
-                  </DropdownToggle>
-                  <DropdownMenu>
-                    <DropdownItem tag="div">
-                      <Link to="/schedule/">Conference Schedule</Link>
-                    </DropdownItem>
-                    <DropdownItem tag="div">
-                      <Link to="/workshops/">Workshops at PyCon APAC 2018</Link>
-                    </DropdownItem>
-                    <DropdownItem tag="div">
-                      <Link to="/edu-summit/">Education Summit</Link>
-                    </DropdownItem>
-                    <DropdownItem tag="div">
-                      <Link to="/young-coders/">
-                        Young Coders&rsquo; Workshops
-                      </Link>
-                    </DropdownItem>
-                    <DropdownItem tag="div">
-                      <Link to="/code-of-conduct/">Code of Conduct</Link>
-                    </DropdownItem>
-                  </DropdownMenu>
-                </UncontrolledDropdown>
+                  </Link>
+                </NavItem>
               </Nav>
             </Collapse>
           </Navbar>
