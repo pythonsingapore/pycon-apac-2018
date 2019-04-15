@@ -6,12 +6,12 @@ import ContentCard from '../components/ContentCard.js'
 const CodeOfConductPage = () => (
   <div className="container">
     <Helmet>
-      <title>Code Of Conduct | PyCon APAC 2018</title>
+      <title>Code Of Conduct | PyCon SG 2019</title>
     </Helmet>
     <ContentCard>
       <h1>Code of Conduct</h1>
       <p>
-        PyCon APAC is a community conference intended for networking and
+        PyCon SG is a community conference intended for networking and
         collaboration in the developer community.
       </p>
       <p>
@@ -30,7 +30,7 @@ const CodeOfConductPage = () => (
 
       <h2>The Short Version</h2>
       <p>
-        PyCon is dedicated to providing a harassment-free conference experience
+        PyCon SG is dedicated to providing a harassment-free conference experience
         for everyone, regardless of gender, sexual orientation, disability,
         physical appearance, body size, race, or religion. We do not tolerate
         harassment of conference participants in any form.
@@ -43,7 +43,7 @@ const CodeOfConductPage = () => (
       <p>
         Be kind to others. Do not insult or put down other attendees. Behave
         professionally. Remember that harassment and sexist, racist, or
-        exclusionary jokes are not appropriate for PyCon.
+        exclusionary jokes are not appropriate for PyCon SG.
       </p>
       <p>
         Attendees violating these rules may be asked to leave the conference
@@ -77,7 +77,7 @@ const CodeOfConductPage = () => (
       <p>
         Be careful in the words that you choose. Remember that sexist, racist,
         and other exclusionary jokes can be offensive to those around you.
-        Excessive swearing and offensive jokes are not appropriate for PyCon.
+        Excessive swearing and offensive jokes are not appropriate for PyCon SG.
       </p>
       <p>
         If a participant engages in behavior that violates this code of conduct,

@@ -1,7 +1,6 @@
 import React from 'react'
 import { Row, Col } from 'reactstrap'
 
-import ContentCard from '../components/ContentCard'
 import Sponsor from '../components/Sponsor'
 
 import SponsorAcronisPng from '../images/sponsor-acronis.png'
@@ -18,6 +17,10 @@ import SponsorZendeskPng from '../images/sponsor-zendesk.png'
 import Sponsor100OfferPng from '../images/sponsor-100offer.png'
 
 const Sponsors = () => (
+  <div></div>
+)
+
+const Sponsors2018 = () => (
   <div className="container">
     <div className="text-center">
       <h1 className="mt-5">Platinum Sponsors</h1>

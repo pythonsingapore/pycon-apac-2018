@@ -9,7 +9,7 @@ export default function Template({ data }) {
   return (
     <div className="container">
       <Helmet>
-        <title>{frontmatter.title} | PyCon APAC 2018</title>
+        <title>{frontmatter.title} | PyCon SG 2019</title>
       </Helmet>
       <ContentCard>
         <h1>{frontmatter.title}</h1>

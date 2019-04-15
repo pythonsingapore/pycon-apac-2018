@@ -50,7 +50,7 @@ const Footer = () => (
           </p>
           <p>
             <FooterSpan>
-              PyCon APAC is a conference about the programming language Python.
+              PyCon Singapore is a conference about the programming language Python.
               It is a community effort driven by the members of the Python User
               Group Singapore.
             </FooterSpan>
@@ -63,13 +63,12 @@ const Footer = () => (
           </p>
           <p>
             When:<br />
-            <FooterSpan>May 31st - June 2nd 2018</FooterSpan>
+            <FooterSpan>October 10 - October 12 2019</FooterSpan>
             <br />
             <br />
             Where:<br />
             <FooterSpan>
-              National University of Singapore Computing 1 (COM1) / Level 2<br />
-              13 Computing Drive Singapore 117417
+              TBC
             </FooterSpan>
           </p>
         </div>
@@ -79,23 +78,9 @@ const Footer = () => (
             <b>Latest News</b>
           </p>
           <p>
-            <FooterA>
-              <Link to="/news/slides">Slides for PyCon APAC 2018</Link>
-            </FooterA>
-            <br />
-            <br />
-            <FooterA>
-              <Link to="/news/platinum-sponsors">
-                Platinum Sponsors for PyCon APAC 2018
-              </Link>
-            </FooterA>
-            <br />
-            <br />
-            <FooterA>
-              <Link to="/news/gold-sponsors">
-                Gold Sponsors for PyCon APAC 2018
-              </Link>
-            </FooterA>
+            <FooterSpan>
+              Coming soon...
+            </FooterSpan>
           </p>
         </div>
         <div className="col-sm-3">

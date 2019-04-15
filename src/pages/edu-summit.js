@@ -84,7 +84,7 @@ const talks = [
           'Teaching AI Concepts with Python and Project Malmo',
         speaker: 'Dr Melvin Zhang',
         job: 'Computational Thinkerer at Computational Thinkerers',
-      },    
+      },
     ],
   },
   {
@@ -137,39 +137,25 @@ const talks = [
 const EduSummitPage = () => (
   <div className="container">
     <Helmet>
-      <title>Education Summit | PyCon APAC 2018</title>
+      <title>Education Summit | PyCon SG 2019</title>
     </Helmet>
 
     <ContentCard>
-      <h1>Education Summit @LT15, NUS School of Computing</h1>
+      <h1>Education Summit (Venue TBC)</h1>
       <p>
-        On <b>31 May 2018</b>, PyCon APAC 2018 will hold an Education Summit, a
-        gathering of educators focused on bringing computational thinking and
-        coding literacy, through Python, to the classroom and the community. We
-        invite passionate educators to join the discussion, share insights,
-        learn things and build networks! We are looking for educators from
-        various domains: authors, schools, tertiary institutions, non-profit
-        community-based programmes, and government.
+        On 25 June 2018, PyCon SG 2019 will hold an Education Summit, a gathering of educators focused on bringing computational thinking and coding literacy, through Python, to the classroom and the community. We invite passionate educators to join the discussion, share insights, learn things and build networks! We are looking for educators from various domains: authors, schools, tertiary institutions, non-profit community-based programmes, and government.
       </p>
     </ContentCard>
     <ContentCard>
       <h1>Schedule</h1>
-      <Schedule talks={talks} />
+      <p>The finalised schedule will be up by end May. We will have an exciting line-up of speakers from academia and industry with topics on Python in Singapore schools case studies, data science / AI / cybersecurity education and more. Stay tuned!</p>
+      <p>Current speakers: AI Singapore, BuildingBloCS, Eunoia Junior College, Grab Engineering, Nanyang Polytechnic, NUS ALSET, PayPal, The Intelligent Warehouse, {'<you can be here>'}. :)</p>
+      <p>If you would like to propose a regular or lightning talk for the Education Summit, please register at <a href="https://tinyurl.com/pyconsg19edu">https://tinyurl.com/pyconsg19edu</a> latest by Friday 17 May 2019 and we will get in touch asap!</p>
     </ContentCard>
     <ContentCard>
       <h1>Attending</h1>
-      <p>
-        If you are interested in participating in the Education Summit, please
-        register at&nbsp;
-        <a href="https://tinyurl.com/pyconapac18edusummit">
-          tinyurl.com/pyconapac18edusummit
-        </a>. Registration is open untill Friday, 18 May 2018 or when slots run
-        out. Participation in the Education Summit is free (thanks to our
-        sponsors) but as this is an invite-only for-educators event, only
-        eligible participants will be confirmed via email. If you have a
-        question, please contact{' '}
-        <a href="mailto:pyedu@computing.sg">pyedu@computing.sg</a>
-      </p>
+      <p>If you are interested in participating in the Education Summit, please register at <a href="https://tinyurl.com/pyconsg19edu">https://tinyurl.com/pyconsg19edu</a>. Registration is open until Friday, 14 June 2019 or when slots run out. Participation in the Education Summit is free but as this is an invite-only for-educators event, only eligible participants will be confirmed via email.</p>
+      <p>If you have a question, please contact <a href="mailto:pyedu@computing.sg">pyedu@computing.sg</a></p>
     </ContentCard>
   </div>
 )

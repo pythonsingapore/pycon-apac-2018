@@ -16,7 +16,7 @@ import {
 } from 'reactstrap'
 
 import bg1Jpg from '../images/bg1.jpg'
-import pyconApacLogoSvg from '../images/pycon-apac-logo.svg'
+import LogoSvg from '../images/pycon-sg-2019-logo.svg'
 
 const NavBg = styled.nav`
   background-image: url(${bg1Jpg});
@@ -45,29 +45,14 @@ class Header extends React.Component {
           <Navbar color="faded" dark expand="md">
             <Link to="/" className="nav-link" style={{ color: 'white' }}>
               <img
-                src={pyconApacLogoSvg}
-                alt="PyCon APAC 2018"
+                src={LogoSvg}
+                alt="PyCon Singapore 2019"
                 style={{ width: '200px' }}
               />
             </Link>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
-                <NavItem>
-                  <Link to="/news/" className="nav-link">
-                    News
-                  </Link>
-                </NavItem>
-                <NavItem>
-                  <Link to="/sponsors/" className="nav-link">
-                    Sponsors
-                  </Link>
-                </NavItem>
-                <NavItem>
-                  <Link to="/venue/" className="nav-link">
-                    Venue
-                  </Link>
-                </NavItem>
                 <NavItem>
                   <Link to="/event/" className="nav-link">
                     Event

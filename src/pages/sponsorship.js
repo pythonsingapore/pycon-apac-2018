@@ -8,7 +8,7 @@ import merlionPng from '../images/merlion.png'
 const SponsorshipPage = () => (
   <div className="container">
     <Helmet>
-      <title>Sponsorship | PyCon APAC 2018</title>
+      <title>Sponsorship | PyCon SG 2019</title>
     </Helmet>
 
     <ContentCard>

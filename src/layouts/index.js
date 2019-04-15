@@ -12,7 +12,7 @@ import indexCss from './index.css'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet>
-      <title>PyCon APAC 2018</title>
+      <title>PyCon SG 2019</title>
     </Helmet>
     <Header />
     {children()}

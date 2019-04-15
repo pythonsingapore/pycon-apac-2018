@@ -25,7 +25,7 @@ export const pageQuery = graphql`
 const NewsPage = props => (
   <div className="container">
     <Helmet>
-      <title>News | PyCon APAC 2018</title>
+      <title>News | PyCon SG 2019</title>
     </Helmet>
     <ContentCard>
       <h1>News</h1>

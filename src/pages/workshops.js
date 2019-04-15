@@ -9,7 +9,7 @@ import ULListStyleNone from '../components/ULListStyleNone.js'
 const WorkshopsPage = () => (
   <div className="container">
     <Helmet>
-      <title>Workshops | PyCon APAC 2018</title>
+      <title>Workshops | PyCon SG 2019</title>
     </Helmet>
 
     <ContentCard>

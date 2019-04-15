@@ -582,7 +582,7 @@ class ConferenceSchedulePage extends React.Component {
     return (
       <div className="container">
         <Helmet>
-          <title>Conference Schedule | PyCon APAC 2018</title>
+          <title>Conference Schedule | PyCon SG 2019</title>
         </Helmet>
 
         <ContentCard>

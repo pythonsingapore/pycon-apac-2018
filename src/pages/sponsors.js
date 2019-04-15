@@ -21,7 +21,7 @@ import Sponsor100OfferPng from '../images/sponsor-100offer.png'
 const SponsorsPage = () => (
   <div className="container">
     <Helmet>
-      <title>Sponsors | PyCon APAC 2018</title>
+      <title>Sponsors | PyCon SG 2019</title>
     </Helmet>
     <ContentCard>
       <h1>A Big Thank You To Our Sponsors!</h1>
