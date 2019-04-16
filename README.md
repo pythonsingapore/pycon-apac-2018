@@ -6,13 +6,14 @@ This site has been built with [GatsbyJS](https://www.gatsbyjs.org/)
 
 * Clone this repo
 * yarn install
-* yarn develop
+* gatsby develop
 * Open site at localhost:8000
 
 ## Deployment
 
 * You need write access to this repo
-* yarn deploy
+* Just git push - this will kick off a deployment on netlify
+  * The netlify account is owned by Martin Brochhaus (mbrochh)
 
 ## Project Structure
 

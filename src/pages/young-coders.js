@@ -38,7 +38,7 @@ const YoungCodersPage = () => (
         <li>Python web development with Flask (to be updated)</li>
       </ul>
       <p>Check back this page as we will be updating new workshops contents. If you would like to propose a workshop topic and/or is able to run one at your school, let us know by filling up <a href="https://tinyurl.com/bbcs19pyconsg4u">https://tinyurl.com/bbcs19pyconsg4u</a>!</p>
-      <p>You may also be interested in our Introductory machine learning with Python workshop recorded with FOSSASIA Academy. :) </p>
+      <p>You may also be interested in our <a href="https://youtu.be/7H7mvU1JLOU">Introductory machine learning with Python workshop recorded with FOSSASIA Academy</a>. :) </p>
     </ContentCard>
     <ContentCard>
       <h1>Attending</h1>
@@ -49,7 +49,7 @@ const YoungCodersPage = () => (
       <h2 id="competitive-programming">Workshop: Kickstarting Competitive Programming!</h2>
       <p>
         <b>Date:</b> Sat 20 Apr 2019 or Sat 4 May 2019 or Sat 18 May 2019<br />
-        <b>Time:</b> 8.30 am - 11.30 am<br />
+        <b>Time:</b> 9:00 am - 11:00 am<br />
         <b>Venue:</b> Dunman High School Computer Lab S1<br />
       </p>
 
