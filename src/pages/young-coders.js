@@ -170,6 +170,25 @@ const YoungCodersPage = () => (
       </ol>
     </ContentCard>
 
+    <ContentCard>
+      <h2 id="google-vision">Workshop: Google Vision Kit with Python</h2>
+      <p>
+        <b>Date:</b> Fri 31 May 2019<br />
+        <b>Time:</b> 2 pm - 5 pm<br />
+        <b>Venue:</b> Nanyang Polytechnic, Block L, L532
+      </p>
+
+      <p>Using Google Vision Kit with Python, we introduce students to the world of artificial intelligence through a fun, interesting and hands-on way. Google Vision Kit lets students build their own intelligent camera that can see and recognize objects using machine learning, which can be applied widely. Students will be paired into groups of 3 and allocated a Vision Kit.</p>
+
+      <p>At the end of the workshop, students should have an idea of what is AI and how AI can be beneficial and solve many real-life issues.</p>
+
+      <p>This workshop is open to secondary school students who are keen to learn, some knowledge of Python programming language would be a bonus.</p>
+
+      <p>
+        <b>Sign up:</b> <a href="https://tinyurl.com/bbcs19vision31may">https://tinyurl.com/bbcs19vision31may</a>
+      </p>
+    </ContentCard>
+
   </div>
 )
 
