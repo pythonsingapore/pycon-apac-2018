@@ -11,7 +11,7 @@ const IndexPage = () => (
     <Helmet title="PyCon SG 2019" />
     <div className="container">
       <ContentCard className="text-center">
-        <h1>Save The Date</h1>
+        <h1>Save The Date!</h1>
         <p>
           The planning for PyCon Singapore 2019 has begun! We are aiming
           to hold the conference from<br /> Thursday to Saturday on <b>October 10 - October 12 2019</b>.
