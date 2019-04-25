@@ -31,6 +31,7 @@ const YoungCodersPage = () => (
         <li><a href="#minecraft-ai">Learn AI by playing Minecraft</a></li>
         <li><a href="#ai-datacamp">AI for Students: Learn data science and machine learning with DataCamp</a></li>
         <li><a href="#the-girl-code">Learn Python with TheGirlCode (for female students only)</a></li>
+        <li><a href="#google-vision">Google Vision Kit with Python</a></li>  
         <li>Introduction to drone programming with Python (to be updated)</li>
         <li>Introduction to IoT with Python (to be updated)</li>
         <li>Introduction to Python (to be updated)</li>
