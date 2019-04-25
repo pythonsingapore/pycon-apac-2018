@@ -58,6 +58,12 @@ class Header extends React.Component {
                     Event
                   </Link>
                 </NavItem>
+                <NavItem>
+                  <Link to="/news/" className="nav-link">
+                    News
+                  </Link>
+                </NavItem>
+
               </Nav>
             </Collapse>
           </Navbar>

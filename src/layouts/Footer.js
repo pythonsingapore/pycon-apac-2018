@@ -78,9 +78,9 @@ const Footer = () => (
             <b>Latest News</b>
           </p>
           <p>
-            <FooterSpan>
-              Coming soon...
-            </FooterSpan>
+            <FooterA>
+              <Link to="/news/hello-world/">Hello World</Link>
+            </FooterA>
           </p>
         </div>
         <div className="col-sm-3">
