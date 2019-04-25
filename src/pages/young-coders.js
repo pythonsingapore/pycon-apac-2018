@@ -56,7 +56,7 @@ const YoungCodersPage = () => (
 
       <p>Participants will learn useful algorithms and implement them in Python to solve interesting and challenging competitive programming tasks. This workshop will kickstart students on their competitive programming journey to solve beginner level tasks in the <a href="https://codingcompetitions.withgoogle.com/kickstart">Google Kickstart Competition</a>!</p>
 
-      <p>Outstanding participants will also be invited to attend a 10-session advanced algorithmic training course (valued at $1000) by NUS School of Computing from May 2019 at highly subsidised rates in preparation for NOI 2020. [Terms and conditions apply - For non-past NOI medallists only and priority given to students currently studying Computing in Singapore schools.] Outstanding performers in NOI will get a chance to represent Singapore in IOI 2010 which Singapore will be hosting.</p>
+      <p>Outstanding participants will also be invited to attend a 10-session advanced algorithmic training course (valued at $1000) by NUS School of Computing from May 2019 at highly subsidised rates in preparation for NOI 2020. [Terms and conditions apply - For non-past NOI medallists only and priority given to students currently studying Computing in Singapore schools.] Outstanding performers in NOI will get a chance to represent Singapore in IOI 2020 which Singapore will be hosting.</p>
 
       <p>Bonus: <a href="https://cpbook.net/">Competitive Programming book</a> for outstanding participants!</p>
 
