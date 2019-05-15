@@ -30,13 +30,13 @@ const YoungCodersPage = () => (
         <li><a href="#cyber-security">Experiential Introduction to Cyber Security</a></li>
         <li><a href="#minecraft-ai">Learn AI by playing Minecraft</a></li>
         <li><a href="#ai-datacamp">AI for Students: Learn data science and machine learning with DataCamp</a></li>
+        <li><a href="#intro-python">Introduction to Python</a></li>
+        <li><a href="#web-flask">Introduction to web development with Flask</a></li>
         <li><a href="#the-girl-code">Learn Python with TheGirlCode (for female students only)</a></li>
         <li><a href="#google-vision">Google Vision Kit with Python</a></li>  
         <li>Introduction to drone programming with Python (to be updated)</li>
         <li>Introduction to IoT with Python (to be updated)</li>
-        <li>Introduction to Python (to be updated)</li>
         <li>Programming micro:bits using MicroPython (to be updated)</li>
-        <li>Python web development with Flask (to be updated)</li>
       </ul>
       <p>Check back this page as we will be updating new workshops contents. If you would like to propose a workshop topic and/or is able to run one at your school, let us know by filling up <a href="https://tinyurl.com/bbcs19pyconsg4u">https://tinyurl.com/bbcs19pyconsg4u</a>!</p>
       <p>You may also be interested in our <a href="https://youtu.be/7H7mvU1JLOU">Introductory machine learning with Python workshop recorded with FOSSASIA Academy</a>. :) </p>
@@ -125,6 +125,35 @@ const YoungCodersPage = () => (
       <p>
         <b>18 May 2019 Signup:</b> <a href="https://tinyurl.com/bbcs19ai4s18may">https://tinyurl.com/bbcs19ai4s18may</a><br />
         <b>1 Jun 2019 Signup:</b> <a href="https://tinyurl.com/bbcs19ai4s1jun">https://tinyurl.com/bbcs19ai4s1jun</a>
+      </p>
+    </ContentCard>
+
+    <ContentCard>
+      <h2 id="intro-python">Workshop: Introduction to Python</h2>
+      <p>
+        <b>Date:</b> Sat 18 May 2019<br />
+        <b>Time:</b> 11.30 am to 2.00 pm<br />
+        <b>Venue:</b> Dunman High School Computer Lab S1
+      </p>
+
+      <p>"Singhealth data breach" and "Driverless cars rolled out at NTU". What do all these have in common? Expose yourself to the world of programming and technology as we embark on learning one of the most widely used languages, Python.  Build a BMI calculator, try programming challenges and more! For participants who are interested in data science or artificial intelligence or web development, it is highly recommended to attend this beginner level course first to learn some Python basics. It is not necessary for participants to have any prerequisite knowledge of Python.</p>
+      <p>
+        <b>Signup:</b> <a href="https://tinyurl.com/bbcs19python18may">https://tinyurl.com/bbcs19python18may</a><br />
+      </p>
+    </ContentCard>
+
+    <ContentCard>
+      <h2 id="web-flask">Workshop: Introduction to web development with Flask</h2>
+      <p>
+        <b>Date:</b> Sat 25 May 2019<br />
+        <b>Time:</b> 9.00 am to 12.00 noon<br />
+        <b>Venue:</b> Dunman High School Computer Lab S1
+      </p>
+
+      <p>Participants will learn how to create dynamic web applications though using Flask with basic Python, HTML and Jinja. It is recommended that participants know some Python basics.</p>
+
+      <p>
+        <b>Signup:</b> <a href="https://tinyurl.com/bbcs19flaskintro25may">https://tinyurl.com/bbcs19flaskintro25may</a><br />
       </p>
     </ContentCard>
 
