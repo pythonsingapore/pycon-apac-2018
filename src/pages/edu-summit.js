@@ -141,9 +141,9 @@ const EduSummitPage = () => (
     </Helmet>
 
     <ContentCard>
-      <h1>Education Summit (Venue TBC)</h1>
+      <h1>Education Summit at Google</h1>
       <p>
-        On 25 June 2018, PyCon SG 2019 will hold an Education Summit, a gathering of educators focused on bringing computational thinking and coding literacy, through Python, to the classroom and the community. We invite passionate educators to join the discussion, share insights, learn things and build networks! We are looking for educators from various domains: authors, schools, tertiary institutions, non-profit community-based programmes, and government.
+        On Tuesday 25 June 2019, PyCon SG 2019 will hold an Education Summit, a gathering of educators focused on bringing computational thinking and coding literacy, through Python, to the classroom and the community. We invite passionate educators to join the discussion, share insights, learn things and build networks! We are looking for educators from various domains: authors, schools, tertiary institutions, non-profit community-based programmes, and government.
       </p>
     </ContentCard>
     <ContentCard>
