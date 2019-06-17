@@ -22,89 +22,107 @@ const talks = [
   },
   {
     time: '9:00am',
-    speaker: 'Mr Lee Tsung-Hsien',
+    speaker: 'Mr Ivan Zimine',
     job:
-      'Staff Software Engineer at Toyota Research Institute, co-author of Elements of Programming Interviews in C++/Java/Python',
+      'Fellow human at Odd-e',
     title:
-      'Learning programming and problem solving through solving algorithm problems',
+      'Professional Software Development. Can it be taught?',
   },
   {
     time: '9:30am',
-    speaker: 'Mr Dean Ang Ngee Keng',
+    speaker: 'Google',
     job:
-      'Senior Computing Teacher at School of Science and Technology, Singapore',
+      'Google',
     title:
-      'from python import magic - The Magic of Teaching Python using Python',
+      'CS Outreach Programs',
   },
   {
     time: '10:00am',
-    speaker: 'Mr Calvin Heng',
-    job: 'Computing teacher at Zhonghua Secondary School',
-    title: 'Computing @ Zhonghua Secondary',
+    speaker: 'Prof Chris Boesch',
+    job: 'Associate Professor at National University of Singapre ALSET',
+    title: 'Transferring Python Skills Learned in Game-based Learning Environments over to Real-world Environments',
   },
   {
     time: '10:30am',
-    speaker: 'Mr V Surya',
-    job: 'Computing teacher at Jurong West Secondary School',
+    speaker: 'Mr Laurence Putra',
+    job: 'Software engineer at PayPal',
     title:
-      'From Coders to Raiders, using Repl.it - A Story-based Approach to Teaching Python',
+      'Solving operational challenges while teaching',
   },
   {
     time: '11:00am',
-    speaker: 'Prof Ben Leong',
+    speaker: 'Ms Liu Weiling',
     job:
-      'Associate Professor at National University of Singapore, Director at MOE Experimental Systems & Technology Lab',
-    title: 'Teaching Python to Working Adults',
+      'Computing teacher at Jurong Pioneer Junior College',
+    title: 'Developing Students’ Computational Thinking Skills through Interest-driven Activities',
   },
   {
     time: '11:30am',
-    speaker: 'Dr Norman Lee',
+    speaker: 'Dr Oka Kurniawan',
     job: 'Senior Lecturer at Singapore University of Technology and Design',
-    title: 'Digital World Evolved - Machine Learning Powered',
+    title: 'Can we use Games or Gamification to help students learn programming?',
   },
   {
     time: '12:00pm',
-    title: 'Group Photo & Lunch & Networking',
+    title: 'Group Photo & Lunch',
     subtitle:
-      'with Prof Leong Hon Wai, Associate Professor at National University of Singapore School of Computing',
+      'Please network! :)',
   },
   {
     time: '1:00pm',
     title: 'Lightning Talks',
-    subtitle: '(slots available)',
+    subtitle: '(limited slots available)',
     talks: [
       {
         title:
-          '2D Challenge – Pedagogy for Multidisciplinary Computing Assignment',
-        speaker: 'Dr Oka Kurniawan',
+          'Some student misconceptions on Python programming',
+        speaker: 'Dr Norman Lee',
         job: 'Senior Lecturer at Singapore University of Technology and Design',
       },
       {
         title:
-          'Teaching AI Concepts with Python and Project Malmo',
-        speaker: 'Dr Melvin Zhang',
-        job: 'Computational Thinkerer at Computational Thinkerers',
+          'Making Python our Digital Mother Tongue',
+        speaker: 'Mr S S Goh',
+        job: 'App Developer at Softpack Microsystems Pte Ltd',
       },
+      {
+        title:
+          'Programming Education in Taiwan',
+        speaker: 'Mr Noah Chen',
+        job: 'Program Manager at FOSSASIA',
+      },     
+      {
+        title:
+          'Data visualisation with Orange',
+        speaker: 'Ms Drishti Jain',
+        job: 'Computer Engineer at heart',
+      },
+      {
+        title:
+          'Lessons Learnt from Teaching NLP',
+        speaker: 'Ms Tan Liling',
+        job: 'Research Scientist at Rakuten Institute of Technology',
+      },          
     ],
   },
   {
     time: '1:30pm',
-    speaker: 'Ms Juliana Ung',
-    job: 'Founder and educator at LCCL Coding Academy',
-    title: 'Growth in a Coding Classroom: A Mindset Perspective',
+    speaker: 'Mr Rishabh Anand',
+    job: 'Student at National Junior College',
+    title: 'Democratising Data Science and Public AI Education: A student\'s perspective',
   },
   {
     time: '2:00pm',
     speaker: 'Dr Chen Weiqiang',
     job: 'Lecturer at Eunoia Junior College',
-    title: 'Experiences in developing students for coding, data science and artificial intelligence',
+    title: 'Using Google Colab for Data Science/AI education and Kaggle competitions',
   },
   {
     time: '2:30pm',
-    speaker: 'Mr Praveen Patil',
+    speaker: 'Dr Melvin Zhang',
     job:
-      'Physics Lecturer at GSS Belgaum, maintainer of SPOSH Code2Learn repository',
-    title: 'Python for Experiential Learning in STEAM',
+      'Computational Thinkerer',
+    title: 'Project Malmo with malmopy',
   },
   {
     time: '3:00pm',
@@ -112,24 +130,30 @@ const talks = [
     job:
       'Engineering Manager, Grab, author of bestselling children programming books in Bangladesh',
     title:
-      'Python vs C - Experience in implementing data structures and algorithms',
+      'Teaching Programming the Hard Way - Writing Books',
   },
   {
     time: '3:30pm',
-    speaker: 'Mr Alvin Ho',
-    job: 'CoderDojo @ Nee Soon East Community Club',
-    title: 'CoderDojo @ SG',
+    speaker: 'Timothy Liu Kaihui',
+    job: 'Student Researcher at Singapore University of Technology and Design',
+    title: 'OpenSUTD',
   },
   {
     time: '4:00pm',
-    speaker: '',
-    job: '',
-    title: 'Panel Discussion & AUA (Ask Us Anything)',
+    speaker: 'AI Singapore',
+    job: 'AI Singapore',
+    title: 'AI for Students',
+  },    
+  {
+    time: '4:30pm',
+    speaker: 'Prof Leong Hon Wai',
+    job: 'Associate Professor at National University of Singapore, School of Computing',
+    title: 'Conversation with Prof Leong',
   },
   {
     time: '5:00pm',
     speaker: '',
-    job: '',
+    job: 'x',
     title: 'Lucky Draw & Closing',
   },
 ]
@@ -148,14 +172,14 @@ const EduSummitPage = () => (
     </ContentCard>
     <ContentCard>
       <h1>Schedule</h1>
-      <p>The finalised schedule will be up by end May. We will have an exciting line-up of speakers from academia and industry with topics on Python in Singapore schools case studies, data science / AI / cybersecurity education and more. Stay tuned!</p>
+      <!--p>The finalised schedule will be up by end May. We will have an exciting line-up of speakers from academia and industry with topics on Python in Singapore schools case studies, data science / AI / cybersecurity education and more. Stay tuned!</p>
       <p>Current speakers: AI Singapore, BuildingBloCS, Eunoia Junior College, Grab Engineering, Nanyang Polytechnic, NUS ALSET, PayPal, The Intelligent Warehouse, {'<you can be here>'}. :)</p>
-      <p>If you would like to propose a regular or lightning talk for the Education Summit, please register at <a href="https://tinyurl.com/pyconsg19edu">https://tinyurl.com/pyconsg19edu</a> latest by Friday 17 May 2019 and we will get in touch asap!</p>
+      <p>If you would like to propose a regular or lightning talk for the Education Summit, please register at <a href="https://tinyurl.com/pyconsg19edu">https://tinyurl.com/pyconsg19edu</a> latest by Friday 17 May 2019 and we will get in touch asap!</p-->
     </ContentCard>
     <ContentCard>
       <h1>Attending</h1>
-      <p>If you are interested in participating in the Education Summit, please register at <a href="https://tinyurl.com/pyconsg19edu">https://tinyurl.com/pyconsg19edu</a>. Registration is open until Friday, 14 June 2019 or when slots run out. Participation in the Education Summit is free but as this is an invite-only for-educators event, only eligible participants will be confirmed via email.</p>
-      <p>If you have a question, please contact <a href="mailto:pyedu@computing.sg">pyedu@computing.sg</a></p>
+      <!--p>If you are interested in participating in the Education Summit, please register at <a href="https://tinyurl.com/pyconsg19edu">https://tinyurl.com/pyconsg19edu</a>. Registration is open until Friday, 14 June 2019 or when slots run out. Participation in the Education Summit is free but as this is an invite-only for-educators event, only eligible participants will be confirmed via email.</p-->
+      <p>Registration is closed. For queries, please contact <a href="mailto:pyedu@computing.sg">pyedu@computing.sg</a></p>
     </ContentCard>
   </div>
 )
