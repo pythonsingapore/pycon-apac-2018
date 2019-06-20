@@ -35,7 +35,7 @@ const talks = [
   {
     time: "10:00am",
     speaker: "Prof Chris Boesch",
-    job: "Associate Professor at National University of Singapre ALSET",
+    job: "Associate Professor at National University of Singapore ALSET",
     title:
       "Transferring Python Skills Learned in Game-based Learning Environments over to Real-world Environments"
   },
@@ -62,7 +62,7 @@ const talks = [
   {
     time: "12:00pm",
     title: "Group Photo & Lunch",
-    subtitle: "Please network! :)"
+    subtitle: "Please network :)"
   },
   {
     time: "1:00pm",
@@ -85,15 +85,15 @@ const talks = [
         job: "Program Manager at FOSSASIA"
       },
       {
-        title: "Data visualisation with Orange",
-        speaker: "Ms Drishti Jain",
-        job: "Computer Engineer at heart"
-      },
-      {
         title: "Lessons Learnt from Teaching NLP",
         speaker: "Ms Tan Liling",
         job: "Research Scientist at Rakuten Institute of Technology"
-      }
+      },
+      {
+        title: "Python Education for Ladies",
+        speaker: "",
+        job: "Organiser for PyLadies Delhi and PyLadies BLR"
+      }      
     ]
   },
   {
@@ -101,7 +101,7 @@ const talks = [
     speaker: "Mr Rishabh Anand",
     job: "Student at National Junior College",
     title:
-      "Democratising Data Science and Public AI Education: A student's perspective"
+      "On the Democratising of Public AI Education in Singapore"
   },
   {
     time: "2:00pm",
@@ -111,16 +111,22 @@ const talks = [
       "Using Google Colab for Data Science/AI education and Kaggle competitions"
   },
   {
-    time: "2:30pm",
+    time: "2:20pm",
     speaker: "Dr Melvin Zhang",
     job: "Computational Thinkerer",
     title: "Project Malmo with malmopy"
   },
   {
+    time: "2:40pm",
+    speaker: "Ms Drishti Jain",
+    job: "Computer Engineer at heart",
+    title: "Illuminate Data with Visualisation"
+  },  
+  {
     time: "3:00pm",
     speaker: "Mr Tamim Shahriar",
     job:
-      "Engineering Manager, Grab, author of bestselling children programming books in Bangladesh",
+      "Engineering Manager, Grab, author of bestselling programming books in Bangladesh",
     title: "Teaching Programming the Hard Way - Writing Books"
   },
   {
@@ -131,9 +137,9 @@ const talks = [
   },
   {
     time: "4:00pm",
-    speaker: "AI Singapore",
-    job: "AI Singapore",
-    title: "AI for Students"
+    speaker: "Ryzak Kamis",
+    job: "AI Engineer at AI Singapore",
+    title: "Supercharge your Programming, Data Science and Machine Learning"
   },
   {
     time: "4:30pm",
