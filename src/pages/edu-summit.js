@@ -90,9 +90,14 @@ const talks = [
         job: "Research Scientist at Rakuten Institute of Technology"
       },
       {
-        title: "Python Education for Ladies",
-        speaker: "",
-        job: "Organiser for PyLadies Delhi and PyLadies BLR"
+        title: "Reinventing music education with Python (music blocks SL project)",
+        speaker: "Iqra Muhammad",
+        job: "Sugar Labs Outreach"
+      },      
+      {
+        title: "Transforming pedagogy with Python",
+        speaker: "Vipul Gupta",
+        job: "Sugar Labs Outreach"
       }      
     ]
   },
@@ -163,7 +168,7 @@ const EduSummitPage = () => (
     </Helmet>
 
     <ContentCard>
-      <h1>Education Summit at Google</h1>
+      <h1>Education Summit at VIVISTOP Orchard, *SCAPE, #05-07A/B, 2 Orchard Link, Singapore 237978.</h1>
       <p>
         On Tuesday 25 June 2019, PyCon SG 2019 will hold an Education Summit, a
         gathering of educators focused on bringing computational thinking and
