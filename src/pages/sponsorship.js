@@ -53,6 +53,7 @@ const SponsorshipPage = () => (
             Sponsorship amount: <b>S$5,000</b>
           </li>
           <li>Large company logo on banner in the conference venue</li>
+          <li>Company logo on the official conference t-shirts</li>
           <li>Exposure as Platinum sponsor on the PyCon SG 2019 website</li>
           <li>Company name on press releases and pre-event mailings</li>
           <li>Booth in the reception/exhibition area (Priority)</li>
