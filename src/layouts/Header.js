@@ -1,6 +1,6 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import styled from 'styled-components'
+import React from "react";
+import Link from "gatsby-link";
+import styled from "styled-components";
 import {
   Collapse,
   Navbar,
@@ -12,42 +12,42 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem,
-} from 'reactstrap'
+  DropdownItem
+} from "reactstrap";
 
-import bg1Jpg from '../images/bg1.jpg'
-import LogoSvg from '../images/pycon-sg-2019-logo.svg'
+import bg1Jpg from "../images/bg1.jpg";
+import LogoSvg from "../images/pycon-sg-2019-logo.svg";
 
 const NavBg = styled.nav`
   background-image: url(${bg1Jpg});
-`
+`;
 
 class Header extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
 
-    this.toggle = this.toggle.bind(this)
+    this.toggle = this.toggle.bind(this);
     this.state = {
-      isOpen: false,
-    }
+      isOpen: false
+    };
   }
 
   toggle = () => {
     this.setState({
-      isOpen: !this.state.isOpen,
-    })
-  }
+      isOpen: !this.state.isOpen
+    });
+  };
 
   render() {
     return (
       <NavBg>
         <div className="container">
           <Navbar color="faded" dark expand="md">
-            <Link to="/" className="nav-link" style={{ color: 'white' }}>
+            <Link to="/" className="nav-link" style={{ color: "white" }}>
               <img
                 src={LogoSvg}
                 alt="PyCon Singapore 2019"
-                style={{ width: '200px' }}
+                style={{ width: "200px" }}
               />
             </Link>
             <NavbarToggler onClick={this.toggle} />
@@ -59,18 +59,22 @@ class Header extends React.Component {
                   </Link>
                 </NavItem>
                 <NavItem>
+                  <Link to="/sponsorship/" className="nav-link">
+                    Sponsorship
+                  </Link>
+                </NavItem>
+                <NavItem>
                   <Link to="/news/" className="nav-link">
                     News
                   </Link>
                 </NavItem>
-
               </Nav>
             </Collapse>
           </Navbar>
         </div>
       </NavBg>
-    )
+    );
   }
 }
 
-export default Header
+export default Header;
