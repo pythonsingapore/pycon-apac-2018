@@ -3,6 +3,7 @@ import Helmet from "react-helmet";
 import React from "react";
 import styled from "styled-components";
 
+import TemplateWrapper from "../layouts";
 import ContentCard from "../components/ContentCard.js";
 import ULListStyleNone from "../components/ULListStyleNone.js";
 import Schedule from "../components/Schedule.js";
@@ -25,7 +26,7 @@ const talks = [
     speaker: "Mr Lee Hoi Leong",
     job: "APAC Business Development Director at Mistletoe",
     title: "Introduction to VIVITA"
-  },  
+  },
   {
     time: "9:15am",
     speaker: "Mr Ivan Zimine",
@@ -62,7 +63,8 @@ const talks = [
   {
     time: "11:45am",
     speaker: "Mr Gi Soong Chee, Computing Teacher at Dunman High School",
-    job: "with Dr Norman Lee, Senior Lecturer at Singapore University of Technology and Design",
+    job:
+      "with Dr Norman Lee, Senior Lecturer at Singapore University of Technology and Design",
     title: "Google CS Outreach Programs - A DHS Teacher's Perspective"
   },
   {
@@ -70,7 +72,7 @@ const talks = [
     speaker: "Mr Gi Soong Chee",
     job: "Computing Teacher at Dunman High School",
     title: "Who's Who"
-  },   
+  },
   {
     time: "12:15pm",
     title: "Lunch",
@@ -105,20 +107,19 @@ const talks = [
         title: "ClassDo - Virtual Collaboration Rooms",
         speaker: "Mr Chung Chiew Farn",
         job: "CEO at ClassDo"
-      },      
+      },
       {
         title: "Transforming pedagogy with Python",
         speaker: "Iqra Muhammad",
         job: "Sugar Labs Outreach"
-      } 
+      }
     ]
   },
   {
     time: "2:00pm",
     speaker: "Mr Rishabh Anand",
     job: "Student at National Junior College",
-    title:
-      "On the Democratising of Public AI Education in Singapore"
+    title: "On the Democratising of Public AI Education in Singapore"
   },
   {
     time: "2:30pm",
@@ -138,7 +139,7 @@ const talks = [
     speaker: "Ms Drishti Jain",
     job: "Computer Engineer at heart",
     title: "Illuminate Data with Visualisation"
-  },  
+  },
   {
     time: "3:35pm",
     speaker: "Mr Tamim Shahriar",
@@ -174,33 +175,38 @@ const talks = [
 ];
 
 const EduSummitPage = () => (
-  <div className="container">
-    <Helmet>
-      <title>Education Summit | PyCon SG 2019</title>
-    </Helmet>
+  <TemplateWrapper>
+    <div className="container">
+      <Helmet>
+        <title>Education Summit | PyCon SG 2019</title>
+      </Helmet>
 
-    <ContentCard>
-      <h1>Education Summit at VIVISTOP Orchard, *SCAPE, #05-07A/B, 2 Orchard Link, Singapore 237978.</h1>
-      <p>
-        On Tuesday 25 June 2019, PyCon SG 2019 will hold an Education Summit, a
-        gathering of educators focused on bringing computational thinking and
-        coding literacy, through Python, to the classroom and the community. We
-        invite passionate educators to join the discussion, share insights,
-        learn things and build networks!
-      </p>
-    </ContentCard>
-    <ContentCard>
-      <h1>Schedule</h1>
-      <Schedule talks={talks} />
-    </ContentCard>
-    <ContentCard>
-      <h1>Attending</h1>
-      <p>
-        Registration is closed. For queries, please contact{" "}
-        <a href="mailto:pyedu@computing.sg">pyedu@computing.sg</a>
-      </p>
-    </ContentCard>
-  </div>
+      <ContentCard>
+        <h1>
+          Education Summit at VIVISTOP Orchard, *SCAPE, #05-07A/B, 2 Orchard
+          Link, Singapore 237978.
+        </h1>
+        <p>
+          On Tuesday 25 June 2019, PyCon SG 2019 will hold an Education Summit,
+          a gathering of educators focused on bringing computational thinking
+          and coding literacy, through Python, to the classroom and the
+          community. We invite passionate educators to join the discussion,
+          share insights, learn things and build networks!
+        </p>
+      </ContentCard>
+      <ContentCard>
+        <h1>Schedule</h1>
+        <Schedule talks={talks} />
+      </ContentCard>
+      <ContentCard>
+        <h1>Attending</h1>
+        <p>
+          Registration is closed. For queries, please contact{" "}
+          <a href="mailto:pyedu@computing.sg">pyedu@computing.sg</a>
+        </p>
+      </ContentCard>
+    </div>
+  </TemplateWrapper>
 );
 
 export default EduSummitPage;
