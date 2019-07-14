@@ -68,6 +68,11 @@ class Header extends React.Component {
                     News
                   </Link>
                 </NavItem>
+                <NavItem>
+                  <Link to="/archives/" className="nav-link">
+                    Archives
+                  </Link>
+                </NavItem>
               </Nav>
             </Collapse>
           </Navbar>
