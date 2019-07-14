@@ -1,17 +1,17 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import styled from 'styled-components'
+import React from "react";
+import Link from "gatsby-link";
+import styled from "styled-components";
 
-import bg1Jpg from '../images/bg1.jpg'
+import bg1Jpg from "../images/bg1.jpg";
 
 const FooterP = styled.p`
   color: #afafaf;
-`
+`;
 
 const FooterSpan = styled.span`
   color: #afafaf;
   fontsize: 10pt;
-`
+`;
 
 const FooterA = styled.a`
   color: #afafaf;
@@ -26,20 +26,20 @@ const FooterA = styled.a`
       color: white;
     }
   }
-`
+`;
 
 const FooterHR = styled.p`
   width: 100%;
   bordertop: 1px solid #afafaf;
-`
+`;
 
 const Footer = () => (
   <div
     className="mt-5"
     style={{
       backgroundImage: `url(${bg1Jpg})`,
-      color: '#dfdfdf',
-      padding: '1em',
+      color: "#dfdfdf",
+      padding: "1em"
     }}
   >
     <div className="container">
@@ -50,9 +50,9 @@ const Footer = () => (
           </p>
           <p>
             <FooterSpan>
-              PyCon Singapore is a conference about the programming language Python.
-              It is a community effort driven by the members of the Python User
-              Group Singapore.
+              PyCon Singapore is a conference about the programming language
+              Python. It is a community effort driven by the members of the
+              Python User Group Singapore.
             </FooterSpan>
           </p>
         </div>
@@ -62,14 +62,14 @@ const Footer = () => (
             <b>When & Where</b>
           </p>
           <p>
-            When:<br />
+            When:
+            <br />
             <FooterSpan>October 10 - October 12 2019</FooterSpan>
             <br />
             <br />
-            Where:<br />
-            <FooterSpan>
-              TBC
-            </FooterSpan>
+            Where:
+            <br />
+            <FooterSpan>TBC</FooterSpan>
           </p>
         </div>
         <div className="col-sm-3">
@@ -78,6 +78,10 @@ const Footer = () => (
             <b>Latest News</b>
           </p>
           <p>
+            <FooterA>
+              <Link to="/news/call-for-proposals/">Call For Proposals</Link>
+            </FooterA>
+            <br />
             <FooterA>
               <Link to="/news/hello-world/">Hello World</Link>
             </FooterA>
@@ -105,6 +109,6 @@ const Footer = () => (
       </div>
     </div>
   </div>
-)
+);
 
-export default Footer
+export default Footer;
