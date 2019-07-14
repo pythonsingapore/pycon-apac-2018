@@ -18,6 +18,28 @@ const IndexPage = () => (
         </p>
       </ContentCard>
 
+      <ContentCard className="text-center">
+        <h1>Call For Proposals Now Open</h1>
+        <p>
+          If you would like to present a 30-45 minutes conference talk or even a
+          three hour tutorial, please send us your talk proposal as soon as
+          possible! The call for proposals will end on <b>August 31st</b>.
+        </p>
+        <p>
+          <a className="btn btn-primary" href="http://bit.ly/pycon-sg-2019-cfp">
+            Submit a 30 minutes conference talk
+          </a>
+        </p>
+        <p>
+          <a
+            className="btn btn-primary"
+            href="http://bit.ly/pycon-sg-2019-cfp-tutorials"
+          >
+            Submit a 3 hour tutorial
+          </a>
+        </p>
+      </ContentCard>
+
       <ContentCard>
         <h1>EDU Summit & Young Coder's Workshops</h1>
         <p>
