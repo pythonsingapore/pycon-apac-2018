@@ -22,6 +22,14 @@ const TemporarySchedule = props => {
       <Table striped>
         <tbody>
           <TalkItem
+            author="Max Wang"
+            title="Machine Learning Model Development and Operation in DBS"
+          />
+          <TalkItem
+            author="THU YA KYAW"
+            title="Demystifying RPA with Python and tagUI"
+          />
+          <TalkItem
             author="Graham Dumpleton"
             title="Building an interactive training environment using JupyterHub"
           />
