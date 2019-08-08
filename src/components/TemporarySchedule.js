@@ -26,6 +26,11 @@ const TemporarySchedule = props => {
             title="Machine Learning Model Development and Operation in DBS"
           />
           <TalkItem
+            author="Ben Sadeghi"
+            title="Koalas: Pandas API on Apache Spark "
+          />
+          <TalkItem author="Keith Rozario" title="Python on AWS Lambda" />
+          <TalkItem
             author="THU YA KYAW"
             title="Demystifying RPA with Python and tagUI"
           />
