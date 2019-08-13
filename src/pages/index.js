@@ -4,7 +4,7 @@ import Link from "gatsby-link";
 
 import ContentCard from "../components/ContentCard";
 import TemplateWrapper from "../layouts";
-import PyConBanner from "../../static/pycon_singapore_2019-v5.jpg";
+import PyConBanner from "../../static/pycon_singapore_2019-v5-small.jpg";
 
 const IndexPage = () => (
   <TemplateWrapper>
