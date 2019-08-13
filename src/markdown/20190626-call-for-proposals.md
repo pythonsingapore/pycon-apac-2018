@@ -20,11 +20,3 @@ Any topic is suitable, as along as it is somehow related to Python.
     Submit a 30 minutes conference talk
     </a>
 </p>
-<p>
-    <a
-    class="btn btn-primary"
-    href="http://bit.ly/pycon-sg-2019-cfp-tutorials"
-    >
-    Submit a 3 hour tutorial
-    </a>
-</p>

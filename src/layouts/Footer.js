@@ -69,7 +69,7 @@ const Footer = () => (
             <br />
             Where:
             <br />
-            <FooterSpan>TBC</FooterSpan>
+            <FooterSpan>Republic Polytechnic, Woodlands</FooterSpan>
           </p>
         </div>
         <div className="col-sm-3">

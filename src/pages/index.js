@@ -4,22 +4,31 @@ import Link from "gatsby-link";
 
 import ContentCard from "../components/ContentCard";
 import TemplateWrapper from "../layouts";
+import PyConBanner from "../../static/pycon_singapore_2019-v5.jpg";
 
 const IndexPage = () => (
   <TemplateWrapper>
     <Helmet title="PyCon SG 2019" />
+    <div>
+      <img src={PyConBanner} style={{ width: "100%" }} />
+    </div>
     <div className="container">
       <ContentCard className="text-center">
-        <h1>Save The Date!</h1>
+        <h1>Early Bird Ticket Sales Are Open</h1>
         <p>
-          The planning for PyCon Singapore 2019 has begun! We are aiming to hold
-          the conference from
-          <br /> Thursday to Saturday on <b>October 10 - October 12 2019</b>.
+          PyCon Singapore 2019 is happening from Thursday to Saturday on October
+          10 - October 12 2019 at Republic Polytechnic!
         </p>
+        <a
+          className="btn btn-primary"
+          href="https://www.eventnook.com/event/pyconsingapore2019/"
+        >
+          Get Your Ticket Now
+        </a>
       </ContentCard>
 
       <ContentCard className="text-center">
-        <h1>Call For Proposals Now Open</h1>
+        <h1>Call For Proposals Is Open</h1>
         <p>
           If you would like to present a 30-45 minutes conference talk or even a
           three hour tutorial, please send us your talk proposal as soon as
@@ -29,25 +38,6 @@ const IndexPage = () => (
           <a className="btn btn-primary" href="http://bit.ly/pycon-sg-2019-cfp">
             Submit a 30 minutes conference talk
           </a>
-        </p>
-        <p>
-          <a
-            className="btn btn-primary"
-            href="http://bit.ly/pycon-sg-2019-cfp-tutorials"
-          >
-            Submit a 3 hour tutorial
-          </a>
-        </p>
-      </ContentCard>
-
-      <ContentCard>
-        <h1>EDU Summit & Young Coder's Workshops</h1>
-        <p>
-          While the conference itself will be in October, our usual annual
-          events "<Link to="/edu-summit">EDU Summit</Link>" and "
-          <Link to="/young-coders">Young Coder's Workshops</Link>" will take
-          place in April, May and June. Please visit the{" "}
-          <Link to="/event">Event</Link> page to learn more!
         </p>
       </ContentCard>
     </div>
