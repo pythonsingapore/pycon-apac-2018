@@ -126,7 +126,7 @@ const VenuePage = () => (
           budgets and preferences. They range from backpacker, budget and youth
           hostels to boutique and five-star hotels. To find the perfect
           accommodation for your stay in Singapore, use{" "}
-          <a href="https://agoda.com/">Agoda.com</a>.
+          <a href="https://traveloka.com/">Traveloka.com</a>.
         </p>
       </ContentCard>
     </div>
