@@ -244,8 +244,16 @@ const TutorialsPage = () => (
             will be required.
           </p>
         </Tutorial>
-        <Tutorial speaker="Mr. Gi" title="Drone Programming with Tello EDU">
-          More info coming soon...
+        <Tutorial speaker="BuildingBloCS students" title="Drone Programming with Tello EDU">
+          <p>This is an introductory programmng course to use Python to connect 
+          and control a Tello EDU drone using User Datagram Protocol (UDP).
+          </p>
+          
+          <p>Participants should have basic familiarity with Python i.e. 
+          variables, data types, conditionals, loops, arrays and functions. 
+          There is a limit of 20 participants. Tello EDU drones will be provided 
+          on a pair sharing basis. This is a BYOD workshop.
+          </p>  
         </Tutorial>
       </ContentCard>
     </div>
