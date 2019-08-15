@@ -8,7 +8,7 @@ const Tutorial = props => {
       <p>
         <em>by {speaker}</em>
       </p>
-      <p>{children}</p>
+      {children}
       <hr />
     </div>
   );
