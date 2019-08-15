@@ -19,6 +19,16 @@ const EventPage = props => (
           conference as a speaker or as an attendee, please take one moment and
           read our <Link to="/code-of-conduct/">Code of Conduct</Link>.
         </p>
+        <h2>PyCon Singapore 2019 Tutorials</h2>
+        <p>
+          This year will feature six exciting tutorials on the third and last
+          day of the conference.
+        </p>
+        <p>
+          <Link to="/tutorials/">
+            <button className="btn btn-primary">View Tutorials</button>
+          </Link>
+        </p>
         <h2>PyCon Singapore 2019 Schedule</h2>
         <p>
           We are still accepting more proposals for talks and tutorials. Our
