@@ -30,8 +30,7 @@ const IndexPage = () => (
       <ContentCard className="text-center">
         <h1>Call For Proposals Is Open</h1>
         <p>
-          If you would like to present a 30-45 minutes conference talk or even a
-          three hour tutorial, please send us your talk proposal as soon as
+          If you would like to present a 30-45 minutes conference talk, please send us your talk proposal as soon as
           possible! The call for proposals will end on <b>August 31st</b>.
         </p>
         <p>
