@@ -31,7 +31,7 @@ const TemporarySchedule = props => {
           />
           <TalkItem author="Keith Rozario" title="Python on AWS Lambda" />
           <TalkItem
-            author="THU YA KYAW"
+            author="Thu Ya Kyaw"
             title="Demystifying RPA with Python and tagUI"
           />
           <TalkItem
