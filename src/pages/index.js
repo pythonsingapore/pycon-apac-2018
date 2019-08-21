@@ -26,19 +26,6 @@ const IndexPage = () => (
           Get Your Ticket Now
         </a>
       </ContentCard>
-
-      <ContentCard className="text-center">
-        <h1>Call For Proposals Is Open</h1>
-        <p>
-          If you would like to present a 30-45 minutes conference talk, please send us your talk proposal as soon as
-          possible! The call for proposals will end on <b>August 31st</b>.
-        </p>
-        <p>
-          <a className="btn btn-primary" href="http://bit.ly/pycon-sg-2019-cfp">
-            Submit a 30 minutes conference talk
-          </a>
-        </p>
-      </ContentCard>
     </div>
   </TemplateWrapper>
 );

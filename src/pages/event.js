@@ -31,13 +31,8 @@ const EventPage = props => (
         </p>
         <h2>PyCon Singapore 2019 Schedule</h2>
         <p>
-          We are still accepting more proposals for talks and tutorials. Our
-          final schedule will be published here about two weeks before the
-          conference.
-        </p>
-        <p>
-          In the meantime, you can find all accepted talks and tutorials listed
-          here:
+          We have now accepted all 24 talks for the conference! We will update
+          the list below this coming Sunday!
         </p>
 
         <TemporarySchedule />
