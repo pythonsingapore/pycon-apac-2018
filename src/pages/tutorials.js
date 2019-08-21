@@ -244,8 +244,25 @@ const TutorialsPage = () => (
             will be required.
           </p>
         </Tutorial>
-        <Tutorial speaker="Mr. Gi" title="Drone Programming with Tello EDU">
-          More info coming soon...
+        <Tutorial speaker="BuildingBloCS students" title="Drone Programming with Tello EDU">
+          <p>
+            Computing students from BuildingBloCS schools present an 
+            introductory programmng course in using Python to connect and
+            and control a Tello EDU drone using User Datagram Protocol (UDP). 
+            The main focus is to learn about computational thinking concepts 
+            such as decomposition, abstraction, pattern recognition and 
+            algorithm design, as well as the relationship between hardware
+            and software. Participants will appreciate these ideas in any
+            problem solving context beyond drone flying.
+          </p>
+          
+          <p>
+            Participants should have basic familiarity with Python i.e. 
+            variables, data types, conditionals, loops, arrays and functions. 
+            There is a class size limit of 40 participants. Tello EDU drones 
+            will be provided during the tutorial on a pair sharing basis. 
+            This is a BYOD workshop.
+          </p>  
         </Tutorial>
       </ContentCard>
     </div>
