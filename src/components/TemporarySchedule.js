@@ -2,7 +2,7 @@ import React from "react";
 import styled from 'styled-components'
 
 import { Table, Row, Col } from "reactstrap";
-import Mengi from '../../static/speakers/Mengyi-Yuan.jpg'
+import Mengi from '../../static/speakers/Mengyi-Yuan.JPG'
 import Keith from '../../static/speakers/Keith-Rozario.jpg'
 import Novia from '../../static/speakers/Novia-Listiyani.jpg'
 import Christianto from '../../static/speakers/Christianto-Kurniawan.jpg'
