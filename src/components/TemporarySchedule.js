@@ -179,6 +179,7 @@ const TemporarySchedule = props => {
             author="Mengi Yuan"
             title="Scaling product support with Python at WhatsApp"
             occupation="Solutions Engineer"
+            company="Facebook"
             image={Mengi}
           />
 
