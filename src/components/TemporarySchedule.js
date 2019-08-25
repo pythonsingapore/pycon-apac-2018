@@ -22,11 +22,18 @@ import Thu from '../../static/speakers/Thu-Ya-Kyaw.jpg'
 
 const SpeakerImage = styled.div`
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   background-size: cover;
   background-position: center;
   border-radius: 100px;
+`
+
+const Content = styled.div`
+  width: 100%;
+  @media(max-width:575px) {
+    text-align: center;
+  }
 `
 
 const TalkItem = props => {
@@ -34,22 +41,24 @@ const TalkItem = props => {
   return (
     <tr>
       <td>
-        <Row>
-          <Col sm="2">
-            <SpeakerImage style={{ backgroundImage: `url(${image})` }} />
-          </Col>
-          <Col>
+        <div style={{ display: 'flex' }}>
+          <div style={{ flex: '0 0 100px' }}>
+            <Content>
+              <SpeakerImage style={{ display: 'inline-block', backgroundImage: `url(${image})` }} />
+            </Content>
+          </div>
+          <div style={{ flex: '1 1 auto', marginLeft: '1em' }}>
             <div style={{ height: '100%', display: 'flex', alignItems: 'center' }}>
-              <div >
+              <Content>
                 <b>{title}</b><br />
                 <em>by {author}, {occupation}</em>
                 {company &&
                   <em> at {company}</em>
                 }
-              </div>
+              </Content>
             </div>
-          </Col>
-        </Row>
+          </div>
+        </div>
       </td>
     </tr>
   );
