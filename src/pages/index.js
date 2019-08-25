@@ -26,6 +26,22 @@ const IndexPage = () => (
           Get Your Ticket Now
         </a>
       </ContentCard>
+      <ContentCard className="text-center">
+        <h1>Talks & Speakers</h1>
+        <p>
+          Have a look at our <Link to="conference">Talks & Speakers</Link> page to learn
+          more about the wide range of topics that will be covered at this
+          year's PyCon Singapore.
+        </p>
+      </ContentCard>
+      <ContentCard className="text-center">
+        <h1>Tutorials at PyCon SG 2019</h1>
+        <p>
+          This year we are offering six <Link to="tutorials">awesome tutorials</Link>.
+          Tickets for tutorials can be purchased seperately from conference tickets.
+        </p>
+      </ContentCard>
+
     </div>
   </TemplateWrapper>
 );

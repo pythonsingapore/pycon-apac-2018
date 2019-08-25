@@ -25,17 +25,26 @@ const EventPage = props => (
           day of the conference.
         </p>
         <p>
+          Tutorial tickets have to be purchased separately, so please have a
+          look at our list of tutorials and see if you can find something that
+          interests you.
+        </p>
+        <p>
           <Link to="/tutorials/">
             <button className="btn btn-primary">View Tutorials</button>
           </Link>
         </p>
-        <h2>PyCon Singapore 2019 Schedule</h2>
+        <h2>PyCon Singapore 2019 Conference Talks</h2>
         <p>
-          We have now accepted all 24 talks for the conference! We will update
-          the list below this coming Sunday!
+          Once again we managed to get enough speakers for a two-day and
+          three-track conference. Have a look at our list of speakers and talks
+          by clicking at the button below:
         </p>
-
-        <TemporarySchedule />
+        <p>
+          <Link to="/conference/">
+            <button className="btn btn-primary">View Conference Talks</button>
+          </Link>
+        </p>
 
         <h2>Past Events</h2>
         <p>
