@@ -24,6 +24,7 @@ import Saurabh from '../../static/speakers/Saurabh-Hirani.jpg'
 import Tanay from '../../static/speakers/Tanay-Tummalapalli.jpg'
 import William from '../../static/speakers/William-Mckee.jpg'
 import Thu from '../../static/speakers/Thu-Ya-Kyaw.jpg'
+import Aoki from '../../static/speakers/Takanori-Aoki.jpg'
 
 const SpeakerImage = styled.div`
   position: relative;
@@ -221,6 +222,13 @@ const TemporarySchedule = props => {
             title="Graylog : Centralized logging of Application Logs"
             occupation="Senior Python Developer"
             image={Pratibha}
+          />
+          <TalkItem
+            author="Takanori Aoki"
+            title="How to build stream data pipeline with Apache Kafka and Spark Structured Streaming"
+            occupation="Data Scientist"
+            company="HOOQ"
+            image={Aoki}
           />
         </tbody>
       </Table>
