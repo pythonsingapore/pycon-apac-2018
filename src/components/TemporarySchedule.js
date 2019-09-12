@@ -2,6 +2,11 @@ import React from "react";
 import styled from 'styled-components'
 
 import { Table, Row, Col } from "reactstrap";
+import Pratibha from '../../static/speakers/pratibha.jpg'
+import Chinab from '../../static/speakers/chinab.jpg'
+import Jonathan from '../../static/speakers/jonathan.jpg'
+import Ken from '../../static/speakers/ken.jpg'
+import Drishti from '../../static/speakers/drishti.jpg'
 import Mengi from '../../static/speakers/mengi.jpg'
 import Keith from '../../static/speakers/Keith-Rozario.jpg'
 import Novia from '../../static/speakers/Novia-Listiyani.jpg'
@@ -75,6 +80,13 @@ const TemporarySchedule = props => {
             image={MaxWang}
             occupation="Data Scientist"
             company="DBS"
+          />
+          <TalkItem
+            author="Chinab and Fahmi Fauzi"
+            title="Converting a Static Map image to an Interactive Floorplan"
+            image={Chinab}
+            occupation="Co-Founder & CTO"
+            company="Jublia"
           />
           <TalkItem
             author="Aravind Putrevu"
@@ -153,7 +165,8 @@ const TemporarySchedule = props => {
           <TalkItem
             author="Thu Ya Kyaw"
             title="Demystifying RPA with Python and tagUI"
-            occupation="Developer Evangelist"
+            occupation="Machine Learning Engineer"
+            company="NTUC Enterprise"
             image={Thu}
           />
           <TalkItem
@@ -182,7 +195,33 @@ const TemporarySchedule = props => {
             company="Facebook"
             image={Mengi}
           />
-
+          <TalkItem
+            author="Drishti Jain"
+            title="When life gives you Orange, make data speak volumes!"
+            occupation="Computer Engineer"
+            company="Samyak Drishti Foundation"
+            image={Drishti}
+          />
+          <TalkItem
+            author="Ken Soh"
+            title="Digital process automation (RPA) using TagUI for Python"
+            occupation="RPA Specialist"
+            company="Tebel.Automation"
+            image={Ken}
+          />
+          <TalkItem
+            author="Jonathan Heng"
+            title="How to train a wacky language model"
+            occupation="Software Developer"
+            company="Thoughtworks"
+            image={Jonathan}
+          />
+          <TalkItem
+            author="Pratibha Jagnere"
+            title="Graylog : Centralized logging of Application Logs"
+            occupation="Senior Python Developer"
+            image={Pratibha}
+          />
         </tbody>
       </Table>
     </div>
