@@ -26,7 +26,7 @@ import William from '../../static/speakers/William-Mckee.jpg'
 import Thu from '../../static/speakers/Thu-Ya-Kyaw.jpg'
 import Aoki from '../../static/speakers/Takanori-Aoki.jpg'
 
-const SpeakerImage = styled.div`
+export const SpeakerImage = styled.div`
   position: relative;
   width: 120px;
   height: 120px;
@@ -35,14 +35,14 @@ const SpeakerImage = styled.div`
   border-radius: 100px;
 `
 
-const Content = styled.div`
+export const Content = styled.div`
   width: 100%;
   @media(max-width:575px) {
     text-align: center;
   }
 `
 
-const TalkItem = props => {
+export const TalkItem = props => {
   const { image, title, author, occupation, company } = props;
   return (
     <tr>
