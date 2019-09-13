@@ -226,7 +226,6 @@ const TemporarySchedule = props => {
             author="Takanori Aoki"
             title="How to build stream data pipeline with Apache Kafka and Spark Structured Streaming"
             occupation="Data Scientist"
-            company="HOOQ"
             image={Aoki}
           />
         </tbody>
