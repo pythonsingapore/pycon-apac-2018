@@ -199,8 +199,7 @@ const TemporarySchedule = props => {
           <TalkItem
             author="Drishti Jain"
             title="When life gives you Orange, make data speak volumes!"
-            occupation="Computer Engineer"
-            company="Samyak Drishti Foundation"
+            occupation="Computer Engineer and President of Samyak Drishti Foundation"
             image={Drishti}
           />
           <TalkItem
