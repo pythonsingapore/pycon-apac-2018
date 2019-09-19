@@ -16,13 +16,12 @@ const SponsorshipPage = () => (
       <ContentCard>
         <h1>Sponsorship</h1>
         <p>
-          PyCon Singapore 2019 would like to invite sponsors to support the
-          efforts and financial resources required to run the conference.
-        </p>
-        <p>
-          By sponsoring PyCon Singapore 2019, you will be providing invaluable
-          support to the establishment of an important Free and Open Source
-          Software Community Conference.
+          <b>
+            A big thank you goes out to our sponsors! We are happy to announce
+            that PyCon Singapore 2019 is now sufficiently sponsored. If you
+            would like to reach out and register interest to become a sponsor,
+            you can contact us at conference@pycon.sg
+          </b>
         </p>
         <p>
           In order to ensure a successful conference the community needs to

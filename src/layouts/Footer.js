@@ -79,6 +79,12 @@ const Footer = () => (
           </p>
           <p>
             <FooterA>
+              <Link to="/news/dbs-platinum-sponsor/">
+                Platinum Sponsor: DBS
+              </Link>
+            </FooterA>
+            <br />
+            <FooterA>
               <Link to="/news/call-for-proposals/">Call For Proposals</Link>
             </FooterA>
             <br />

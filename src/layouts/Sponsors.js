@@ -3,18 +3,11 @@ import { Row, Col } from "reactstrap";
 
 import Sponsor from "../components/Sponsor";
 
-import SponsorAcronisPng from "../images/sponsor-acronis.png";
+import SponsorDBS from "../images/sponsor-dbs.jpg";
 import SponsorBitlabstudioPng from "../images/sponsor-bitlabstudio.png";
-import SponsorGandiPng from "../images/sponsor-gandi.png";
-import SponsorHDEPng from "../images/sponsor-hde.png";
-import SponsorJetbrainsPng from "../images/sponsor-jetbrains.png";
 import SponsorJubliaJpg from "../images/sponsor-jublia.jpg";
-import SponsorSolacetechPng from "../images/sponsor-solacetech.png";
 import SponsorTheartlingPng from "../images/sponsor-theartling.png";
-import SponsorThoughtworksPng from "../images/sponsor-thoughtworks.png";
 import SponsorTravelokaPng from "../images/sponsor-traveloka.png";
-import SponsorZendeskPng from "../images/sponsor-zendesk.png";
-import Sponsor100OfferPng from "../images/sponsor-100offer.png";
 
 const Sponsors = () => (
   <div className="container">
@@ -22,7 +15,15 @@ const Sponsors = () => (
       <h1 className="mt-5">Platinum Sponsors</h1>
       <hr />
       <Row>
-        <Col sm="4" />
+        <Col sm="2" />
+        <Col sm="4">
+          <Sponsor
+            name="DBS"
+            url="https://dbs.com/"
+            image={SponsorDBS}
+            tier="Platinum"
+          />
+        </Col>
         <Col sm="4">
           <Sponsor
             name="Traveloka"
