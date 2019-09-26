@@ -3,6 +3,13 @@ import { Row, Col } from "reactstrap";
 
 import Sponsor from "../components/Sponsor";
 
+import SponsorMicrosoftPng from "../images/sponsor-microsoft.png";
+import SponsorDataikuPng from "../images/sponsor-dataiku.png";
+import SponsorFiremarkPng from "../images/sponsor-firemark.png";
+import SponsorRedHatPng from "../images/sponsor-redhat.png";
+import SponsorPortPng from "../images/sponsor-port.png";
+import SponsorTwilioPng from "../images/sponsor-twilio.png";
+import SponsorElasticJpg from "../images/sponsor-elastic.jpg";
 import SponsorDBS from "../images/sponsor-dbs.jpg";
 import SponsorBitlabstudioPng from "../images/sponsor-bitlabstudio.png";
 import SponsorJubliaJpg from "../images/sponsor-jublia.jpg";
@@ -33,21 +40,73 @@ const Sponsors = () => (
           />
         </Col>
       </Row>
-      {/* <h1 className="mt-5">Gold Sponsors</h1>
+      <h1 className="mt-5">Gold Sponsors</h1>
       <hr />
       <Row>
         <Col sm="4">
           <Sponsor
-            name="Jetbrains"
-            url="https://www.jetbrains.com/"
-            image={SponsorJetbrainsPng}
+            name="RedHat"
+            url="https://redhat.com/"
+            image={SponsorRedHatPng}
             tier="Gold"
-            portrait={true}
           />
         </Col>
-      </Row> */}
+        <Col sm="4">
+          <Sponsor
+            name="Firemark"
+            url="http://firemarklabs.com.au/"
+            image={SponsorFiremarkPng}
+            tier="Gold"
+          />
+        </Col>
+        <Col sm="4">
+          <Sponsor
+            name="Dataiku"
+            url="http://dataiku.com/"
+            image={SponsorDataikuPng}
+            tier="Gold"
+          />
+        </Col>
+      </Row>
+      <Row>
+        <Col sm="4" />
+        <Col sm="4">
+          <Sponsor
+            name="Microsoft"
+            url="http://microsoft.com/"
+            image={SponsorMicrosoftPng}
+            tier="Gold"
+          />
+        </Col>
+      </Row>
       <h1 className="mt-5">Silver Sponsors</h1>
       <hr />
+      <Row>
+        <Col sm="4">
+          <Sponsor
+            name="Elastic"
+            url="https://elastic.co/"
+            image={SponsorElasticJpg}
+            tier="Silver"
+          />
+        </Col>
+        <Col sm="4">
+          <Sponsor
+            name="Twilio"
+            url="https://twilio.com/"
+            image={SponsorTwilioPng}
+            tier="Silver"
+          />
+        </Col>
+        <Col sm="4">
+          <Sponsor
+            name="Port Education"
+            url="https://port.education/"
+            image={SponsorPortPng}
+            tier="Silver"
+          />
+        </Col>
+      </Row>
       <Row>
         <Col sm="4" />
         <Col sm="4">
