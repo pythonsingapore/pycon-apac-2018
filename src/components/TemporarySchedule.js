@@ -1,30 +1,29 @@
 import React from "react";
-import styled from 'styled-components'
+import styled from "styled-components";
 
 import { Table, Row, Col } from "reactstrap";
-import Pratibha from '../../static/speakers/pratibha.jpg'
-import Chinab from '../../static/speakers/chinab.jpg'
-import Jonathan from '../../static/speakers/jonathan.jpg'
-import Ken from '../../static/speakers/ken.jpg'
-import Drishti from '../../static/speakers/drishti.jpg'
-import Mengi from '../../static/speakers/mengi.jpg'
-import Keith from '../../static/speakers/Keith-Rozario.jpg'
-import Novia from '../../static/speakers/Novia-Listiyani.jpg'
-import Christianto from '../../static/speakers/Christianto-Kurniawan.jpg'
-import Aravind from '../../static/speakers/Aravind-Putrevu.jpg'
-import Phil from '../../static/speakers/Phil-Nash.jpg'
-import Ben from "../../static/speakers/Ben-Sadeghi.jpg"
-import Graham from '../../static/speakers/Graham-Dumpleton.jpg'
-import Liling from '../../static/speakers/Liling-Tan.jpg'
-import MaxWang from "../../static/speakers/max-wang.jpg"
-import Takanori from '../../static/speakers/Takanori-Suzuki.jpg'
-import Vaibhav from '../../static/speakers/Vaibhav-Srivastav.jpg'
-import Yohei from '../../static/speakers/Yohei-Onishi.jpg'
-import Saurabh from '../../static/speakers/Saurabh-Hirani.jpg'
-import Tanay from '../../static/speakers/Tanay-Tummalapalli.jpg'
-import William from '../../static/speakers/William-Mckee.jpg'
-import Thu from '../../static/speakers/Thu-Ya-Kyaw.jpg'
-import Aoki from '../../static/speakers/Takanori-Aoki.jpg'
+import Pratibha from "../../static/speakers/pratibha.jpg";
+import Chinab from "../../static/speakers/chinab.jpg";
+import Jonathan from "../../static/speakers/jonathan.jpg";
+import Ken from "../../static/speakers/ken.jpg";
+import Drishti from "../../static/speakers/drishti.jpg";
+import Mengi from "../../static/speakers/mengi.jpg";
+import Keith from "../../static/speakers/Keith-Rozario.jpg";
+import Novia from "../../static/speakers/Novia-Listiyani.jpg";
+import Christianto from "../../static/speakers/Christianto-Kurniawan.jpg";
+import Aravind from "../../static/speakers/Aravind-Putrevu.jpg";
+import Phil from "../../static/speakers/Phil-Nash.jpg";
+import Ben from "../../static/speakers/Ben-Sadeghi.jpg";
+import Graham from "../../static/speakers/Graham-Dumpleton.jpg";
+import Liling from "../../static/speakers/Liling-Tan.jpg";
+import MaxWang from "../../static/speakers/max-wang.jpg";
+import Takanori from "../../static/speakers/Takanori-Suzuki.jpg";
+import Vaibhav from "../../static/speakers/Vaibhav-Srivastav.jpg";
+import Yohei from "../../static/speakers/Yohei-Onishi.jpg";
+import Saurabh from "../../static/speakers/Saurabh-Hirani.jpg";
+import Tanay from "../../static/speakers/Tanay-Tummalapalli.jpg";
+import Thu from "../../static/speakers/Thu-Ya-Kyaw.jpg";
+import Aoki from "../../static/speakers/Takanori-Aoki.jpg";
 
 export const SpeakerImage = styled.div`
   position: relative;
@@ -33,34 +32,42 @@ export const SpeakerImage = styled.div`
   background-size: cover;
   background-position: center;
   border-radius: 100px;
-`
+`;
 
 export const Content = styled.div`
   width: 100%;
-  @media(max-width:575px) {
+  @media (max-width: 575px) {
     text-align: center;
   }
-`
+`;
 
 export const TalkItem = props => {
   const { image, title, author, occupation, company } = props;
   return (
     <tr>
       <td>
-        <div style={{ display: 'flex' }}>
-          <div style={{ flex: '0 0 100px' }}>
+        <div style={{ display: "flex" }}>
+          <div style={{ flex: "0 0 100px" }}>
             <Content>
-              <SpeakerImage style={{ display: 'inline-block', backgroundImage: `url(${image})` }} />
+              <SpeakerImage
+                style={{
+                  display: "inline-block",
+                  backgroundImage: `url(${image})`
+                }}
+              />
             </Content>
           </div>
-          <div style={{ flex: '1 1 auto', marginLeft: '1em' }}>
-            <div style={{ height: '100%', display: 'flex', alignItems: 'center' }}>
+          <div style={{ flex: "1 1 auto", marginLeft: "1em" }}>
+            <div
+              style={{ height: "100%", display: "flex", alignItems: "center" }}
+            >
               <Content>
-                <b>{title}</b><br />
-                <em>by {author}, {occupation}</em>
-                {company &&
-                  <em> at {company}</em>
-                }
+                <b>{title}</b>
+                <br />
+                <em>
+                  by {author}, {occupation}
+                </em>
+                {company && <em> at {company}</em>}
               </Content>
             </div>
           </div>
@@ -156,12 +163,6 @@ const TemporarySchedule = props => {
             title="Stream processing fundamentals with Apache Beam"
             occupation="Student"
             image={Tanay}
-          />
-          <TalkItem
-            author="William Mckee"
-            title="Processing art with Python"
-            occupation="Artist / API Developer"
-            image={William}
           />
           <TalkItem
             author="Thu Ya Kyaw"
