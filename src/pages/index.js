@@ -225,7 +225,7 @@ const IndexPage = () => (
         <p>
           This year we are offering six{" "}
           <Link to="tutorials">awesome tutorials</Link>. Tickets for tutorials
-          can be purchased seperately from conference tickets.
+          can be purchased separately from conference tickets.
         </p>
       </ContentCard>
     </div>
