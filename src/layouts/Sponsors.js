@@ -45,8 +45,8 @@ const Sponsors = () => (
       <Row>
         <Col sm="4">
           <Sponsor
-            name="RedHat"
-            url="https://redhat.com/"
+            name="RedHat OpenShift"
+            url="https://openshift.com/"
             image={SponsorRedHatPng}
             tier="Gold"
           />
