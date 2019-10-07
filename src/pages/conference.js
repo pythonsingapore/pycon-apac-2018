@@ -43,8 +43,8 @@ const ConferencePage = props => (
           </a>
           <br />
           iOS:{" "}
-          <a href="https://itunes.apple.com/us/app/jublia-event-app/id1383152027">
-            https://itunes.apple.com/us/app/jublia-event-app/id1383152027
+          <a href="https://apps.apple.com/sg/app/pycon-sg-2019/id1479976366">
+            https://apps.apple.com/sg/app/pycon-sg-2019/id1479976366
           </a>
           <br />
           <br />
