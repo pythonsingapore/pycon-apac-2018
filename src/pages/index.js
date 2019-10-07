@@ -71,6 +71,33 @@ const IndexPage = () => (
       </ContentCard>
 
       <ContentCard className="text-center">
+        <h1>Full Conference Schedule is Online</h1>
+        <p>
+          You can now browse our{" "}
+          <a href="https://jublia.com/a/PyConSG2019">
+            conference schedule here
+          </a>
+          .
+        </p>
+        <p>
+          Even better, you can download a little app for iOS and Android, the
+          schedule looks even better on the app:
+          <br />
+          <br />
+          Android:
+          <a href="https://play.google.com/store/apps/details?id=com.jublia.pcsg2019">
+            https://play.google.com/store/apps/details?id=com.jublia.pcsg2019
+          </a>
+          <br />
+          iOS:{" "}
+          <a href="https://itunes.apple.com/us/app/jublia-event-app/id1383152027">
+            https://itunes.apple.com/us/app/jublia-event-app/id1383152027
+          </a>
+          <br />
+        </p>
+      </ContentCard>
+
+      <ContentCard className="text-center">
         <h1>Meet our Keynote Speakers</h1>
 
         <KeynoteItem
