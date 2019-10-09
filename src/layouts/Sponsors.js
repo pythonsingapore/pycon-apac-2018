@@ -55,7 +55,7 @@ const Sponsors = () => (
         <Col sm="4">
           <Sponsor
             name="Firemark"
-            url="http://firemarklabs.com.au/"
+            url="https://firemarklabs.com.au/"
             image={SponsorFiremarkPng}
             tier="Gold"
           />
@@ -63,7 +63,7 @@ const Sponsors = () => (
         <Col sm="4">
           <Sponsor
             name="Dataiku"
-            url="http://dataiku.com/"
+            url="https://dataiku.com/"
             image={SponsorDataikuPng}
             tier="Gold"
           />
@@ -74,7 +74,7 @@ const Sponsors = () => (
         <Col sm="4">
           <Sponsor
             name="Microsoft"
-            url="http://microsoft.com/"
+            url="https://microsoft.com/"
             image={SponsorMicrosoftPng}
             tier="Gold"
           />

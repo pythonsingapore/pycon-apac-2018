@@ -44,7 +44,7 @@ const Footer = () => (
   >
     <div className="container">
       <div className="row">
-        <div className="col-sm-3">
+        <div className="col-sm-4">
           <p>
             <b>About</b>
           </p>
@@ -56,7 +56,7 @@ const Footer = () => (
             </FooterSpan>
           </p>
         </div>
-        <div className="col-sm-3">
+        <div className="col-sm-4">
           <FooterHR className="d-sm-none" />
           <p>
             <b>When & Where</b>
@@ -72,28 +72,7 @@ const Footer = () => (
             <FooterSpan>Republic Polytechnic, Woodlands</FooterSpan>
           </p>
         </div>
-        <div className="col-sm-3">
-          <FooterHR className="d-sm-none" />
-          <p>
-            <b>Latest News</b>
-          </p>
-          <p>
-            <FooterA>
-              <Link to="/news/dbs-platinum-sponsor/">
-                Platinum Sponsor: DBS
-              </Link>
-            </FooterA>
-            <br />
-            <FooterA>
-              <Link to="/news/call-for-proposals/">Call For Proposals</Link>
-            </FooterA>
-            <br />
-            <FooterA>
-              <Link to="/news/hello-world/">Hello World</Link>
-            </FooterA>
-          </p>
-        </div>
-        <div className="col-sm-3">
+        <div className="col-sm-4">
           <FooterHR className="d-sm-none" />
           <p>
             <b>Get Social</b>
