@@ -3,6 +3,7 @@ import { Row, Col } from "reactstrap";
 
 import Sponsor from "../components/Sponsor";
 
+import SponsorDatarobotPng from "../images/sponsor-datarobot.png";
 import SponsorMicrosoftPng from "../images/sponsor-microsoft.png";
 import SponsorDataikuPng from "../images/sponsor-dataiku.png";
 import SponsorFiremarkPng from "../images/sponsor-firemark.png";
@@ -69,12 +70,20 @@ const Sponsors = () => (
         </Col>
       </Row>
       <Row>
-        <Col sm="4" />
+        <Col sm="2" />
         <Col sm="4">
           <Sponsor
             name="Microsoft"
             url="http://microsoft.com/"
             image={SponsorMicrosoftPng}
+            tier="Gold"
+          />
+        </Col>
+        <Col sm="4">
+          <Sponsor
+            name="DataRobot"
+            url="https://www.datarobot.com/sg/"
+            image={SponsorDatarobotPng}
             tier="Gold"
           />
         </Col>
