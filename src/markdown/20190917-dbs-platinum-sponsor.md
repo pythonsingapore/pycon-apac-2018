@@ -4,7 +4,7 @@ date: "2019-09-17"
 title: "Platinum Sponsor: DBS"
 ---
 
-As the conference is drawing close ([get your ticket here](https://www.eventnook.com/event/pyconsingapore2019/)) we would like to present to you our sponsors, the companies who made this year's PyCon Singapore possible.
+As the conference is drawing close we would like to present to you our sponsors, the companies who made this year's PyCon Singapore possible.
 
 We are very proud to announce that this year **DBS** will generously support PyCon
 SG as a Platinum sponsor. You will find their team at the conference with a

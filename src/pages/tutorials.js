@@ -25,19 +25,6 @@ const TutorialsPage = () => (
           break in between. At noon, we will serve buffet lunch for all
           participants.
         </p>
-        <p>
-          We run three tutorials in parallel, so you can purchase up to two
-          tutorial tickets: One for the morning session, and one for the
-          afternoon session.
-        </p>
-        <p>
-          <a
-            href="https://eventnook.com/event/pyconsingapore2019/"
-            className="btn btn-primary"
-          >
-            Purchase Your Tutorial Tickets Now
-          </a>
-        </p>
       </ContentCard>
 
       <ContentCard>
@@ -244,25 +231,28 @@ const TutorialsPage = () => (
             will be required.
           </p>
         </Tutorial>
-        <Tutorial speaker="BuildingBloCS students" title="Drone Programming with Tello EDU">
+        <Tutorial
+          speaker="BuildingBloCS students"
+          title="Drone Programming with Tello EDU"
+        >
           <p>
-            Computing students from BuildingBloCS schools present an 
-            introductory programmng course in using Python to connect and
-            and control a Tello EDU drone using User Datagram Protocol (UDP). 
-            The main focus is to learn about computational thinking concepts 
-            such as decomposition, abstraction, pattern recognition and 
-            algorithm design, as well as the relationship between hardware
-            and software. Participants will appreciate these ideas in any
-            problem solving context beyond drone flying.
+            Computing students from BuildingBloCS schools present an
+            introductory programmng course in using Python to connect and and
+            control a Tello EDU drone using User Datagram Protocol (UDP). The
+            main focus is to learn about computational thinking concepts such as
+            decomposition, abstraction, pattern recognition and algorithm
+            design, as well as the relationship between hardware and software.
+            Participants will appreciate these ideas in any problem solving
+            context beyond drone flying.
           </p>
-          
+
           <p>
-            Participants should have basic familiarity with Python i.e. 
-            variables, data types, conditionals, loops, arrays and functions. 
-            There is a class size limit of 40 participants. Tello EDU drones 
-            will be provided during the tutorial on a pair sharing basis. 
-            This is a BYOD workshop.
-          </p>  
+            Participants should have basic familiarity with Python i.e.
+            variables, data types, conditionals, loops, arrays and functions.
+            There is a class size limit of 40 participants. Tello EDU drones
+            will be provided during the tutorial on a pair sharing basis. This
+            is a BYOD workshop.
+          </p>
         </Tutorial>
       </ContentCard>
     </div>

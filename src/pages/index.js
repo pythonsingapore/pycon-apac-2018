@@ -57,17 +57,19 @@ const IndexPage = () => (
     </div>
     <div className="container">
       <ContentCard className="text-center">
-        <h1>Ticket & Tutorial Sales Are Open</h1>
+        <h1>Ticket & Tutorial Sales Are Closed</h1>
         <p>
           PyCon Singapore 2019 is happening from Thursday to Saturday on October
           10 - October 12 2019 at Republic Polytechnic!
         </p>
-        <a
-          className="btn btn-primary"
-          href="https://www.eventnook.com/event/pyconsingapore2019/"
-        >
-          Get Your Tickets Now
-        </a>
+        <p>
+          We would like to thank all our sponsors, speakers and attendees and we
+          are looking forward to an exciting conference. Everyone should have
+          gotten a welcome email that describes how to find the venue and
+          answers other common questions. If you didn't get this email, please
+          message <a href="mailto:conference@pycon.sg">conference@pycon.sg</a>{" "}
+          and we will forward you a copy.
+        </p>
       </ContentCard>
 
       <ContentCard className="text-center">
